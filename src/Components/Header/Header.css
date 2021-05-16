@@ -1,0 +1,24 @@
+.grain-bg {
+    background: url(../../img/grain.png) repeat;
+}
+
+.header-bg {
+    background-color: #2E303C;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    top: 10px;
+}
+
+hr.t-dash, hr.b-dash {
+    margin: 0;
+    border-top: 1px dashed rgba(0,0,0,0.25);
+    border-bottom: 1px dashed rgba(255,255,255,0.25);
+    position: absolute;
+    background-color: transparent;
+    z-index: -1;
+    width: 100%;
+}
