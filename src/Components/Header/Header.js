@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import logo from '../../img/logo.svg';
 import facebook from '../../img/facebook.svg';
 import instagram from '../../img/instagram.svg';
@@ -9,15 +9,18 @@ import './Header.css';
 const Header = () => {
     return (
         <>
-            <header className="grain-bg header-bg fixed-top">
+            <div id="ribbon" className="nominee black right d-lg-block d-none">
+                <a href="http://www.northsouth.edu" target="_blank"></a>
+            </div>
+            <header className="grain-bg header-bg">
                 <Container>
-                    <nav className="navbar navbar-expand-md navbar-light nav-items">
+                    <nav className="navbar navbar-expand-md navbar-light nav-items py-3">
                         <div className="logo">
                             <a className="navbar-brand" href="index.html">
                                 <img src={logo} className="img-fluid w-50" alt="nsuac"/>
                             </a>
                         </div>
-                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
 
@@ -37,6 +40,13 @@ const Header = () => {
                                     <a className="nav-link" href="#portfolio">
                                         <img src={linkedin} alt="linkedin"/>
                                     </a>
+                                </li>
+                                <li className="nav-item mr-10">
+                                    <div className="call-to-act pl-3 mt-2">
+                                        <a href="#" className="px-5 py-3">
+                                            <span> Registration</span>
+                                        </a>
+                                    </div>
                                 </li>
                             </ul>
                         </div>

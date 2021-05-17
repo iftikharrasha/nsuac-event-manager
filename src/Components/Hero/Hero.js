@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import nsuac from '../../img/nsuac.jpg';
 import './Hero.css';
 
 const Hero = () => {
@@ -12,7 +13,6 @@ const Hero = () => {
 
     const startTimer = () => {
         const countdownDate = new Date('May 25, 2021 00:00:00').getTime();
-        console.log(countdownDate);
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -49,10 +49,10 @@ const Hero = () => {
         <>
             <section className="hero">
                 <Container>
-                    <div className="paddi text-center">
+                    <div className="pt-200 text-center">
                         <Row>
                             <Col sm={12} className="mb-3">
-                                <h1 className="mb-4">NSU <span>SPORTS</span> <span>CARNIVAL</span> 2021</h1>
+                                <h1 className="mb-4"><span>Battle of</span> <span>Skills</span> 2021</h1>
                             </Col>
                             <Col sm={12} className="my-5">
                                 <div id="timer" className="d-flex mb-3">
@@ -65,11 +65,11 @@ const Hero = () => {
                             <Col sm={12} className="mt-5">
                                 <p className="loc-date">
                                     <span>
-                                        <i className="fa fa-map-marker"></i>
+                                        <i className="fa fa-map-marker pr-2"></i>
                                         North South University
                                     </span>
                                     <span>
-                                        <i className="fa fa-calendar"></i>
+                                        <i className="fa fa-calendar pr-2"></i>
                                         June 1 to 12, 2021
                                     </span>
                                 </p>
@@ -78,52 +78,15 @@ const Hero = () => {
                     </div>
                 </Container>
                 <Container>
-                    <div className="pt-5 row">
-                        <div className="col-12 pt-5">
-                            <div className="host text-center"> 
-                                <img src="img/nsuac.jpg" className="s-img-switch" alt=""/>
-                            </div>                      
-                        </div>
-                    </div>
-                </Container>
-            </section>
-
-            {/* <Container>
-                    <Row className="paddi text-center">
-                        <Col className="mb-3">
-                            <h1 className="mb-4">NSU <span>SPORTS</span> <span>CARNIVAL</span> 2021</h1>
-                        </Col>
-                        <Col className="my-5">
-                                    <div id="timer" className="d-flex mb-3">
-                                        <div className="time grain-bg" id="days">12<span>Days</span></div>
-                                        <div className="time grain-bg" id="days">2<span>Hours</span></div>
-                                        <div className="time grain-bg" id="days">43<span>Minutes</span></div>
-                                        <div className="time grain-bg" id="days">08<span>Seconds</span></div>
-                                    </div>
-                        </Col>
-                        <Col className="mt-5">
-                            <p className="loc-date">
-                                <span>
-                                    <i className="fa fa-map-marker"></i>
-                                    North South University
-                                </span>
-                                <span>
-                                    <i className="fa fa-calendar"></i>
-                                    June 1 to 12, 2021
-                                </span>
-                            </p>
-                        </Col>
-                    </Row>
-                </Container>
-                <Container>
                     <Row className="pt-5">
                         <Col className="pt-5">
                             <div className="host text-center"> 
-                                <img src="img/nsuac.jpg" className="s-img-switch" alt=""/>
+                                <img src={nsuac} className="s-img-switch" alt=""/>
                             </div>                      
                         </Col>
                     </Row>
-                </Container> */}
+                </Container>
+            </section>
         </>
     );
 };

@@ -1,0 +1,114 @@
+.video {
+    background: linear-gradient(90deg, white 18%, #1F212D 18%);
+}
+
+.intro-video iframe{
+    border-radius: 10px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.video {
+        background: #1F212D;
+    }
+
+    .offset-into {
+        margin-left: 0 !important;
+    }
+
+    .achieve-text::before, .achieve-text::after {
+        right: 20px;
+    }
+
+    .mt-200 {
+        margin-top: 150px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.video {
+        background: #1F212D;
+    }
+
+    .offset-into {
+        margin-left: 0 !important;
+    }
+
+    .achieve-text::before, .achieve-text::after {
+        right: 20px;
+    }
+
+    .mt-200 {
+        margin-top: 150px;
+    }
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.video {
+        background: #1F212D;
+    }
+
+    .offset-into {
+        margin-left: 0 !important;
+    }
+
+    .achieve-text::before, .achieve-text::after {
+        right: 20px;
+    }
+
+    .mt-200 {
+        margin-top: 150px;
+    }
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .video {
+        background: linear-gradient(90deg, white 5%, #1F212D 5%);
+    }
+
+    .offset-into {
+        margin-left: 8.333333% !important;
+    }
+
+    .mt-200 {
+        margin-top: 150px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1800px){
+    .video {
+        background: linear-gradient(90deg, white 5%, #1F212D 5%);
+    }
+
+    .offset-into {
+        margin-left: 8.333333% !important;
+    }
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1442px) {
+    
+}
+
+  
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+@media (max-width: 320px) {
+	
+}
+
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+@media (min-width: 321px) and (max-width: 376px) {
+	
+}

@@ -8,8 +8,7 @@
 
 .logo {
     position: absolute;
-    left: 50%;
-    margin-left: -75px;
+    left: 45%;
     top: 10px;
 }
 
@@ -21,4 +20,97 @@ hr.t-dash, hr.b-dash {
     background-color: transparent;
     z-index: -1;
     width: 100%;
+}
+
+#ribbon{
+	position: absolute;
+	top: 0px;
+	width: 90px;
+	height: 135px;
+	text-indent: -666em;
+	overflow: hidden;
+	z-index: 9999;
+
+	-webkit-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+
+#ribbon.top{
+	top: 0px;
+}
+#ribbon.left{
+	left: 0;
+}
+#ribbon.right{
+	left: 0;
+}
+
+#ribbon a{
+	/* position: fixed; */
+	top: 0;
+	left: 0;
+	display: block;
+	width: 90px;
+	height: 90px;
+	background-repeat: no-repeat;
+	background-size: 90px 90px;
+    z-index: 9999;
+}
+
+#ribbon.nominee.black.right a{
+	background-image: url(../../img/ribbonnsu.png);
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.logo {
+        position: static;
+    }
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.logo {
+        position: static;
+    }
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1441.98px){
+    
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1442px) {
+    
+}
+
+  
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+@media (max-width: 320px) {
+	
+}
+
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+@media (min-width: 321px) and (max-width: 376px) {
+	
 }
