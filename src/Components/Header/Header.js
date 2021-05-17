@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <>
             <div id="ribbon" className="nominee black right d-lg-block d-none">
-                <a href="http://www.northsouth.edu" target="_blank"></a>
+                <a href="http://www.northsouth.edu" target="_blank" rel="noreferrer"></a>
             </div>
             <header className="grain-bg header-bg">
                 <Container>

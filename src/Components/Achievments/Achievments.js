@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import trophy from '../../img/trophy.svg';
 import ncl from '../../img/ncl.svg';
 import sportscarnival from '../../img/sportscarnival.svg';
 import nfl from '../../img/nfl.svg';
@@ -22,7 +21,7 @@ const Achievments = () => {
                                 </h2>
                                 <p className="c-tag-1 py-5">North South University Athletics Club (NSUAC), since its first establishment in 1995, has been guiding all the sports affairs of North South University. It has been 25 years of NSUAC since its birth and is one of the oldest clubs of NSU. The clubs has represented NSU at many Inter University sports events in different sports and have brought many accolades for NSU.</p>
                                 <div className="call-to-act pb-5">
-                                    <a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank">
+                                    <a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank" rel="noreferrer">
                                         <span> Learn More </span>
                                     </a>
                                 </div>

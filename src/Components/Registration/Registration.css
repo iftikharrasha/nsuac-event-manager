@@ -1,0 +1,8 @@
+.joinNow {
+    background-image: url(../../img/joinnow.svg)!important;
+    width: 100%;
+    height: 434px;
+	background-position: center!important;
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+}
