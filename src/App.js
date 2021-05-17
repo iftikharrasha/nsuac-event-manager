@@ -5,6 +5,7 @@ import Achievments from './Components/Achievments/Achievments';
 import Intro from './Components/Inro/Intro';
 import Schedules from './Components/Schedules/Schedules';
 import Registration from './Components/Registration/Registration';
+import SegmentsSlider from './Components/SegmentsSlider/SegmentsSlider';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Hero></Hero>
         <Achievments></Achievments>
         <Intro></Intro>
+        <SegmentsSlider></SegmentsSlider>
         <Schedules></Schedules>
         <Registration></Registration>
     </div>
