@@ -10,7 +10,7 @@ const Intro = () => {
                     <Row className="py-5">
                         <Col lg={6} className="offset-md-2 offset-into">
                             <div className="intro-video">
-                                <iframe width="100%" height="409" src="https://www.youtube.com/embed/PxuKDYNxRF8" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                <iframe id="youtube" width="100%" height="409" src="https://www.youtube.com/embed/PxuKDYNxRF8" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
                         </Col>
                         <Col lg={4} className="pt-5 d-flex align-items-center">

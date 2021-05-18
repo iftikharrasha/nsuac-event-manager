@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import logo from '../../img/logo.svg';
 import facebook from '../../img/facebook.svg';
 import instagram from '../../img/instagram.svg';
-import linkedin from '../../img/linkedin.svg';
+import youtube from '../../img/youtube.svg';
 import './Header.css';
 
 const Header = () => {
@@ -27,18 +27,18 @@ const Header = () => {
                         <div className="collapse navbar-collapse menu" id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto text-uppercase">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#aboutme">
+                                    <a className="nav-link" href="https://www.facebook.com/nsuathleticsclub" target="_blank" rel="noreferrer">
                                         <img src={facebook} alt="facebook"/>
                                     </a>
                                 </li>
                                 <li className="nav-item mr-10">
-                                    <a className="nav-link" href="#portfolio">
-                                        <img src={instagram} alt="instagram"/>
+                                    <a className="nav-link" href="https://www.youtube.com/channel/UCsq1W2gYMoS3GGf5dGXIcWA" target="_blank" rel="noreferrer">
+                                        <img src={youtube} alt="linkedin"/>
                                     </a>
                                 </li>
                                 <li className="nav-item mr-10">
-                                    <a className="nav-link" href="#portfolio">
-                                        <img src={linkedin} alt="linkedin"/>
+                                    <a className="nav-link" href="https://www.instagram.com/nsuac_official" target="_blank" rel="noreferrer">
+                                        <img src={instagram} alt="instagram"/>
                                     </a>
                                 </li>
                                 <li className="nav-item mr-10">

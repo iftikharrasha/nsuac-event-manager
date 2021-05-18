@@ -6,6 +6,7 @@ import Intro from './Components/Inro/Intro';
 import Schedules from './Components/Schedules/Schedules';
 import Registration from './Components/Registration/Registration';
 import SegmentsSlider from './Components/SegmentsSlider/SegmentsSlider';
+import MediaPartners from './Components/MediaPartners/MediaPartners';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <SegmentsSlider></SegmentsSlider>
         <Schedules></Schedules>
         <Registration></Registration>
+        <MediaPartners></MediaPartners>
     </div>
   );
 }
