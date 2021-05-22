@@ -1,0 +1,15 @@
+.newsletter {
+    padding: 50px 0;
+    background-color: #2E303C;
+}
+
+.call-to-act a i{
+    font-size: 40px;
+    color: #502DF9;
+    transition: 200ms ease-in-out;
+}
+
+.call-icon a{
+    background-color: transparent;
+    margin: 0 15px;
+}
