@@ -5,11 +5,12 @@ import Hero from './Components/Hero/Hero';
 import './App.css';
 import Achievments from './Components/Achievments/Achievments';
 import Intro from './Components/Inro/Intro';
-import Schedules from './Components/Schedules/Schedules';
 import Registration from './Components/Registration/Registration';
 import SegmentsSlider from './Components/SegmentsSlider/SegmentsSlider';
 import MediaPartners from './Components/MediaPartners/MediaPartners';
 import Footer from "./Components/Footer/Footer";
+import SchedulesTable from "./Components/SchedulesTable/SchedulesTable";
+import Map from "./Components/Map/Map";
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
         <Achievments></Achievments>
         <Intro></Intro>
         <SegmentsSlider></SegmentsSlider>
-        <Schedules></Schedules>
+        <SchedulesTable></SchedulesTable>
         <Registration></Registration>
         <MediaPartners></MediaPartners>
+        <Map></Map>
         <Footer></Footer>
     </div>
   );

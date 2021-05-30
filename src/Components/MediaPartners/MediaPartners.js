@@ -21,20 +21,20 @@ const MediaPartners = () => {
                         </Col>
                     </Row>
                     <Row className="align-items-stretch program">
-                        <Col sm={12} className="border-top border-bottom py-5">
+                        <Col sm={12} className="py-5">
                             <Row className="align-items-stretch">
                                 <Col lg={3} sm={4} className="mb-3 mb-md-0 c-tag-1">
                                     <span className="h4">Title Sponsor</span>
                                 </Col>
                                 <Col lg={9} sm={8} className="c-tag-1">
-                                    <a href="https://acimotors-bd.com/" className="sponsor">
+                                    <a href="https://acimotors-bd.com/" className="sponsor t-spon">
                                         <img className="img-fluid" src={yamaha} alt="yamaha"/>        
                                     </a>
                                 </Col>
                             </Row>
                         </Col>
 
-                        <Col sm={12} className="border-top border-bottom py-5">
+                        <Col sm={12} className="py-5">
                             <Row className="align-items-stretch">
                                 <Col lg={3} sm={4} className="mb-3 mb-md-0 c-tag-1">
                                     <span className="h4">Gold Sponsor</span>
@@ -47,7 +47,7 @@ const MediaPartners = () => {
                             </Row>
                         </Col>
 
-                        <Col sm={12} className="border-top border-bottom py-5">
+                        <Col sm={12} className="py-5">
                             <Row className="align-items-stretch">
                                 <Col lg={3} sm={4} className="mb-3 mb-md-0 c-tag-1">
                                     <span className="h4">Co-Sponsor</span>
@@ -56,7 +56,7 @@ const MediaPartners = () => {
                                     <a href="https://acimotors-bd.com/" className="sponsor sp-polar">
                                         <img className="img-fluid" src={polar} alt="polar"/>        
                                     </a>
-                                    <a href="https://acimotors-bd.com/" className="ml-5 sponsor">
+                                    <a href="https://acimotors-bd.com/" className="ml-5 sponsor sp-dhoni">
                                         <img className="img-fluid" src={dhoni} alt="dhoni"/>        
                                     </a>
                                 </Col>

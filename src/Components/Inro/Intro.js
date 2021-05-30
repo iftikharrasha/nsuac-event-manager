@@ -10,17 +10,17 @@ const Intro = () => {
                     <Row className="py-5">
                         <Col lg={6} className="offset-md-2 offset-into">
                             <div className="intro-video">
-                                <iframe id="youtube" width="100%" height="409" src="https://www.youtube.com/embed/PxuKDYNxRF8" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                <iframe id="youtube" width="100%" height="409" src="https://www.youtube.com/embed/wLVswSN4JmU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
                         </Col>
                         <Col lg={4} className="pt-5 d-flex align-items-center">
                             <div className="achieve-text">
                                 <h2>
                                     <span className="c-tag-2">
-                                        Event <mark className="mark c-tag-3">Teaser</mark>
+                                    EB Panel <mark className="mark c-tag-3">2020-21</mark>
                                     </span>
                                 </h2>
-                                <p className="c-tag-2 py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam et minima consequatur excepturi accusamus possimus ullam vel eveniet sit culpa. Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Neque, possimus ducimus expedita voluptas rem doloremque! Minus saepe est nemo corporis natus provident nulla ex sint.</p>
+                                <p className="c-tag-2 py-5">We are extremely delighted to welcome our new executive panel for the next year, with young, fresh, talented, and smartest minds. Their contributions and dedication towards the club have been unparalleled to any others, with visions to contribute the maximum for the club, upholding the flag of success and continuing its legacy, and carrying it even further.</p>
                             </div>
                         </Col>
                     </Row>

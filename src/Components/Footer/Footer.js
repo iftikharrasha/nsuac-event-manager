@@ -18,17 +18,17 @@ const Footer = () => {
                         </Col>
                         <Col sm={7} className="d-flex align-items-center justify-content-center">
                                 <div className="call-to-act call-icon">
-                                    <a href="#" target="_blank" className="pt-3">
+                                    <a href="https://www.facebook.com/nsuathleticsclub/" target="_blank" className="pt-3">
                                             <i className="fab fa-facebook-square" aria-hidden="true"></i>
                                     </a>
-                                    <a href="#" target="_blank" className="pt-3">
-                                            <i className="fab fa-twitter-square" aria-hidden="true"></i>
+                                    <a href="https://www.youtube.com/c/NSUAthleticsClub" target="_blank" className="pt-3">
+                                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
                                     </a>
-                                    <a href="#" target="_blank" className="pt-3">
-                                            <i className="fab fa-pinterest-square" aria-hidden="true"></i>
+                                    <a href="https://www.instagram.com/nsuac_official/" target="_blank" className="pt-3">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
-                                    <a href="#" target="_blank" className="pt-3">
-                                            <i className="fab fa-github-square" aria-hidden="true"></i>
+                                    <a href="https://www.linkedin.com/m/company/north-south-university-athletics-club/" target="_blank" className="pt-3">
+                                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                                     </a>
                                 </div>
                            

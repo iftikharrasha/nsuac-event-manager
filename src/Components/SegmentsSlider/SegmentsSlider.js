@@ -6,16 +6,18 @@ import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import Segment from '../Segment/Segment';
 import './SegmentsSlider.css';
 
+import segments from '../../data/segments.json';
+
 const SegmentsSlider = () => {
     var settings = {
                 dots: true,
                 arrows: true,
-                infinite: true,
+                infinite: false,
                 autoplay: false,
                 autoplaySpeed: 3000,
                 speed: 700,
                 slidesToShow: 4,
-                slidesToScroll: 1,
+                slidesToScroll: 2,
                 responsive: [
                     {
                         breakpoint: 1500,
@@ -71,15 +73,9 @@ const SegmentsSlider = () => {
                     
                     <Slider {...settings}>
 
-                        <Segment></Segment>
-
-                        <Segment></Segment>
-
-                        <Segment></Segment>
-
-                        <Segment></Segment>
-
-                        <Segment></Segment>
+                        {
+                            segments.map(segment => <Segment segment={segment} key={segment.key}></Segment>)
+                        }
 
                     </Slider>
 
