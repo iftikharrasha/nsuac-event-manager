@@ -8,7 +8,7 @@
 
 .logo {
     position: absolute;
-    left: 43%;
+    left: 41%;
     top: 10px;
 	z-index: 9999;
 }
@@ -67,7 +67,7 @@ hr.t-dash, hr.b-dash {
 }
 
 #ribbon.nominee.black.right a{
-	background-image: url(../../img/ribbonnsu.png);
+	background-image: url(../../img/ribbonnsuac.png);
 }
 
 
@@ -75,7 +75,7 @@ hr.t-dash, hr.b-dash {
 @media (max-width: 575.98px) {
 	.logo {
 		position: absolute;
-		left: 32%;
+		left: 24%;
 		top: 10px;
 		z-index: 9999;
 	}
@@ -85,7 +85,7 @@ hr.t-dash, hr.b-dash {
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.logo {
         position: static;
-		left: 42%;
+		left: 40%;
     }
 }
 
@@ -99,7 +99,7 @@ hr.t-dash, hr.b-dash {
 /* Large devices(md) (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .logo {
-		left: 42%;
+		left: 39%;
 	}
 }
 
@@ -125,13 +125,13 @@ hr.t-dash, hr.b-dash {
 /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
 @media (max-width: 320px) {
 	.logo {
-		left: 28%;
+		left: 16%;
 	}
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
 @media (min-width: 321px) and (max-width: 376px) {
 	.logo {
-		left: 29%;
+		left: 21%;
 	}
 }

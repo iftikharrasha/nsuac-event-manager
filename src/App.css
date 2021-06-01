@@ -46,6 +46,10 @@ body {
     margin-top: 50px;
 }
 
+.mt-150 {
+    margin-top: 150px;
+}
+
 .call-to-act a{
     color: #fff;
     text-decoration: none;
@@ -92,6 +96,10 @@ body {
 	.pt-300 {
 		padding-top: 200px;
 	}
+
+    .mt-150 {
+        margin-top: 50px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */

@@ -23,8 +23,8 @@ function App() {
         <Hero></Hero>
         <Achievments></Achievments>
         <Intro></Intro>
-        <SegmentsSlider></SegmentsSlider>
         <SchedulesTable></SchedulesTable>
+        <SegmentsSlider></SegmentsSlider>
         <Registration></Registration>
         <MediaPartners></MediaPartners>
         <Map></Map>

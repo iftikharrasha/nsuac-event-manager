@@ -22,13 +22,13 @@ const Footer = () => {
                                             <i className="fab fa-facebook-square" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://www.youtube.com/c/NSUAthleticsClub" target="_blank" className="pt-3">
-                                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                            <i className="fa fa-youtube-play" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://www.instagram.com/nsuac_official/" target="_blank" className="pt-3">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        <i className="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/m/company/north-south-university-athletics-club/" target="_blank" className="pt-3">
-                                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                    <a href="https://www.linkedin.com/company/north-south-university-athletics-club/" target="_blank" className="pt-3">
+                                        <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                                     </a>
                                 </div>
                            

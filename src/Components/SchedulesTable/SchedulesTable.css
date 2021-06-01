@@ -1,0 +1,13 @@
+.program-wrapper{
+    overflow: hidden;
+}
+
+.poster{
+    width: 40%;
+    float: left;
+}
+
+.timings{
+    width: 60%;
+    float: right;
+}

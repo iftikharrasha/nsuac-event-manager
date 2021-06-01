@@ -56,7 +56,7 @@ const SegmentsSlider = () => {
       
     return (
         <>
-            <section className="segments pt-200">
+            <section className="segments pt-200 pb-200">
                 <Container>
                     <Row>
                         <Col sm={12}>

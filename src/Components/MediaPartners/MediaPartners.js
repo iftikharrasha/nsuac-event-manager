@@ -9,7 +9,7 @@ import './MediaPartners.css';
 const MediaPartners = () => {
     return (
         <>
-            <section className="programs pt-200 pb-200">
+            <section className="partners pt-200 pb-200">
                 <Container>
                     <Row className="mb-5">
                         <Col lg={12}>

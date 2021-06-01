@@ -10,14 +10,14 @@ const Header = () => {
     return (
         <>
             <div id="ribbon" className="nominee black right d-lg-block d-none">
-                <a href="http://www.northsouth.edu" target="_blank" rel="noreferrer"></a>
+                <a href="http://www.northsouth.edu/osa/clubs/nsuac.html" target="_blank" rel="noreferrer"></a>
             </div>
             <header className="grain-bg header-bg">
                 <Container>
                     <nav className="navbar navbar-expand-md navbar-light nav-items py-3">
                         <div className="logo">
                             <a className="navbar-brand" href="index.html">
-                                <img src={logo} className="img-fluid w-75" alt="nsuac"/>
+                                <img src={logo} className="img-fluid" alt="nsuac"/>
                             </a>
                         </div>
                         <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

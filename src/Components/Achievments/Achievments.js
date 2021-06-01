@@ -1,18 +1,19 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import ncl from '../../img/ncl.svg';
-import sportscarnival from '../../img/sportscarnival.svg';
-import nfl from '../../img/nfl.svg';
-import shuttle from '../../img/shuttle.svg';
+import ncl from '../../img/ncl.png';
+import sportscarnival from '../../img/sportscarnival.png';
+import nfl from '../../img/nfl.png';
+import intracricket from '../../img/intracricket.png';
+import intrafootball from '../../img/intrafootball.png';
 import './Achievments.css';
 
 const Achievments = () => {
     return (
         <>
             <section className="trophy pt-300">
-                <Container>
+                <Container className="c_custom">
                     <Row>
-                        <Col lg={6} className="pt-5 d-flex align-items-center">
+                        <Col lg={5} className="pt-5 d-flex align-items-center">
                             <div className="achieve-text">
                                 <h2>
                                     <span className="c-tag-1">
@@ -27,9 +28,9 @@ const Achievments = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} className="offset-lg-1">
                             <Row>
-                                <Col sm={6} className="mt-lg-0 mt-5">
+                                <Col sm={4} className="mt-lg-0 mt-5">
                                     <div className="text-center">
                                         <img className="img-fluid" src={sportscarnival} alt="trophy"/>
                                     <h4 className="pt-3 c-tag-3">
@@ -38,25 +39,34 @@ const Achievments = () => {
                                     </h4>
                                     </div>
                                     <div className="text-center mt-50">
-                                        <img className="img-fluid" src={ncl} alt="trophy"/>
+                                        <img className="img-fluid" src={intrafootball} alt="trophy"/>
                                     <h4 className="pt-3 c-tag-3">
-                                        <span>NCL
+                                        <span>Intra Batch Football
                                         </span>
                                     </h4>
                                     </div>
                                 </Col>
-                                <Col sm={6}>
+                                <Col sm={4}>
                                     <div className="text-center mt-50">
                                         <img className="img-fluid" src={nfl} alt="trophy"/>
                                     <h4 className="pt-3 c-tag-3">
-                                        <span>NFL
+                                        <span>NFL 2019
                                         </span>
                                     </h4>
                                     </div>
                                     <div className="text-center mt-50">
-                                        <img className="img-fluid" src={shuttle} alt="trophy"/>
+                                        <img className="img-fluid" src={intracricket} alt="trophy"/>
                                     <h4 className="pt-3 c-tag-3">
-                                        <span>Shuttle Masters
+                                        <span>Intra Batch Cricket
+                                        </span>
+                                    </h4>
+                                    </div>
+                                </Col>
+                                <Col sm={4}>
+                                    <div className="text-center mt-150">
+                                        <img className="img-fluid" src={ncl} alt="trophy"/>
+                                    <h4 className="pt-3 c-tag-3">
+                                        <span>NCL 2019
                                         </span>
                                     </h4>
                                     </div>
