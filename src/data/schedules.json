@@ -2,25 +2,33 @@
     {
       "id": 1,
       "key":"YEE1RT907H",
-      "event": "Event Opener",
-      "venue":"NSU Auditorium",
-      "date": "May 29",
-      "time": "8:00AM"
+      "event": "Registration",
+      "till":"ends June 17",
+      "date": "June 12",
+      "time": "opening"
     },
     {
       "id": 2,
       "key":"5V75R5T9YH",
-      "event": "Online Chess Game",
-      "venue":"NAC991",
-      "date": "May 30",
-      "time": "8:00AM"
+      "event": "Result Publish",
+      "till":"top contestants",
+      "date": "June 19",
+      "time": ""
     },
     {
       "id": 3,
       "key":"MNSK777SFF",
-      "event": "Basketball",
-      "venue":"NAC501",
-      "date": "May 31",
-      "time": "8:00AM"
+      "event": "Video Promotion",
+      "till":"ends June 23",
+      "date": "June 21",
+      "time": ""
+    },
+    {
+      "id": 4,
+      "key":"TTSK756OUP",
+      "event": "Prize Giving",
+      "till":"ends of the event",
+      "date": "June 24",
+      "time": "closing"
     }
   ]

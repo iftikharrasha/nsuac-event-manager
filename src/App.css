@@ -3,6 +3,23 @@ body {
 	color: #fff !important;
 }
 
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+a{
+	margin:0;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:none;
+}
+
+a, select , input , textarea , button{
+	outline: none !important;
+}
+
 .c_custom{
     max-width: 1700px !important;
 }

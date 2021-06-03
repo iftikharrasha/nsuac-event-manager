@@ -11,6 +11,7 @@ import MediaPartners from './Components/MediaPartners/MediaPartners';
 import Footer from "./Components/Footer/Footer";
 import SchedulesTable from "./Components/SchedulesTable/SchedulesTable";
 import Map from "./Components/Map/Map";
+import TopContestants from "./Components/TopContestants/TopContestants";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Achievments></Achievments>
         <Intro></Intro>
         <SchedulesTable></SchedulesTable>
+        <TopContestants></TopContestants>
         <SegmentsSlider></SegmentsSlider>
         <Registration></Registration>
         <MediaPartners></MediaPartners>

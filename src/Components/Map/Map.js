@@ -4,7 +4,7 @@ import './Map.css';
 const Map = () => {
     return (
         <>
-            <div className="big-img"></div>
+            <section className="big-img"></section>
         </>
     );
 };
