@@ -12,7 +12,7 @@ const Hero = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('June 5, 2021 00:00:00').getTime();
+        const countdownDate = new Date('June 25, 2021 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -53,7 +53,7 @@ const Hero = () => {
                         <Row>
                             <Col sm={12} className="mb-3">
                                 <h1 className="mb-4"><span>Battle of</span> <span>Skills</span> 2021</h1>
-                                <h2>Hurry up and register!</h2>
+                                <h2>Registration ongoing!</h2>
                             </Col>
                             <Col sm={12} className="my-5">
                                 <div id="timer" className="d-flex mb-3">

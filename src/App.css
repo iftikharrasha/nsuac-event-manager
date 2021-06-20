@@ -68,12 +68,13 @@ a, select , input , textarea , button{
 }
 
 .call-to-act a{
+    position: relative;
     color: #fff;
     text-decoration: none;
     border-color: #502DF9;
     background-color: #502DF9;
     background: #502DF9;
-    position: relative;
+    padding: 1rem 3rem;
 }
 
 .call-to-act a:hover{

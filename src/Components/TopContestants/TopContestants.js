@@ -36,7 +36,7 @@ const TopContestants = () => {
 			<Container className="c_custom">
 				<Row>
 
-                    <h2 className="pb-5"><span class="c-tag-2">Top <mark class="mark c-tag-3">Videos</mark></span></h2>
+                    <h2 className="pb-5"><span className="c-tag-2">Top <mark className="mark c-tag-3">Videos</mark></span></h2>
 
 					<Col lg={12}>
 						<div className="outer">
