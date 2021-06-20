@@ -32,7 +32,7 @@ const TopContestants = () => {
 
     return (
         <>
-            <section className="top-videos mt-200">
+            <section className="top-videos mt-200" id="topVideos">
 			<Container className="c_custom">
 				<Row>
 

@@ -8,7 +8,7 @@ import schedules from '../../data/schedules.json';
 const SchedulesTable = () => {
     return (
         <>
-            <section className="programs pt-200">
+            <section className="programs pt-200" id="schedules">
                     <div className="program-wrapper">
                         <div className="poster">
                             <img className="img-fluid" src={poster} alt="poster"/>

@@ -47,7 +47,7 @@ const Hero = () => {
 
     return (
         <>
-            <section className="hero">
+            <section className="hero" id="home">
                 <Container>
                     <div className="pt-150 text-center">
                         <Row>

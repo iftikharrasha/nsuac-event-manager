@@ -5,7 +5,7 @@ import './Intro.css';
 const Intro = () => {
     return (
         <>
-            <section className="video mt-200">
+            <section className="video mt-200" id="ebPanel">
                 <Container className="c_custom">
                     <Row className="py-5">
                         <Col lg={6} className="offset-md-2 offset-into">

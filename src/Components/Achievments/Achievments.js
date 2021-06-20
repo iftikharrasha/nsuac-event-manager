@@ -10,7 +10,7 @@ import './Achievments.css';
 const Achievments = () => {
     return (
         <>
-            <section className="trophy pt-300">
+            <section className="trophy pt-300" id="nsuac">
                 <Container className="c_custom">
                     <Row>
                         <Col lg={5} className="pt-5 d-flex align-items-center">

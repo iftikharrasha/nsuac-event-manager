@@ -4,6 +4,7 @@ import logo from '../../img/bos.svg';
 import facebook from '../../img/facebook.svg';
 import instagram from '../../img/instagram.svg';
 import youtube from '../../img/youtube.svg';
+import { Link, animateScroll as scroll } from "react-scroll";
 import './Header.css';
 
 const Header = () => {
@@ -74,37 +75,37 @@ const Header = () => {
                     <nav id="navigation">
                         <ul className="menu hide" id="listItems">
                             <li className="pb-sm-4 pb-4 d-sm-none d-block">
-                                    <div className="call-to-act mt-2 text-center">
+                                    <div className="call-to-act mt-2 text-sm-center">
                                         <a href="#">
                                             <span> Registration</span>
                                         </a>
                                     </div>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <a href="/home" className="navLink reg-24 text-uppercase">Home</a>
+                                <Link to="home" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <a href="/nsuac" className="navLink reg-24 text-uppercase">nsuac</a>
+                                <Link to="nsuac" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>nsuac</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <a href="/eb-panel" className="navLink reg-24 text-uppercase">Eb Panel</a>
+                                <Link to="ebPanel" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Eb Panel</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <a href="/schedules" className="navLink reg-24 text-uppercase">Bos</a>
+                                <Link to="schedules" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BOS Segments</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <a href="/top videos" className="navLink reg-24 text-uppercase">Top videos</a>
+                                <Link to="topVideos" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Top videos</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <a href="/segments" className="navLink reg-24 text-uppercase">Segments</a>
+                                <Link to="segments" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Segments</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <a href="/media-partners" className="navLink reg-24 text-uppercase">Media Partners</a>
+                                <Link to="mediaPartners" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Media Partners</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                    <div className="call-to-act mt-2 text-center">
+                                    <div className="call-to-act mt-2 text-sm-center">
                                         <a href="#">
-                                            <span>Join Campus Star</span>
+                                            <span>Campus Star</span>
                                         </a>
                                     </div>
                             </li>
