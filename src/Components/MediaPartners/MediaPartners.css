@@ -1,16 +1,27 @@
+.sponsor img{
+    transition: -webkit-transform .3s ease-in;
+    transition: transform .3s ease-in;
+    transition: transform .3s ease-in, -webkit-transform .8s ease-in;
+}
+
+.sponsor img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .sponsor img {
-    width: 25%;
+    width: 50%;
     height: auto;
 }
 
 .sp-polar img {
-    width: 12%;
+    width: 55%;
 }
 
 .sp-dhoni img {
-    width: 13%;
+    width: 66%;
 }
 
 .t-spon img{
-    width: 40%;
+    width: 50%;
 }

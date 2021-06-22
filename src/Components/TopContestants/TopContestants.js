@@ -3,12 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 import OwlCarousel from 'react-owl-carousel';  
 import '../../../node_modules/owl.carousel/dist/assets/owl.carousel.css';  
 import '../../../node_modules/owl.carousel/dist/assets/owl.theme.default.css';  
-import c1 from '../../img/c1.png';
-import c2 from '../../img/c2.png';
-import c3 from '../../img/c3.png';
-import c4 from '../../img/c4.png';
-import c5 from '../../img/c5.png';
-import c6 from '../../img/c6.png';
+import c1 from '../../img/c1.jpg';
+import c2 from '../../img/c2.jpg';
+import c3 from '../../img/c3.jpg';
+import c4 from '../../img/c4.jpg';
+import c5 from '../../img/c5.jpg';
+import c6 from '../../img/c6.jpg';
 import './TopContestants.css';
 
 const TopContestants = () => {
@@ -53,16 +53,21 @@ const TopContestants = () => {
 											</div>
 										</div>
 
-										<div className="col-lg-3">
+										<div className="col-lg-3 d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Marketing Consulting</h3>
-												<p>Discover specific opportunities for your business through creative
-													marketing strategies and our signature bright ideas.</p>
+												<h3>Contastant #1</h3>
+												<p>John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Brand Exploration & Audits</li>
-													<li>Competitor Analysis</li>
+													<li>Lorem ipsum dolor sit amet.</li>
+													<li>Lorem ipsum dolor sit amet.</li>
 												</ul>
+
+												<div className="call-to-act py-5">
+													<a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank" rel="noreferrer">
+														<span> Vote Now </span>
+													</a>
+												</div>
 											</div>
 										</div>
 									</Row>
@@ -79,16 +84,21 @@ const TopContestants = () => {
 											</div>
 										</div>
 
-										<div className="col-lg-3">
+										<div className="col-lg-3 d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Branding/Rebranding</h3>
-												<p>Tell your story through visuals and branding. We develop brand
-													purpose which translates to business results.</p>
+												<h3>Contastant #1</h3>
+												<p>John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Creative Corporate Identity</li>
-													<li>Brand Evolution & Refresh</li>
+													<li>Lorem ipsum dolor sit amet.</li>
+													<li>Lorem ipsum dolor sit amet.</li>
 												</ul>
+
+												<div className="call-to-act py-5">
+													<a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank" rel="noreferrer">
+														<span> Vote Now </span>
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -105,16 +115,21 @@ const TopContestants = () => {
 											</div>
 										</div>
 
-										<div className="col-lg-3">
+										<div className="col-lg-3 d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Web Development</h3>
-												<p>Our websites are functional tools to further your commercial success
-													and enhance your reach.</p>
+												<h3>Contastant #1</h3>
+												<p>John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Optimise & Customise Your Site</li>
-													<li>Sell, Promote & Show Your Audience Who You Are</li>
+													<li>Lorem ipsum dolor sit amet.</li>
+													<li>Lorem ipsum dolor sit amet.</li>
 												</ul>
+
+												<div className="call-to-act py-5">
+													<a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank" rel="noreferrer">
+														<span> Vote Now </span>
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -131,17 +146,21 @@ const TopContestants = () => {
 											</div>
 										</div>
 
-										<div className="col-lg-3">
+										<div className="col-lg-3 d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Social Media Management</h3>
-												<p>End-to-end service that manages the entire online community
-													experience from post content creation to official responses on
-													direct messages and comments.</p>
+												<h3>Contastant #1</h3>
+												<p>John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Custom Content Creation</li>
-													<li>Optimized Paid Advertising</li>
+													<li>Lorem ipsum dolor sit amet.</li>
+													<li>Lorem ipsum dolor sit amet.</li>
 												</ul>
+
+												<div className="call-to-act py-5">
+													<a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank" rel="noreferrer">
+														<span> Vote Now </span>
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -158,16 +177,21 @@ const TopContestants = () => {
 											</div>
 										</div>
 
-										<div className="col-lg-3">
+										<div className="col-lg-3 d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Loyalty and Rewards Programmes</h3>
-												<p>Discover specific opportunities for your business through creative
-													marketing strategies and our signature bright ideas.</p>
+												<h3>Contastant #1</h3>
+												<p>John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Brand Exploration & Audits</li>
-													<li>Competitor Analysis</li>
+													<li>Lorem ipsum dolor sit amet.</li>
+													<li>Lorem ipsum dolor sit amet.</li>
 												</ul>
+
+												<div className="call-to-act py-5">
+													<a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank" rel="noreferrer">
+														<span> Vote Now </span>
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -184,16 +208,21 @@ const TopContestants = () => {
 											</div>
 										</div>
 
-										<div className="col-lg-3">
+										<div className="col-lg-3 d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Productivity Management</h3>
-												<p>Discover specific opportunities for your business through creative
-													marketing strategies and our signature bright ideas.</p>
+												<h3>Contastant #1</h3>
+												<p>John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Brand Exploration & Audits</li>
-													<li>Competitor Analysis</li>
+													<li>Lorem ipsum dolor sit amet.</li>
+													<li>Lorem ipsum dolor sit amet.</li>
 												</ul>
+
+												<div className="call-to-act py-5">
+													<a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank" rel="noreferrer">
+														<span> Vote Now </span>
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -210,81 +239,26 @@ const TopContestants = () => {
 											</div>
 										</div>
 
-										<div className="col-lg-3">
+										<div className="col-lg-3 d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Social Media Management</h3>
-												<p>End-to-end service that manages the entire online community
-													experience from post content creation to official responses on
-													direct messages and comments.</p>
+												<h3>Contastant #1</h3>
+												<p>John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Custom Content Creation</li>
-													<li>Optimized Paid Advertising</li>
+													<li>Lorem ipsum dolor sit amet.</li>
+													<li>Lorem ipsum dolor sit amet.</li>
 												</ul>
+
+												<div className="call-to-act py-5">
+													<a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank" rel="noreferrer">
+														<span> Vote Now </span>
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</OwlCarousel>
-							{/* <OwlCarousel id="thumbs" className="owl-theme" items={4} nav={true}>
-								<div className="item">
-									<div className="thumbnail_con">
-										<div className="th_img">
-											<img src={c2} alt="Image8"/>
-										</div>
-										<h4>Marketing Consulting</h4>
-									</div>
-								</div>
-								<div className="item">
-									<div className="thumbnail_con">
-										<div className="th_img">
-											<img src={c3} alt="Image9"/>
-										</div>
-										<h4>Branding/ Rebranding</h4>
-									</div>
-								</div>
-								<div className="item">
-									<div className="thumbnail_con">
-										<div className="th_img">
-											<img src={c4} alt="Image10"/>
-										</div>
-										<h4>Web Development</h4>
-									</div>
-								</div>
-								<div className="item">
-									<div className="thumbnail_con">
-										<div className="th_img">
-											<img src={c5} alt="Image11"/>
-										</div>
-										<h4> Social Media Management</h4>
-									</div>
-								</div>
-								<div className="item">
-									<div className="thumbnail_con">
-										<div className="th_img">
-											<img src={c1} alt="Image12"/>
-										</div>
-										<h4>Loyalty and Rewards Programmes</h4>
-									</div>
-								</div>
-								<div className="item">
-									<div className="thumbnail_con">
-										<div className="th_img">
-											<img src={c6} alt="Image13"/>
-										</div>
-										<h4>Productivity Management</h4>
-									</div>
-								</div>
-								<div className="item">
-									<div className="thumbnail_con">
-										<div className="th_img">
-											<img src={c3} alt="Image14"/>
-										</div>
-										<h4>Branding/ Rebranding</h4>
-									</div>
-								</div>
-
-							</OwlCarousel> */}
 						</div>
 					</Col>
 				</Row>

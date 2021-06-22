@@ -9,12 +9,12 @@
     bottom: -2px;
     right: -2px;
     display: inline-block;
-    border: 4px solid transparent;
+    border: 2px solid transparent;
     width: 170px;
     height: 80px;
     z-index: 1;
-    border-right-color: #7e7e7e ;
-    border-bottom-color: #7e7e7e;
+    border-right-color: #CA72FE;
+    border-bottom-color: #CA72FE;
 }
 
 

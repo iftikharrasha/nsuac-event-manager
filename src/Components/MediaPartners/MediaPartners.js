@@ -22,12 +22,12 @@ const MediaPartners = () => {
                     </Row>
                     <Row className="align-items-stretch program">
                         <Col sm={12} className="py-5">
-                            <Row className="align-items-stretch">
-                                <Col lg={3} sm={4} className="mb-3 mb-md-0 c-tag-1">
+                            <Row className="text-center pb-50">
+                                <Col sm={12} className="mb-5 c-tag-1">
                                     <span className="h4">Title Sponsor</span>
                                 </Col>
-                                <Col lg={9} sm={8} className="c-tag-1">
-                                    <a href="https://acimotors-bd.com/" className="sponsor t-spon">
+                                <Col sm={12} className="c-tag-1">
+                                    <a href="#" className="sponsor t-spon">
                                         <img className="img-fluid" src={yamaha} alt="yamaha"/>        
                                     </a>
                                 </Col>
@@ -35,12 +35,17 @@ const MediaPartners = () => {
                         </Col>
 
                         <Col sm={12} className="py-5">
-                            <Row className="align-items-stretch">
-                                <Col lg={3} sm={4} className="mb-3 mb-md-0 c-tag-1">
+                            <Row className="text-center pb-50">
+                                <Col sm={12} className="mb-5 c-tag-1">
                                     <span className="h4">Gold Sponsor</span>
                                 </Col>
-                                <Col lg={9} sm={8} className="c-tag-1">
-                                    <a href="https://acimotors-bd.com/" className="sponsor">
+                                <Col sm={6} className="c-tag-1">
+                                    <a href="#" className="sponsor">
+                                        <img className="img-fluid" src={kings} alt="kings"/>        
+                                    </a>
+                                </Col>
+                                <Col sm={6} className="c-tag-1">
+                                    <a href="#" className="sponsor">
                                         <img className="img-fluid" src={kings} alt="kings"/>        
                                     </a>
                                 </Col>
@@ -48,15 +53,22 @@ const MediaPartners = () => {
                         </Col>
 
                         <Col sm={12} className="py-5">
-                            <Row className="align-items-stretch">
-                                <Col lg={3} sm={4} className="mb-3 mb-md-0 c-tag-1">
+                            <Row className="text-center pb-50">
+                                <Col sm={12} className="mb-5 c-tag-1">
                                     <span className="h4">Co-Sponsor</span>
                                 </Col>
-                                <Col lg={9} sm={8} className="c-tag-1">
-                                    <a href="https://acimotors-bd.com/" className="sponsor sp-polar">
+                                <Col sm={4} className="c-tag-1">
+                                    <a href="#" className="sponsor sp-polar">
                                         <img className="img-fluid" src={polar} alt="polar"/>        
                                     </a>
-                                    <a href="https://acimotors-bd.com/" className="ml-5 sponsor sp-dhoni">
+                                </Col>
+                                <Col sm={4} className="c-tag-1">
+                                    <a href="#" className="ml-5 sponsor sp-dhoni">
+                                        <img className="img-fluid" src={dhoni} alt="dhoni"/>        
+                                    </a>
+                                </Col>
+                                <Col sm={4} className="c-tag-1">
+                                    <a href="#" className="ml-5 sponsor sp-dhoni">
                                         <img className="img-fluid" src={dhoni} alt="dhoni"/>        
                                     </a>
                                 </Col>

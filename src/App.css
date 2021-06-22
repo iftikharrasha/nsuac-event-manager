@@ -13,7 +13,7 @@ a{
 	text-decoration: none;
 }
 a:hover{
-	text-decoration:none;
+	text-decoration:none !important;
 }
 
 a, select , input , textarea , button{
@@ -51,6 +51,10 @@ a, select , input , textarea , button{
 	padding-top: 300px;
 }
 
+.pb-50{
+	padding-bottom: 50px;
+}
+
 .pb-200{
 	padding-bottom: 200px;
 }
@@ -74,6 +78,7 @@ a, select , input , textarea , button{
     border-color: #502DF9;
     background-color: #502DF9;
     background: #502DF9;
+    /* background: linear-gradient(90deg, #c973ff 0%, #aebaf8 95%); */
     padding: 1rem 3rem;
 }
 
