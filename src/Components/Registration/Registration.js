@@ -11,7 +11,7 @@ const Registration = () => {
                             <Col lg={9} className="d-flex align-items-center">
                                 <h2>
                                     <span className="c-tag-2">
-                                        Show your inner skills!
+                                        Unleash your sports skill!
                                     </span>
                                 </h2>
                             </Col>

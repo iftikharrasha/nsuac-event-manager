@@ -43,17 +43,13 @@ const TopContestants = () => {
 							<OwlCarousel id="big" className="owl-theme" items={1} loop autoplay={false} responsive={state.responsive} nav={true}>
 								<div className="item">
                                     <Row>
-										<div className="col-lg-7 offset-lg-1">
+										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-												{/* <iframe title="" src="https://www.youtube.com/embed/IUN664s7N-c" frameborder="0"
-													allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-													allowFullScreen></iframe> */}
-
 												<img src={c2} alt="Image1"/>
 											</div>
-										</div>
+										</Col>
 
-										<div className="col-lg-3 d-flex justify-content-center align-items-center">
+										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
 												<h3>Contastant #1</h3>
 												<p>John Doe, Dhaka University</p>
@@ -69,22 +65,18 @@ const TopContestants = () => {
 													</a>
 												</div>
 											</div>
-										</div>
+										</Col>
 									</Row>
 								</div>
 								<div className="item">
-									<div className="row">
-										<div className="col-lg-7 offset-lg-1">
+									<Row>
+										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-												{/* <iframe title="frame1" src="https://www.youtube.com/embed/StiRpYIIjYk" frameborder="0"
-													allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-													allowFullScreen></iframe> */}
-
                                                 <img src={c2} alt="Image2"/>
 											</div>
-										</div>
+										</Col>
 
-										<div className="col-lg-3 d-flex justify-content-center align-items-center">
+										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
 												<h3>Contastant #1</h3>
 												<p>John Doe, Dhaka University</p>
@@ -100,22 +92,18 @@ const TopContestants = () => {
 													</a>
 												</div>
 											</div>
-										</div>
-									</div>
+										</Col>
+									</Row>
 								</div>
 								<div className="item">
-									<div className="row">
-										<div className="col-lg-7 offset-lg-1">
+									<Row>
+										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-												{/* <iframe title="frame2" src="https://www.youtube.com/embed/r5_wTbk16RQ" frameborder="0"
-													allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-													allowFullScreen></iframe> */}
-
                                                 <img src={c3} alt="Image3"/>
 											</div>
-										</div>
+										</Col>
 
-										<div className="col-lg-3 d-flex justify-content-center align-items-center">
+										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
 												<h3>Contastant #1</h3>
 												<p>John Doe, Dhaka University</p>
@@ -131,22 +119,18 @@ const TopContestants = () => {
 													</a>
 												</div>
 											</div>
-										</div>
-									</div>
+										</Col>
+									</Row>
 								</div>
 								<div className="item">
-									<div className="row">
-										<div className="col-lg-7 offset-lg-1">
+									<Row>
+										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-												{/* <iframe title="frame3" src="https://www.youtube.com/embed/PxuKDYNxRF8" frameborder="0"
-													allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-													allowFullScreen></iframe> */}
-
                                                 <img src={c4} alt="Image4"/>
 											</div>
-										</div>
+										</Col>
 
-										<div className="col-lg-3 d-flex justify-content-center align-items-center">
+										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
 												<h3>Contastant #1</h3>
 												<p>John Doe, Dhaka University</p>
@@ -162,22 +146,18 @@ const TopContestants = () => {
 													</a>
 												</div>
 											</div>
-										</div>
-									</div>
+										</Col>
+									</Row>
 								</div>
 								<div className="item">
-									<div className="row">
-										<div className="col-lg-7 offset-lg-1">
+									<Row>
+										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-												{/* <iframe title="frame4" src="https://www.youtube.com/embed/OZiLAEXX6i4" frameborder="0"
-													allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-													allowFullScreen></iframe> */}
-
                                                 <img src={c5} alt="Image5"/>
 											</div>
-										</div>
+										</Col>
 
-										<div className="col-lg-3 d-flex justify-content-center align-items-center">
+										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
 												<h3>Contastant #1</h3>
 												<p>John Doe, Dhaka University</p>
@@ -193,22 +173,18 @@ const TopContestants = () => {
 													</a>
 												</div>
 											</div>
-										</div>
-									</div>
+										</Col>
+									</Row>
 								</div>
 								<div className="item">
-									<div className="row">
-										<div className="col-lg-7 offset-lg-1">
+									<Row>
+										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-												{/* <iframe title="frame5" src="https://www.youtube.com/embed/NFFE72ib7KQ" frameborder="0"
-													allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-													allowFullScreen></iframe> */}
-
                                                 <img src={c1} alt="Image6"/>
 											</div>
-										</div>
+										</Col>
 
-										<div className="col-lg-3 d-flex justify-content-center align-items-center">
+										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
 												<h3>Contastant #1</h3>
 												<p>John Doe, Dhaka University</p>
@@ -224,22 +200,18 @@ const TopContestants = () => {
 													</a>
 												</div>
 											</div>
-										</div>
-									</div>
+										</Col>
+									</Row>
 								</div>
 								<div className="item">
-									<div className="row">
-										<div className="col-lg-7 offset-lg-1">
+									<Row>
+										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-												{/* <iframe title="frame6" src="https://www.youtube.com/embed/PxuKDYNxRF8" frameborder="0"
-													allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-													allowFullScreen></iframe> */}
-
                                                 <img src={c6} alt="Image7"/>
 											</div>
-										</div>
+										</Col>
 
-										<div className="col-lg-3 d-flex justify-content-center align-items-center">
+										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
 												<h3>Contastant #1</h3>
 												<p>John Doe, Dhaka University</p>
@@ -255,8 +227,8 @@ const TopContestants = () => {
 													</a>
 												</div>
 											</div>
-										</div>
-									</div>
+										</Col>
+									</Row>
 								</div>
 							</OwlCarousel>
 						</div>

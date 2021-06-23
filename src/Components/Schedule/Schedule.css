@@ -35,24 +35,24 @@
 }
 
 /* Large devices(md) (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-	
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1441.98px){
-	.poster {
+@media (min-width: 992px) and (max-width: 1299.98px) {
+    .poster {
         width: 55%;
     }
 
     .timings {
-        width: 45%;
+        width: 100%;
     }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1300px) and (max-width: 1531.98px){
+    
 }
   
 /* Extra large devices (large desktops, 1442px and up) */
-@media (min-width: 1442px) and (max-width: 2499.99px) {
-   
+@media (min-width: 1532px) and (max-width: 2499.99px) {
+  
 }
 
 /* Extra large devices (large desktops, 1900px and up) */

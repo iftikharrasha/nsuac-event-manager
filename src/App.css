@@ -24,6 +24,7 @@ a, select , input , textarea , button{
     max-width: 1700px !important;
 }
 
+/* colors */
 .c-tag-1{
     color: #2E303C;
 }
@@ -34,6 +35,48 @@ a, select , input , textarea , button{
 
 .c-tag-3{
     color: #7e7e7e !important;
+}
+
+/* fonts */
+.lit-16{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.lit-18{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.lit-20{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.lit-32{
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.medi-20{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.medi-40{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.medi-50{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.bold-140{
+    font-family: 'Righteous', cursive;
+    font-size: 140px;
+    font-weight: 700;
 }
 
 .App {
@@ -123,6 +166,10 @@ a, select , input , textarea , button{
     .mt-150 {
         margin-top: 50px;
     }
+
+	.bold-140{
+		font-size: 40px;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -130,6 +177,10 @@ a, select , input , textarea , button{
 	.pt-300 {
 		padding-top: 200px;
 	}
+
+	.bold-140{
+        font-size: 62px;
+    }
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
@@ -137,18 +188,41 @@ a, select , input , textarea , button{
 	.pt-300 {
 		padding-top: 150px;
 	}
+
+	.bold-140{
+        font-size: 62px;
+    }
 }
 
 /* Large devices(md) (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-	
+@media (min-width: 992px) and (max-width: 1299.98px) {
+    .bold-140{
+        font-size: 84px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 1300px) and (max-width: 1531.98px){
+    .bold-140{
+        font-size: 138px;
+    }
+    
+    .lit-32{
+        font-size: 30px;
+    }
+}
+  
+/* Extra large devices (large desktops, 1442px and up) */
+@media (min-width: 1532px) and (max-width: 2499.99px) {
+  
 }
 
+/* Extra large devices (large desktops, 1900px and up) */
+@media (min-width: 2500px) {
+	
+}
 
+  
 /*
 *
 *
@@ -159,10 +233,11 @@ a, select , input , textarea , button{
 *
 /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
 @media (max-width: 320px) {
-   
+	
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
 @media (min-width: 321px) and (max-width: 376px) {
-    
+	
 }
+

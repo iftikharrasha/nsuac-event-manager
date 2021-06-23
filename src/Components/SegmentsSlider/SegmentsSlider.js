@@ -38,7 +38,7 @@ const SegmentsSlider = () => {
                         settings: {
                             dots: true,
                             arrows: false,
-                            slidesToShow: 1,
+                            slidesToShow: 2,
                             slidesToScroll: 1
                         }
                     },

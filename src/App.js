@@ -25,9 +25,9 @@ function App() {
         <Achievments></Achievments>
         <Intro></Intro>
         <SchedulesTable></SchedulesTable>
+        <Registration></Registration>
         <TopContestants></TopContestants>
         <SegmentsSlider></SegmentsSlider>
-        <Registration></Registration>
         <MediaPartners></MediaPartners>
         <Map></Map>
         <Footer></Footer>

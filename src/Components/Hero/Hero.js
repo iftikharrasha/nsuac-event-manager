@@ -12,7 +12,7 @@ const Hero = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('June 25, 2021 00:00:00').getTime();
+        const countdownDate = new Date('July 15, 2021 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -48,12 +48,13 @@ const Hero = () => {
     return (
         <>
             <section className="hero" id="home">
+
                 <Container>
                     <div className="pt-150 text-center">
                         <Row>
                             <Col sm={12} className="mb-3">
-                                <h1 className="mb-4"><span>Battle of</span> <span>Skills</span> 2021</h1>
-                                <h2>Registration ongoing!</h2>
+                                <h1 className="mb-4 bold-140"><span>Battle of</span> <span>Skills</span> 2021</h1>
+                                <h2 className="lit-32">Registration ongoing!</h2>
                             </Col>
                             <Col sm={12} className="my-5">
                                 <div id="timer" className="d-flex mb-3">

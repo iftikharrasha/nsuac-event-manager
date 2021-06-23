@@ -27,7 +27,7 @@ const Header = () => {
                     <nav className="navbar navbar-expand-sm navbar-light nav-items py-3">
                         <div className="logo">
                             <a className="navbar-brand" href="index.html">
-                                <img src={logo} className="img-fluid" alt="nsuac"/>
+                                <img src={logo} className="img-fluid" alt="bos"/>
                             </a>
                         </div>
                         {/* <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,7 +91,7 @@ const Header = () => {
                                 <Link to="ebPanel" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Eb Panel</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="schedules" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BOS Segments</Link>
+                                <Link to="schedules" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Battle of Skills</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
                                 <Link to="topVideos" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Top videos</Link>
