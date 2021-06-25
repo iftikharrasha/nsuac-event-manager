@@ -21,7 +21,7 @@ const SchedulesTable = () => {
                             <Container>
                                 <Row>
                                     <Col xl={9} lg={12}>
-                                        <Row className="pt-150 pb-200">
+                                        <Row className="pt-150 pb-200 pt-prog pb-prog">
                                             <Col md={4}>
                                                 <div className="trophy-item text-center">
                                                     <img src={whistle} alt="trophy-one" className="img-fluid"/>

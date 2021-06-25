@@ -53,7 +53,7 @@ const Hero = () => {
                     <div className="pt-150 text-center">
                         <Row>
                             <Col sm={12} className="mb-3">
-                                <h1 className="mb-4 bold-140"><span>Battle of</span> <span>Skills</span> 2021</h1>
+                                <h1 className="mb-4 bold-140">Bangabandhu<span className="d-block">Battle of </span><span>Skills</span> 2021</h1>
                                 <h2 className="lit-32">Registration ongoing!</h2>
                             </Col>
                             <Col sm={12} className="my-5">

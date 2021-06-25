@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
 // import {Helmet} from "react-helmet";
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
@@ -16,21 +22,48 @@ import TopContestants from "./Components/TopContestants/TopContestants";
 function App() {
   return (
     <div className="App">
+
+<Router>
+      <Switch>
+          <Route path="/home">
+              <Header></Header>
+              <Hero></Hero>
+              <Achievments></Achievments>
+              <Intro></Intro>
+              <SchedulesTable></SchedulesTable>
+              <Registration></Registration>
+              <TopContestants></TopContestants>
+              <SegmentsSlider></SegmentsSlider>
+              <MediaPartners></MediaPartners>
+              <Map></Map>
+              <Footer></Footer>
+              <ScrollToTop smooth/>
+          </Route>
+          <Route path="/campus-star">
+            
+          </Route>
+          <Route exact path="/">
+              <Header></Header>
+              <Hero></Hero>
+              <Achievments></Achievments>
+              <Intro></Intro>
+              <SchedulesTable></SchedulesTable>
+              <Registration></Registration>
+              <TopContestants></TopContestants>
+              <SegmentsSlider></SegmentsSlider>
+              <MediaPartners></MediaPartners>
+              <Map></Map>
+              <Footer></Footer>
+              <ScrollToTop smooth/>
+          </Route>
+          <Route path="*">
+              
+          </Route>
+      </Switch>
+</Router>
         {/* <Helmet>
             <script src="./icons/font-awesome.min.js" />
         </Helmet> */}
-
-        <Header></Header>
-        <Hero></Hero>
-        <Achievments></Achievments>
-        <Intro></Intro>
-        <SchedulesTable></SchedulesTable>
-        <Registration></Registration>
-        <TopContestants></TopContestants>
-        <SegmentsSlider></SegmentsSlider>
-        <MediaPartners></MediaPartners>
-        <Map></Map>
-        <Footer></Footer>
     </div>
   );
 }
