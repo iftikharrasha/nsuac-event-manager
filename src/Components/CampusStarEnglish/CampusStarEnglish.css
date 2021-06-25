@@ -1,0 +1,10 @@
+.breadcrumb-item img{
+    width: 20px;
+}
+
+.breadcrumb-item img, 
+.breadcrumb-item span.lang-txt{
+  display:inline-block;
+  margin-left:5px;
+  vertical-align:middle;
+}

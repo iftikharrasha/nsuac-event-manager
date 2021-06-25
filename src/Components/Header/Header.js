@@ -5,9 +5,12 @@ import instagram from '../../img/instagram.svg';
 import youtube from '../../img/youtube.svg';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Brand from '../Brand/Brand';
+import CampusStarBtn from '../CampusStarBtn/CampusStarBtn';
 import './Header.css';
 
-const Header = () => {
+const Header = (props) => {
+    const display = props;
+    
     function activeToggle() {
         document.getElementById('navigation').classList.toggle('menuToggle');
         document.getElementById('hamburger').classList.toggle('backgrounColorToggle');
@@ -58,7 +61,7 @@ const Header = () => {
                                 </li>
 
                                 <li className="nav-item mr-5">
-                                    <button className="toggle-btn" id="hamburger" onClick={activeToggle}>
+                                    <button className="toggle-btn" id="hamburger" onClick={activeToggle} style={display}>
                                         <svg viewBox="0 0 100 80" width="40" height="40">
                                         <rect width="100" height="10" rx="7" id="top"></rect>
                                         <rect width="100" height="10" rx="7" y="30" id="middle"></rect>
@@ -70,7 +73,7 @@ const Header = () => {
                         </div>
                     </nav>
 
-                    <nav id="navigation">
+                    <nav id="navigation" style={display}>
                         <ul className="menu hide" id="listItems">
                             <li className="pb-sm-4 pb-4 d-sm-none d-block">
                                     <div className="call-to-act mt-2 text-sm-center">
@@ -102,9 +105,7 @@ const Header = () => {
                             </li>
                             <li className="pb-sm-4 pb-3">
                                     <div className="call-to-act mt-2 text-sm-center">
-                                        <a href="#">
-                                            <span>Campus Star</span>
-                                        </a>
+                                        <CampusStarBtn></CampusStarBtn>
                                     </div>
                             </li>
                         </ul>

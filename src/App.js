@@ -18,8 +18,12 @@ import Footer from "./Components/Footer/Footer";
 import SchedulesTable from "./Components/SchedulesTable/SchedulesTable";
 import Map from "./Components/Map/Map";
 import TopContestants from "./Components/TopContestants/TopContestants";
+import CampusStarEnglish from "./Components/CampusStarEnglish/CampusStarEnglish";
+import CampusStarBangla from "./Components/CampusStarBangla/CampusStarBangla";
 
 function App() {
+  const display = "none";
+
   return (
     <div className="App">
 
@@ -39,8 +43,19 @@ function App() {
               <Footer></Footer>
               <ScrollToTop smooth/>
           </Route>
-          <Route path="/campus-star">
-            
+          <Route path="/campus-star/en">
+              <Header display={display}></Header>
+              <CampusStarEnglish></CampusStarEnglish>
+              <Map></Map>
+              <Footer></Footer>
+              <ScrollToTop smooth/>
+          </Route>
+          <Route path="/campus-star/bn">
+            <Header display={display}></Header>
+              <CampusStarBangla></CampusStarBangla>
+              <Map></Map>
+              <Footer></Footer>
+              <ScrollToTop smooth/>
           </Route>
           <Route exact path="/">
               <Header></Header>
