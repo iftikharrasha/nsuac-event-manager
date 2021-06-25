@@ -15,12 +15,12 @@ const Intro = () => {
                         </Col>
                         <Col lg={4} className="pt-5 d-flex align-items-center">
                             <div className="achieve-text">
-                                <h2>
+                                <h2 className="medi-40">
                                     <span className="c-tag-2">
                                     EB Panel <mark className="mark c-tag-3">2020-21</mark>
                                     </span>
                                 </h2>
-                                <p className="c-tag-2 py-5">We are extremely delighted to welcome our new executive panel for the next year, with young, fresh, talented, and smartest minds. Their contributions and dedication towards the club have been unparalleled to any others, with visions to contribute the maximum for the club, upholding the flag of success and continuing its legacy, and carrying it even further.</p>
+                                <p className="c-tag-2 py-5 lit-16">We are extremely delighted to welcome our new executive panel for the next year, with young, fresh, talented, and smartest minds. Their contributions and dedication towards the club have been unparalleled to any others, with visions to contribute the maximum for the club, upholding the flag of success and continuing its legacy, and carrying it even further.</p>
                             </div>
                         </Col>
                     </Row>

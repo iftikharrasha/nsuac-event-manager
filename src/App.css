@@ -58,8 +58,23 @@ a, select , input , textarea , button{
     font-weight: 300;
 }
 
+.medi-14 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
 .medi-20{
     font-size: 20px;
+    font-weight: 500;
+}
+
+.semi-28{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.medi-30{
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -71,6 +86,11 @@ a, select , input , textarea , button{
 .medi-50{
     font-size: 50px;
     font-weight: 500;
+}
+
+.semi-40{
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .bold-140{
@@ -170,6 +190,26 @@ a, select , input , textarea , button{
 	.bold-140{
 		font-size: 40px;
 	}
+    
+    .lit-32{
+        font-size: 24px;
+    }
+
+	.lit-20 {
+		font-size: 16px;
+	}
+
+    .semi-40 {
+        font-size: 30px;
+    }
+
+    .medi-30 {
+        font-size: 20px;
+    }
+
+    .semi-28 {
+        font-size: 24px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -178,8 +218,20 @@ a, select , input , textarea , button{
 		padding-top: 200px;
 	}
 
-	.bold-140{
-        font-size: 62px;
+	.bold-140 {
+        font-size: 68px;
+    }
+    
+    .lit-32{
+        font-size: 24px;
+    }
+
+    .semi-40 {
+        font-size: 34px;
+    }
+
+    .medi-30 {
+        font-size: 20px;
     }
 }
 
@@ -189,8 +241,20 @@ a, select , input , textarea , button{
 		padding-top: 150px;
 	}
 
-	.bold-140{
-        font-size: 62px;
+	.bold-140 {
+        font-size: 80px;
+    }
+    
+    .lit-32{
+        font-size: 24px;
+    }
+
+    .semi-40 {
+        font-size: 34px;
+    }
+
+    .medi-30 {
+        font-size: 24px;
     }
 }
 
@@ -199,12 +263,24 @@ a, select , input , textarea , button{
     .bold-140{
         font-size: 84px;
     }
+    
+    .lit-32{
+        font-size: 24px;
+    }
+
+    .semi-40 {
+        font-size: 34px;
+    }
+    
+    .medi-30 {
+        font-size: 26px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1300px) and (max-width: 1531.98px){
-    .bold-140{
-        font-size: 138px;
+    .bold-140 {
+        font-size: 100px;
     }
     
     .lit-32{
@@ -233,11 +309,27 @@ a, select , input , textarea , button{
 *
 /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
 @media (max-width: 320px) {
-	
+    .lit-20 {
+        font-size: 11px;
+    }
+
+    .medi-30 {
+        font-size: 16px;
+    }
+
+    .semi-28 {
+        font-size: 20px;
+    }
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
 @media (min-width: 321px) and (max-width: 376px) {
-	
+    .lit-20 {
+        font-size: 12px;
+    }
+
+    .medi-30 {
+        font-size: 18px;
+    }
 }
 

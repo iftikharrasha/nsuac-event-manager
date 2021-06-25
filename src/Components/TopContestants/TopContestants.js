@@ -36,11 +36,11 @@ const TopContestants = () => {
 			<Container className="c_custom">
 				<Row>
 
-                    <h2 className="pb-5"><span className="c-tag-2">Top <mark className="mark c-tag-3">Videos</mark></span></h2>
+                    <h2 className="pb-5 medi-40"><span className="c-tag-2">Top <mark className="mark c-tag-3">Videos</mark></span></h2>
 
 					<Col lg={12}>
 						<div className="outer">
-							<OwlCarousel id="big" className="owl-theme" items={1} loop autoplay={false} responsive={state.responsive} nav={true}>
+							<OwlCarousel id="big" className="owl-theme" items={1} loop autoplay={true} responsive={state.responsive} nav={true}>
 								<div className="item">
                                     <Row>
 										<Col xl={7} className="offset-xl-1">
@@ -51,12 +51,13 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Contastant #1</h3>
-												<p>John Doe, Dhaka University</p>
+												<h3 className="semi-40">Contastant #1</h3>
+												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Lorem ipsum dolor sit amet.</li>
-													<li>Lorem ipsum dolor sit amet.</li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
 												</ul>
 
 												<div className="call-to-act py-5">
@@ -78,12 +79,13 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Contastant #1</h3>
-												<p>John Doe, Dhaka University</p>
+												<h3 className="semi-40">Contastant #1</h3>
+												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Lorem ipsum dolor sit amet.</li>
-													<li>Lorem ipsum dolor sit amet.</li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
 												</ul>
 
 												<div className="call-to-act py-5">
@@ -105,12 +107,13 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Contastant #1</h3>
-												<p>John Doe, Dhaka University</p>
+												<h3 className="semi-40">Contastant #1</h3>
+												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Lorem ipsum dolor sit amet.</li>
-													<li>Lorem ipsum dolor sit amet.</li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
 												</ul>
 
 												<div className="call-to-act py-5">
@@ -132,12 +135,13 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Contastant #1</h3>
-												<p>John Doe, Dhaka University</p>
+												<h3 className="semi-40">Contastant #1</h3>
+												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Lorem ipsum dolor sit amet.</li>
-													<li>Lorem ipsum dolor sit amet.</li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
 												</ul>
 
 												<div className="call-to-act py-5">
@@ -159,12 +163,13 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Contastant #1</h3>
-												<p>John Doe, Dhaka University</p>
+												<h3 className="semi-40">Contastant #1</h3>
+												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Lorem ipsum dolor sit amet.</li>
-													<li>Lorem ipsum dolor sit amet.</li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
 												</ul>
 
 												<div className="call-to-act py-5">
@@ -186,12 +191,13 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Contastant #1</h3>
-												<p>John Doe, Dhaka University</p>
+												<h3 className="semi-40">Contastant #1</h3>
+												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Lorem ipsum dolor sit amet.</li>
-													<li>Lorem ipsum dolor sit amet.</li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
 												</ul>
 
 												<div className="call-to-act py-5">
@@ -213,12 +219,13 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3>Contastant #1</h3>
-												<p>John Doe, Dhaka University</p>
+												<h3 className="semi-40">Contastant #1</h3>
+												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
-													<li>Lorem ipsum dolor sit amet.</li>
-													<li>Lorem ipsum dolor sit amet.</li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
 												</ul>
 
 												<div className="call-to-act py-5">

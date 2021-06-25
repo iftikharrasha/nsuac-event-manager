@@ -58,14 +58,14 @@ const Hero = () => {
                             </Col>
                             <Col sm={12} className="my-5">
                                 <div id="timer" className="d-flex mb-3">
-                                    <div className="time grain-bg" id="days">{timerDays}<span>Days</span></div>
-                                    <div className="time grain-bg" id="days">{timerHours}<span>Hours</span></div>
-                                    <div className="time grain-bg" id="days">{timerMinutes}<span>Minutes</span></div>
-                                    <div className="time grain-bg" id="days">{timerSeconds}<span>Seconds</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerDays}<span className="lit-20">Days</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerHours}<span  className="lit-20">Hours</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerMinutes}<span  className="lit-20">Minutes</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerSeconds}<span  className="lit-20">Seconds</span></div>
                                 </div>
                             </Col>
                             <Col sm={12} className="mt-5">
-                                <p className="loc-date">
+                                <p className="loc-date lit-18">
                                     <span>
                                         <i className="fa fa-map-marker pr-2"></i>
                                         North South University

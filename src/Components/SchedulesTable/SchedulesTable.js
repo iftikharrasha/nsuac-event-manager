@@ -25,19 +25,19 @@ const SchedulesTable = () => {
                                             <Col md={4}>
                                                 <div className="trophy-item text-center">
                                                     <img src={whistle} alt="trophy-one" className="img-fluid"/>
-                                                    <h4 className="c-tag-1 pt-5">10,000 participants</h4>
+                                                    <h4 className="c-tag-1 pt-5 lit-20">10,000 participants</h4>
                                                 </div>
                                             </Col>
                                             <Col md={4}>
                                                 <div className="trophy-item text-center">
                                                     <img src={play} alt="trophy-two" className="img-fluid"/>
-                                                    <h4 className="c-tag-1 pt-5">7 Videos</h4>
+                                                    <h4 className="c-tag-1 pt-5 lit-20">7 Videos</h4>
                                                 </div>
                                             </Col>
                                             <Col md={4}>
                                                 <div className="trophy-item text-center">
                                                     <img src={trophy} alt="trophy-three" className="img-fluid"/>
-                                                    <h4 className="c-tag-1 pt-5">1 Trophy</h4>
+                                                    <h4 className="c-tag-1 pt-5 lit-20">1 Trophy</h4>
                                                 </div>
                                             </Col>
                                         </Row>
@@ -62,7 +62,7 @@ const SchedulesTable = () => {
                     <Container className="pt-200">
                         <Row className="mb-5">
                             <Col lg={12}>
-                                <h2>
+                                <h2 className="medi-40">
                                     <span className="c-tag-1">
                                         Time <mark className="mark ">Schedules</mark>
                                     </span>

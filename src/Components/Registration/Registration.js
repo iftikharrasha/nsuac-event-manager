@@ -9,7 +9,7 @@ const Registration = () => {
                     <Container>
                         <Row>
                             <Col lg={9} className="d-flex align-items-center">
-                                <h2>
+                                <h2 className="medi-40">
                                     <span className="c-tag-2">
                                         Unleash your sports skill!
                                     </span>

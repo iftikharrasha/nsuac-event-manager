@@ -36,28 +36,17 @@
 	color: #4DAAF0;
 	padding: 0 12px;
 }
-.item{
-}
-.video_item{
-}
+
 .video_item iframe{
 	width: 95%;
 	height:500px;
 }
-.video_con{
-}
+
 .video_con h3 {
-	font-size: 40px;
 	color: #502DF9;
-	font-weight: 600;
 	margin-bottom: 42px;
 }
-.video_con p,
-.video_con ul li{
-	font-size: 25px;
-	color: #FFF;
-	font-weight: 500;
-}
+
 .video_con ul {
 	margin-top: 42px;
 }
@@ -73,7 +62,7 @@
 	background: #FFF;
 	border-radius: 50px;
 	left: 0;
-	top: 13px;
+	top: 10px;
 }
 
 .owl-next, .owl-prev {
@@ -97,16 +86,30 @@
 	left: 0;
 }
 
+.owl-next, .owl-prev {
+    background: transparent !important;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    font-size: 100px !important;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.video_con {
+		width: 80%;
 		padding-top: 50px;
+	}
+
+	.owl-nav {
+		display: none;
 	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.video_con {
+		width: 75%;
 		padding-top: 100px;
 	}
 }
@@ -114,6 +117,7 @@
 /* Medium devices(sm) (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 	.video_con {
+		width: 75%;
 		padding-top: 100px;
 	}
 }
@@ -121,6 +125,7 @@
 /* Large devices(md) (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1299.98px) {
     .video_con {
+		width: 75%;
 		padding-top: 50px;
 	}
 }

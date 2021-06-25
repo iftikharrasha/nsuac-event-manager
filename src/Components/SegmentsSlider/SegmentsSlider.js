@@ -60,7 +60,7 @@ const SegmentsSlider = () => {
                 <Container>
                     <Row>
                         <Col sm={12}>
-                            <h2>
+                            <h2 className="medi-40">
                                 <span className="c-tag-1">
                                     Event <mark className="mark c-tag-2">Segments</mark>
                                 </span>

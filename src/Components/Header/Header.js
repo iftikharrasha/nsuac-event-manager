@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import logo from '../../img/bos.svg';
 import facebook from '../../img/facebook.svg';
 import instagram from '../../img/instagram.svg';
 import youtube from '../../img/youtube.svg';
 import { Link, animateScroll as scroll } from "react-scroll";
+import Brand from '../Brand/Brand';
 import './Header.css';
 
 const Header = () => {
@@ -26,9 +26,7 @@ const Header = () => {
                 <Container>
                     <nav className="navbar navbar-expand-sm navbar-light nav-items py-3">
                         <div className="logo">
-                            <a className="navbar-brand" href="index.html">
-                                <img src={logo} className="img-fluid" alt="bos"/>
-                            </a>
+                            <Brand></Brand>
                         </div>
                         {/* <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>

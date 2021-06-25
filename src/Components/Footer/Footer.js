@@ -11,10 +11,10 @@ const Footer = () => {
                     <Row>
                         <Col lg={5} className="d-flex align-items-center justify-content-center">
                             <div className="">
-                                <h3>
+                                <h3 className="semi-28">
                                     <img src={logo} className="img-fluid w-25" alt="bos-footer"/>
                                     Battle of Skills 2021</h3>
-                                <p>
+                                <p className="lit-18">
                                     North South University Athletics Club (NSUAC) is going to organize a three-day long Skill showing event for from 1st June, 2021 to 3rd June, 2021.
                                 </p>
                             </div>
@@ -38,24 +38,24 @@ const Footer = () => {
                     </Row>
                     <nav className="roles">
                             <div className="roles-details">
-                                <h4 className="c-tag-3">Faculty Advisor</h4>
-                                <ul>
+                                <h4 className="c-tag-3 lit-18">Faculty Advisor</h4>
+                                <ul className="lit-16">
                                         <li>
                                             <a href="#">Mehedi Hasan</a>
                                         </li>
                                 </ul>
                             </div>
                             <div className="roles-details">
-                                <h4 className="c-tag-3">President</h4>
-                                <ul>
+                                <h4 className="c-tag-3 lit-18">President</h4>
+                                <ul className="lit-16">
                                         <li>
                                             <a href="#">Hridoy Alom</a>
                                         </li>
                                 </ul>
                             </div>
                             <div className="roles-details">
-                                <h4 className="c-tag-3">Vice President</h4>
-                                <ul>
+                                <h4 className="c-tag-3 lit-18">Vice President</h4>
+                                <ul className="lit-16">
                                         <li>
                                             <a href="#">Ramisa Anjuman</a>
                                         </li>
@@ -65,24 +65,24 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="roles-details">
-                                <h4 className="c-tag-3">General Secretary</h4>
-                                <ul>
+                                <h4 className="c-tag-3 lit-18">General Secretary</h4>
+                                <ul className="lit-16">
                                         <li>
                                             <a href="#">Rahul Halder</a>
                                         </li>
                                 </ul>
                             </div>
                             <div className="roles-details">
-                                <h4 className="c-tag-3">Treasurer</h4>
-                                <ul>
+                                <h4 className="c-tag-3 lit-18">Treasurer</h4>
+                                <ul className="lit-16">
                                         <li>
                                             <a href="#">Shafiq Topu</a>
                                         </li>
                                 </ul>
                             </div>
                             <div className="roles-details">
-                                <h4 className="c-tag-3">Join Secretary</h4>
-                                <ul>
+                                <h4 className="c-tag-3 lit-18">Join Secretary</h4>
+                                <ul className="lit-16">
                                         <li>
                                             <a href="#">Jahid Hasan Alvi</a>
                                         </li>
@@ -94,18 +94,18 @@ const Footer = () => {
                     </nav>
                     <div className="footer-rights">
                         <div className="footer-copyright">
-                            <span className="c-tag-3">© All Rights Reserved | NSU Athletics Club</span>
+                            <span className="c-tag-3 medi-14">© All Rights Reserved | NSU Athletics Club</span>
                         </div>
                         <div className="footer-rights-link">
                             <ul>
                                 <li>
-                                    <a href="#" className="c-tag-3">North South University</a>
+                                    <a href="#" className="c-tag-3 medi-14">North South University</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="c-tag-3">BOS Registration</a>
+                                    <a href="#" className="c-tag-3 medi-14">BOS Registration</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="c-tag-3">Campus Star</a>
+                                    <a href="#" className="c-tag-3 medi-14">Campus Star</a>
                                 </li>
                             </ul>
                         </div>

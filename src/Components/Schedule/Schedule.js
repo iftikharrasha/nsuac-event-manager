@@ -14,7 +14,7 @@ const Schedule = (props) => {
                         <p>{time}</p>
                     </Col>
                     <Col md={9} className="c-tag-1">
-                        <h2>{event}</h2>
+                        <h2 className="lit-32">{event}</h2>
                         <span>{till}</span>
                     </Col>
                 </Row>

@@ -12,12 +12,12 @@ const Segment = (props) => {
                             <img className="img-fluid" src={img} alt="segment"/>
                             <ul className="seg-name">
                                 <li>
-                                    <p className="">{name}</p>
+                                    <p>{name}</p>
                                 </li>
                             </ul>
                          </div>
                         <div className="seg-details">
-                            <h3 className="c-tag-1">
+                            <h3 className="c-tag-1 lit-18">
                                 {detail}
                             </h3>
                         </div>
