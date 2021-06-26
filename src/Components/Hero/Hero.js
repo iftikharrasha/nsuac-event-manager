@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import nsuac from '../../img/nsuac.jpg';
 import './Hero.css';
@@ -58,10 +60,10 @@ const Hero = () => {
                             </Col>
                             <Col sm={12} className="my-5">
                                 <div id="timer" className="d-flex mb-3">
-                                    <div className="time grain-bg medi-50" id="days">{timerDays}<span className="lit-20">Days</span></div>
-                                    <div className="time grain-bg medi-50" id="days">{timerHours}<span  className="lit-20">Hours</span></div>
-                                    <div className="time grain-bg medi-50" id="days">{timerMinutes}<span  className="lit-20">Minutes</span></div>
-                                    <div className="time grain-bg medi-50" id="days">{timerSeconds}<span  className="lit-20">Seconds</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerDays}<span className="lit-20 c-tag-5">Days</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerHours}<span  className="lit-20 c-tag-5">Hours</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerMinutes}<span  className="lit-20 c-tag-5">Minutes</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerSeconds}<span  className="lit-20 c-tag-5">Seconds</span></div>
                                 </div>
                             </Col>
                             <Col sm={12} className="mt-5">
@@ -83,7 +85,7 @@ const Hero = () => {
                     <Row className="pt-5">
                         <Col className="pt-5">
                             <div className="host text-center"> 
-                                <img src={nsuac} className="s-img-switch" alt=""/>
+                                <LazyLoadImage effect="blur" src={nsuac} className="s-img-switch" alt=""/>
                             </div>                      
                         </Col>
                     </Row>

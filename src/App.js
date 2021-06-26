@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
+import ScrollTop from './ScrollTop.js';
 // import {Helmet} from "react-helmet";
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
@@ -26,56 +27,57 @@ function App() {
 
   return (
     <div className="App">
-
-<Router>
-      <Switch>
-          <Route path="/home">
-              <Header></Header>
-              <Hero></Hero>
-              <Achievments></Achievments>
-              <Intro></Intro>
-              <SchedulesTable></SchedulesTable>
-              <Registration></Registration>
-              <TopContestants></TopContestants>
-              <SegmentsSlider></SegmentsSlider>
-              <MediaPartners></MediaPartners>
-              <Map></Map>
-              <Footer></Footer>
-              <ScrollToTop smooth/>
-          </Route>
-          <Route path="/campus-star/en">
-              <Header display={display}></Header>
-              <CampusStarEnglish></CampusStarEnglish>
-              <Map></Map>
-              <Footer></Footer>
-              <ScrollToTop smooth/>
-          </Route>
-          <Route path="/campus-star/bn">
-            <Header display={display}></Header>
-              <CampusStarBangla></CampusStarBangla>
-              <Map></Map>
-              <Footer></Footer>
-              <ScrollToTop smooth/>
-          </Route>
-          <Route exact path="/">
-              <Header></Header>
-              <Hero></Hero>
-              <Achievments></Achievments>
-              <Intro></Intro>
-              <SchedulesTable></SchedulesTable>
-              <Registration></Registration>
-              <TopContestants></TopContestants>
-              <SegmentsSlider></SegmentsSlider>
-              <MediaPartners></MediaPartners>
-              <Map></Map>
-              <Footer></Footer>
-              <ScrollToTop smooth/>
-          </Route>
-          <Route path="*">
-              
-          </Route>
-      </Switch>
-</Router>
+        <Router>
+            <ScrollTop>
+                <Switch>
+                    <Route path="/home">
+                        <Header></Header>
+                        <Hero></Hero>
+                        <Achievments></Achievments>
+                        <Intro></Intro>
+                        <SchedulesTable></SchedulesTable>
+                        <Registration></Registration>
+                        <TopContestants></TopContestants>
+                        <SegmentsSlider></SegmentsSlider>
+                        <MediaPartners></MediaPartners>
+                        <Map></Map>
+                        <Footer></Footer>
+                        <ScrollToTop smooth/>
+                    </Route>
+                    <Route path="/campus-star/en">
+                        <Header display={display}></Header>
+                        <CampusStarEnglish></CampusStarEnglish>
+                        <Map></Map>
+                        <Footer></Footer>
+                        <ScrollToTop smooth/>
+                    </Route>
+                    <Route path="/campus-star/bn">
+                      <Header display={display}></Header>
+                        <CampusStarBangla></CampusStarBangla>
+                        <Map></Map>
+                        <Footer></Footer>
+                        <ScrollToTop smooth/>
+                    </Route>
+                    <Route exact path="/">
+                        <Header></Header>
+                        <Hero></Hero>
+                        <Achievments></Achievments>
+                        <Intro></Intro>
+                        <SchedulesTable></SchedulesTable>
+                        <Registration></Registration>
+                        <TopContestants></TopContestants>
+                        <SegmentsSlider></SegmentsSlider>
+                        <MediaPartners></MediaPartners>
+                        <Map></Map>
+                        <Footer></Footer>
+                        <ScrollToTop smooth/>
+                    </Route>
+                    <Route path="*">
+                        
+                    </Route>
+                </Switch>
+            </ScrollTop>
+        </Router>
         {/* <Helmet>
             <script src="./icons/font-awesome.min.js" />
         </Helmet> */}

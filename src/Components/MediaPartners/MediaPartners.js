@@ -1,4 +1,6 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import yamaha from '../../img/yamaha.png';
 import kings from '../../img/kings.png';
@@ -28,7 +30,7 @@ const MediaPartners = () => {
                                 </Col>
                                 <Col sm={12} className="c-tag-1">
                                     <a href="#" className="sponsor t-spon">
-                                        <img className="img-fluid" src={yamaha} alt="yamaha"/>        
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={yamaha} alt="yamaha"/>        
                                     </a>
                                 </Col>
                             </Row>
@@ -41,12 +43,12 @@ const MediaPartners = () => {
                                 </Col>
                                 <Col sm={6} className="c-tag-1">
                                     <a href="#" className="sponsor">
-                                        <img className="img-fluid" src={kings} alt="kings"/>        
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={kings} alt="kings"/>        
                                     </a>
                                 </Col>
                                 <Col sm={6} className="c-tag-1 py-sm-0 py-5">
                                     <a href="#" className="sponsor">
-                                        <img className="img-fluid" src={kings} alt="kings"/>        
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={kings} alt="kings2"/>        
                                     </a>
                                 </Col>
                             </Row>
@@ -59,17 +61,17 @@ const MediaPartners = () => {
                                 </Col>
                                 <Col sm={4} className="c-tag-1">
                                     <a href="#" className="sponsor sp-polar">
-                                        <img className="img-fluid" src={polar} alt="polar"/>        
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={polar} alt="polar"/>        
                                     </a>
                                 </Col>
                                 <Col sm={4} className="c-tag-1  py-sm-0 py-5">
                                     <a href="#" className="ml-sm-5 ml-0 sponsor sp-dhoni">
-                                        <img className="img-fluid" src={dhoni} alt="dhoni"/>        
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={dhoni} alt="dhoni1"/>        
                                     </a>
                                 </Col>
                                 <Col sm={4} className="c-tag-1  py-sm-0 py-5">
                                     <a href="#" className="ml-sm-5 ml-0 sponsor sp-dhoni">
-                                        <img className="img-fluid" src={dhoni} alt="dhoni"/>        
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={dhoni} alt="dhoni"/>        
                                     </a>
                                 </Col>
                             </Row>

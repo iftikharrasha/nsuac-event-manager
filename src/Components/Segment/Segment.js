@@ -1,4 +1,6 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import './Segment.css';
 
 const Segment = (props) => {
@@ -9,7 +11,7 @@ const Segment = (props) => {
                 <div className="segment-item">
                     <article className="segment">
                         <div className="segment-img"> 
-                            <img className="img-fluid" src={img} alt="segment"/>
+                            <LazyLoadImage effect="blur" className="img-fluid" src={img} alt="segment"/>
                             <ul className="seg-name">
                                 <li>
                                     <p>{name}</p>

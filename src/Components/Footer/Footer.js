@@ -94,18 +94,18 @@ const Footer = () => {
                     </nav>
                     <div className="footer-rights">
                         <div className="footer-copyright">
-                            <span className="c-tag-3 medi-14">© All Rights Reserved | NSU Athletics Club</span>
+                            <span className="c-tag-4 medi-14">© All Rights Reserved | NSU Athletics Club</span>
                         </div>
                         <div className="footer-rights-link">
                             <ul>
                                 <li>
-                                    <a href="#" className="c-tag-3 medi-14">North South University</a>
+                                    <a href="#" className="c-tag-4 medi-14">North South University</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="c-tag-3 medi-14">BOS Registration</a>
+                                    <a href="#" className="c-tag-4 medi-14">BOS Registration</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="c-tag-3 medi-14">Campus Star</a>
+                                    <a href="#" className="c-tag-4 medi-14">Campus Star</a>
                                 </li>
                             </ul>
                         </div>

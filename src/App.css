@@ -26,17 +26,24 @@ a, select , input , textarea , button{
 
 /* colors */
 .c-tag-1{
-    color: #2E303C;
+    color: #2E303C !important;
 }
 
 .c-tag-2{
-    color: #fff;
+    color: #fff !important;
 }
 
 .c-tag-3{
     color: #7e7e7e !important;
 }
 
+.c-tag-4{
+    color: wheat !important;
+}
+
+.c-tag-5{
+    color: #502DF9 !important;
+}
 /* fonts */
 .lit-16{
     font-size: 16px;

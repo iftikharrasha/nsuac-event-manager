@@ -1,4 +1,6 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import OwlCarousel from 'react-owl-carousel';  
 import '../../../node_modules/owl.carousel/dist/assets/owl.carousel.css';  
@@ -45,7 +47,35 @@ const TopContestants = () => {
                                     <Row>
 										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-												<img src={c2} alt="Image1"/>
+												<LazyLoadImage effect="blur" src={c2} alt="Image1"/>
+											</div>
+										</Col>
+
+										<Col xl={3} className="d-flex justify-content-center align-items-center">
+											<div className="video_con">
+												<h3 className="semi-40 c-tag-5">Contastant #1</h3>
+												<p className="lit-18">John Doe, Dhaka University</p>
+
+												<ul>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+												</ul>
+
+												<div className="call-to-act py-5">
+													<a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank" rel="noreferrer">
+														<span> Vote Now </span>
+													</a>
+												</div>
+											</div>
+										</Col>
+									</Row>
+								</div>
+								<div className="item">
+									<Row>
+										<Col xl={7} className="offset-xl-1">
+											<div className="video_item">
+                                                <LazyLoadImage effect="blur" src={c2} alt="Image2"/>
 											</div>
 										</Col>
 
@@ -73,7 +103,7 @@ const TopContestants = () => {
 									<Row>
 										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-                                                <img src={c2} alt="Image2"/>
+                                                <LazyLoadImage effect="blur" src={c3} alt="Image3"/>
 											</div>
 										</Col>
 
@@ -101,7 +131,7 @@ const TopContestants = () => {
 									<Row>
 										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-                                                <img src={c3} alt="Image3"/>
+                                                <LazyLoadImage effect="blur" src={c4} alt="Image4"/>
 											</div>
 										</Col>
 
@@ -129,7 +159,7 @@ const TopContestants = () => {
 									<Row>
 										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-                                                <img src={c4} alt="Image4"/>
+                                                <LazyLoadImage effect="blur" src={c5} alt="Image5"/>
 											</div>
 										</Col>
 
@@ -157,7 +187,7 @@ const TopContestants = () => {
 									<Row>
 										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-                                                <img src={c5} alt="Image5"/>
+                                                <LazyLoadImage effect="blur" src={c1} alt="Image6"/>
 											</div>
 										</Col>
 
@@ -185,35 +215,7 @@ const TopContestants = () => {
 									<Row>
 										<Col xl={7} className="offset-xl-1">
 											<div className="video_item">
-                                                <img src={c1} alt="Image6"/>
-											</div>
-										</Col>
-
-										<Col xl={3} className="d-flex justify-content-center align-items-center">
-											<div className="video_con">
-												<h3 className="semi-40">Contastant #1</h3>
-												<p className="lit-18">John Doe, Dhaka University</p>
-
-												<ul>
-													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
-													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
-													<li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
-												</ul>
-
-												<div className="call-to-act py-5">
-													<a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank" rel="noreferrer">
-														<span> Vote Now </span>
-													</a>
-												</div>
-											</div>
-										</Col>
-									</Row>
-								</div>
-								<div className="item">
-									<Row>
-										<Col xl={7} className="offset-xl-1">
-											<div className="video_item">
-                                                <img src={c6} alt="Image7"/>
+                                                <LazyLoadImage effect="blur" src={c6} alt="Image7"/>
 											</div>
 										</Col>
 

@@ -1,4 +1,6 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import ncl from '../../img/ncl.png';
 import sportscarnival from '../../img/sportscarnival.png';
@@ -32,14 +34,14 @@ const Achievments = () => {
                             <Row>
                                 <Col sm={4} className="mt-lg-0 mt-5">
                                     <div className="text-center">
-                                        <img className="img-fluid" src={sportscarnival} alt="trophy"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={sportscarnival} alt="trophy"/>
                                     <h4 className="pt-3 c-tag-3 lit-20">
                                         <span>Sports Carnival
                                         </span>
                                     </h4>
                                     </div>
                                     <div className="text-center mt-50">
-                                        <img className="img-fluid" src={intrafootball} alt="trophy"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={intrafootball} alt="trophy"/>
                                     <h4 className="pt-3 c-tag-3 lit-20">
                                         <span>Intra Batch Football
                                         </span>
@@ -48,14 +50,14 @@ const Achievments = () => {
                                 </Col>
                                 <Col sm={4}>
                                     <div className="text-center mt-50">
-                                        <img className="img-fluid" src={nfl} alt="trophy"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={nfl} alt="trophy"/>
                                     <h4 className="pt-3 c-tag-3 lit-20">
                                         <span>NFL 2019
                                         </span>
                                     </h4>
                                     </div>
                                     <div className="text-center mt-50">
-                                        <img className="img-fluid" src={intracricket} alt="trophy"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={intracricket} alt="trophy"/>
                                     <h4 className="pt-3 c-tag-3 lit-20">
                                         <span>Intra Batch Cricket
                                         </span>
@@ -64,7 +66,7 @@ const Achievments = () => {
                                 </Col>
                                 <Col sm={4}>
                                     <div className="text-center mt-150">
-                                        <img className="img-fluid" src={ncl} alt="trophy"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={ncl} alt="trophy"/>
                                     <h4 className="pt-3 c-tag-3 lit-20">
                                         <span>NCL 2019
                                         </span>

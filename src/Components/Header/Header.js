@@ -1,4 +1,6 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Container } from 'react-bootstrap';
 import facebook from '../../img/facebook.svg';
 import instagram from '../../img/instagram.svg';
@@ -39,17 +41,17 @@ const Header = (props) => {
                             <ul className="navbar-nav ml-auto text-uppercase">
                                 <li className="nav-item d-sm-block d-none">
                                     <a className="nav-link" href="https://www.facebook.com/nsuathleticsclub/" target="_blank" rel="noreferrer">
-                                        <img src={facebook} alt="facebook"/>
+                                        <LazyLoadImage effect="blur" src={facebook} alt="facebook"/>
                                     </a>
                                 </li>
                                 <li className="nav-item d-sm-block d-none">
                                     <a className="nav-link" href="https://www.youtube.com/c/NSUAthleticsClub/" target="_blank" rel="noreferrer">
-                                        <img src={youtube} alt="linkedin"/>
+                                        <LazyLoadImage effect="blur" src={youtube} alt="linkedin"/>
                                     </a>
                                 </li>
                                 <li className="nav-item d-sm-block d-none">
                                     <a className="nav-link" href="https://www.instagram.com/nsuac_official/" target="_blank" rel="noreferrer">
-                                        <img src={instagram} alt="instagram"/>
+                                        <LazyLoadImage effect="blur" src={instagram} alt="instagram"/>
                                     </a>
                                 </li>
                                 <li className="nav-item d-sm-block d-none">

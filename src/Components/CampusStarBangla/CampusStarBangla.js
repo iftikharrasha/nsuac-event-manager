@@ -12,7 +12,7 @@ const CampusStarBangla = () => {
             <section className="campusStar pt-150">
                 <Container>
                     <Row className="row">
-                        <Col sm={10} className="pb-5">
+                        <Col sm={10} className="pb-sm-5 pb-0">
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
                                     <li className="breadcrumb-item">
@@ -22,12 +22,12 @@ const CampusStarBangla = () => {
                                 </ol>
                             </nav>
                         </Col>
-                        <Col sm={2} className="pb-5">
+                        <Col sm={2} className="pb-sm-5 pb-0">
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb justify-content-center">
                                     <li className="breadcrumb-item">
                                         <Link to="/campus-star/en" className="medi-15 c-tag-1" href="index.html">
-                                            <img src="https://lipis.github.io/flag-icon-css/flags/4x3/um.svg"/>
+                                            <img src="https://lipis.github.io/flag-icon-css/flags/4x3/um.svg" alt="usa-flag"/>
                                             <span class="lang-txt">EN</span>
                                         </Link>
                                     </li>
