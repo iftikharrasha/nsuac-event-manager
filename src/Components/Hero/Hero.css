@@ -15,7 +15,7 @@
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: wheat;
+    -webkit-text-stroke-color: var(--hero-strip);
 }
 
 .hero p.loc-date span {
@@ -23,7 +23,7 @@
 }
 
 .hero p.loc-date i.fa {
-    color: #502DF9;
+    color: var(--primary-color);
 }
 
 #timer {
@@ -35,7 +35,7 @@
     width: 25%;
     font-weight: 500;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    background-color: #2E303C;
+    background-color: var(--main-color);
     /* background: linear-gradient(90deg, #c973ff 0%, #aebaf8 95%); */
     margin: 0 4px;
     border-radius: 4px;

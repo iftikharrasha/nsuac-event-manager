@@ -6,7 +6,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <>
-            <section className="grain-bg footer">
+            <section className="grain-bg footer bg-tag-2">
                 <Container>
                     <Row>
                         <Col lg={5} className="d-flex align-items-center justify-content-center">
@@ -22,10 +22,10 @@ const Footer = () => {
                         <Col lg={7} className="d-flex align-items-center justify-content-center">
                                 <div className="call-to-act call-icon">
                                     <a href="https://www.facebook.com/nsuathleticsclub/" target="_blank" className="pt-3">
-                                            <i className="fab fa-facebook-square" aria-hidden="true"></i>
+                                        <i className="fab fa-facebook-square" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://www.youtube.com/c/NSUAthleticsClub" target="_blank" className="pt-3">
-                                            <i className="fa fa-youtube-play" aria-hidden="true"></i>
+                                        <i className="fa fa-youtube-play" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://www.instagram.com/nsuac_official/" target="_blank" className="pt-3">
                                         <i className="fa fa-instagram" aria-hidden="true"></i>

@@ -1,6 +1,6 @@
 .mark{
-    color: #fff;
-    background-color: #2E303C !important;
+    color: var(--type-color);
+    background-color: var(--main-color) !important;
 }
 
 .achieve-text::before, .achieve-text::after {
@@ -13,8 +13,8 @@
     width: 170px;
     height: 80px;
     z-index: 1;
-    border-right-color: #CA72FE;
-    border-bottom-color: #CA72FE;
+    border-right-color: var(--complement-color);
+    border-bottom-color: var(--complement-color);
 }
 
 /* Extra small devices (portrait phones, less than 576px) */

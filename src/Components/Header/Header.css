@@ -3,7 +3,7 @@
 }
 
 .header-bg {
-    background-color: #2E303C;
+    background-color: var(--main-color);
 }
 
 .logo {
@@ -85,7 +85,7 @@
     display: block;
 	width: 0%;
     height: 1px;
-    background-color: #CA72FE;
+    background-color: var(--complement-color);
     transition: width .2s ease,right .2s ease;
 }
 
@@ -104,7 +104,7 @@
 }
    
  #navigation > ul > li > a {
-	color: wheat;
+	color: var(--hero-strip);
 	cursor: pointer;
  }
  
@@ -140,7 +140,7 @@
 }
 
 rect {
-    fill: #F7C514;
+    fill: var(--complement-color);
     transition: transform 0.3s ease;
 }
 
@@ -183,7 +183,7 @@ rect {
 }
 
 .backgrounColorToggle svg rect {
-    fill: #F7C514;
+    fill: var(--complement-color);
 }
 
 .backgrounColorToggle svg .bottom {
@@ -203,20 +203,20 @@ rect {
 .menu {
 	height: 1080px;
     width: 500px;
-	background-color: wheat;
+	background-color: var(--hero-strip);
 	position: absolute;
 	top: 0px;
 	left: -1000px;
 }
 
 #navigation .show {
-	/* background-color: #2E303C; */
+	/* background-color: var(--main-color); */
 	position: absolute;
 	top: 0;
 	left: 0;
 	padding-top: 120px;
     transition: left .4s ease-in-out;
-	border-right: 2px solid #F7C514;
+	border-right: 2px solid var(--complement-color);
 	background: #00000099;
     box-shadow: 0px 3px 6px #0000001a;
     backdrop-filter: blur(5px);

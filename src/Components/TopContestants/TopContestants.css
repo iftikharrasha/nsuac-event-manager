@@ -57,7 +57,7 @@
 	content: "";
 	width: 10px;
 	height: 10px;
-	background: #FFF;
+	background: var(--type-color);
 	border-radius: 50px;
 	left: 0;
 	top: 10px;

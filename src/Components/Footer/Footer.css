@@ -1,12 +1,11 @@
 .footer {
     padding: 50px 0;
-    background-color: #2E303C;
     position: relative;
 }
 
 .call-to-act a i{
     font-size: 40px;
-    color: #502DF9;
+    color: var(--primary-color);
     transition: 200ms ease-in-out;
 }
 
