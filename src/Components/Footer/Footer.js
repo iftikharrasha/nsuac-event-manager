@@ -1,5 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import {
+    BrowserRouter as Router,
+    Link
+  } from "react-router-dom";
 import logo from '../../img/bos.svg';
 import './Footer.css';
 
@@ -105,7 +109,7 @@ const Footer = () => {
                                     <a href="#" className="c-tag-4 medi-14">BOS Registration</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="c-tag-4 medi-14">Campus Star</a>
+                                    <Link to="/campus-star/en" className="c-tag-4 medi-14">Campus Star</Link>
                                 </li>
                             </ul>
                         </div>

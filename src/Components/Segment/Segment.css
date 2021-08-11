@@ -40,7 +40,7 @@
 .segment-item .seg-name li {
     display: inline-block;
     text-align: center;
-    background: #512EF9;
+    background: var(--primary-color);
 }
 
 .segment-item .seg-name li p{
@@ -80,10 +80,10 @@
 
 .slick-dots li button:before {
     font-size: 16px;
-    color: #673de6;
+    color: var(--primary-color);
 }
 
 .slick-dots li.slick-active button:before {
     opacity: 1;
-    color: #512EF9;
+    color: var(--primary-color);
 }

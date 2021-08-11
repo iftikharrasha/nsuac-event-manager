@@ -27,7 +27,7 @@ const Header = (props) => {
             <div id="ribbon" className="nominee black right d-lg-block d-none">
                 <a href="http://www.northsouth.edu/osa/clubs/nsuac.html" target="_blank" rel="noreferrer"></a>
             </div>
-            <header className="grain-bg header-bg">
+            <header className="header-bg">
                 <Container>
                     <nav className="navbar navbar-expand-sm navbar-light nav-items py-3">
                         <div className="logo">

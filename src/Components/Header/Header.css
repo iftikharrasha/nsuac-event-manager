@@ -206,7 +206,7 @@ rect {
 	background-color: var(--hero-strip);
 	position: absolute;
 	top: 0px;
-	left: -1000px;
+	left: -1010px;
 }
 
 #navigation .show {

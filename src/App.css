@@ -2,8 +2,10 @@
     --type-color: #fff;
     --hero-strip: wheat;
     
-    --primary-color: #502DF9;
+    --primary-color: linear-gradient(50deg, #502DF9 25%, #F7C514 100%);
     --complement-color: #F7C514;
+
+    --secondary-color: #502DF9;
 
     --main-color: #2E303C;
 }
@@ -98,6 +100,11 @@ a, select , input , textarea , button{
 
 .semi-28{
     font-size: 28px;
+    font-weight: 600;
+}
+
+.semi-18{
+    font-size: 18px;
     font-weight: 600;
 }
 

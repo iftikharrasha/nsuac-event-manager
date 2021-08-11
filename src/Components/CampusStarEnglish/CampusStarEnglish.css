@@ -9,13 +9,11 @@
   vertical-align:middle;
 }
 
-.campusStar .call-to-act a{
-  font-size: 12px;
-}
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-	
+  .campusStar .call-to-act a{
+    font-size: 12px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */

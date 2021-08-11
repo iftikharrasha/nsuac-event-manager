@@ -14,7 +14,7 @@ const Hero = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('July 15, 2021 00:00:00').getTime();
+        const countdownDate = new Date('August 30, 2021 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -60,10 +60,10 @@ const Hero = () => {
                             </Col>
                             <Col sm={12} className="my-5">
                                 <div id="timer" className="d-flex mb-3">
-                                    <div className="time grain-bg medi-50" id="days">{timerDays}<span className="lit-20 c-tag-5">Days</span></div>
-                                    <div className="time grain-bg medi-50" id="days">{timerHours}<span  className="lit-20 c-tag-5">Hours</span></div>
-                                    <div className="time grain-bg medi-50" id="days">{timerMinutes}<span  className="lit-20 c-tag-5">Minutes</span></div>
-                                    <div className="time grain-bg medi-50" id="days">{timerSeconds}<span  className="lit-20 c-tag-5">Seconds</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerDays}<span className="lit-20 c-tag-3">Days</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerHours}<span  className="lit-20 c-tag-3">Hours</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerMinutes}<span  className="lit-20 c-tag-3">Minutes</span></div>
+                                    <div className="time grain-bg medi-50" id="days">{timerSeconds}<span  className="lit-20 c-tag-3">Seconds</span></div>
                                 </div>
                             </Col>
                             <Col sm={12} className="mt-5">
@@ -74,7 +74,7 @@ const Hero = () => {
                                     </span>
                                     <span>
                                         <i className="fa fa-calendar pr-2"></i>
-                                        June 1 to 12, 2021
+                                        September 1 to 12, 2021
                                     </span>
                                 </p>
                             </Col>

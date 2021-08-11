@@ -81,7 +81,7 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3 className="semi-40">Contastant #1</h3>
+												<h3 className="semi-40 c-tag-5">Contastant #2</h3>
 												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
@@ -109,7 +109,7 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3 className="semi-40">Contastant #1</h3>
+												<h3 className="semi-40 c-tag-5">Contastant #3</h3>
 												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
@@ -137,7 +137,7 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3 className="semi-40">Contastant #1</h3>
+												<h3 className="semi-40 c-tag-5">Contastant #4</h3>
 												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
@@ -165,7 +165,7 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3 className="semi-40">Contastant #1</h3>
+												<h3 className="semi-40 c-tag-5">Contastant #5</h3>
 												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
@@ -193,7 +193,7 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3 className="semi-40">Contastant #1</h3>
+												<h3 className="semi-40 c-tag-5">Contastant #6</h3>
 												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>
@@ -221,7 +221,7 @@ const TopContestants = () => {
 
 										<Col xl={3} className="d-flex justify-content-center align-items-center">
 											<div className="video_con">
-												<h3 className="semi-40">Contastant #1</h3>
+												<h3 className="semi-40 c-tag-5">Contastant #7</h3>
 												<p className="lit-18">John Doe, Dhaka University</p>
 
 												<ul>

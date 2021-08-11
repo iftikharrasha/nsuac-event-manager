@@ -28,7 +28,7 @@ const CampusStarBangla = () => {
                                     <li className="breadcrumb-item">
                                         <Link to="/campus-star/en" className="medi-15 c-tag-1" href="index.html">
                                             <img src="https://lipis.github.io/flag-icon-css/flags/4x3/um.svg" alt="usa-flag"/>
-                                            <span class="lang-txt">EN</span>
+                                            <span className="lang-txt">EN</span>
                                         </Link>
                                     </li>
                                 </ol>

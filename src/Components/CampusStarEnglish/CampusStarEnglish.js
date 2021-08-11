@@ -28,7 +28,7 @@ const CampusStarEnglish = () => {
                                     <li className="breadcrumb-item">
                                         <Link to="/campus-star/bn" className="medi-15 c-tag-1" href="index.html">
                                             <img src="https://lipis.github.io/flag-icon-css/flags/4x3/bd.svg" alt="bangladesh-flag"/>
-                                            <span class="lang-txt">BN</span></Link>
+                                            <span className="lang-txt">BN</span></Link>
                                     </li>
                                 </ol>
                             </nav>
@@ -89,7 +89,7 @@ const CampusStarEnglish = () => {
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>2. </span>Increase Viewers for the event</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>3. </span>Increase Participants for the events</p>
 
-                                <p className="pt-3 c-tag-1 lit-18">If you think you’re capable enough to uphold the honour and dignity by representing your institution throughout the nation as a campus star, you are just a step away, mail us at athletics.club@northsouth.edu with all the necessary details as mentioned. We will contact you as soon as possible for a short interview followed by an appointment!!!! So, grab your opportunity and apply right away.</p>
+                                <p className="pt-3 c-tag-1 lit-18">If you think you’re capable enough to uphold the honour and dignity by representing your institution throughout the nation as a campus star, you are just a step away, mail us at <span className="semi-18">athletics.club@northsouth.edu</span> with all the necessary details as mentioned. We will contact you as soon as possible for a short interview followed by an appointment!!!! So, grab your opportunity and apply right away.</p>
 
                                 <div className="pt-5 call-to-act mt-2 text-sm-center">
                                         <a href="#">
