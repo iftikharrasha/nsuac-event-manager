@@ -1,18 +1,30 @@
-:root {
-    --type-color: #fff;
-    --hero-strip: wheat;
-    
-    --primary-color: linear-gradient(50deg, #502DF9 25%, #F7C514 100%);
-    --complement-color: #F7C514;
+@import './variables';
+// @import './notfound';
 
-    --secondary-color: #502DF9;
-
-    --main-color: #2E303C;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    // @media (max-width: 375.5px) {
+    //     font-size: 8px;
+    // }
+    // @media (min-width: 376px) and (max-width: 575.98px) {
+    //     font-size: 10px;
+    // }
+    // @media (min-width: 576px) and (max-width: 1531.98px) {
+    //     font-size: 12px;
+    // }
+}
+
 
 body {
 	font-family: 'Poppins', sans-serif !important;
-    color: var(--type-color) !important;
+    color: $type !important;
 }
 
 ul{
@@ -33,16 +45,16 @@ a, select , input , textarea , button{
 }
 
 .c_custom{
-    max-width: 1700px !important;
+    max-width: 106.25rem !important;
 }
 
 /* colors */
 .c-tag-1{
-    color: var(--main-color) !important;
+    color: $main !important;
 }
 
 .c-tag-2{
-    color: var(--type-color) !important;
+    color: $type !important;
 }
 
 .c-tag-3{
@@ -50,132 +62,129 @@ a, select , input , textarea , button{
 }
 
 .c-tag-4{
-    color: var(--hero-strip) !important;
+    color: $strip !important;
 }
 
 .c-tag-5{
-    color: var(--primary-color) !important;
+    color: $primary !important;
 }
 
 /* bg */
 .bg-tag-1{
-    background-color: var(--primary-color) !important;
+    background-color: $primary !important;
 }
 
 .bg-tag-2{
-    background-color: var(--main-color) !important;
+    background-color: $main !important;
 }
 
 
 /* fonts */
 .lit-16{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
 .lit-18{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 300;
 }
 
 .lit-20{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 300;
 }
 
 .lit-32{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 300;
 }
 
 .medi-14 {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
 }
 
 .medi-20{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
 .semi-28{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 600;
 }
 
 .semi-18{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
 }
 
 .medi-30{
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 500;
 }
 
 .medi-40{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 500;
 }
 
 .medi-50{
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 500;
 }
 
 .semi-40{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 .bold-140{
     font-family: 'Righteous', cursive;
-    font-size: 140px;
+    font-size: 8.75rem;
     font-weight: 700;
 }
 
-.App {
-}
-
 .pt-150{
-	padding-top: 150px;
+	padding-top: 9.375rem;
 }
 
 .pt-200{
-	padding-top: 200px;
+	padding-top: 12.5rem;
 }
 
 .pt-300{
-	padding-top: 300px;
+	padding-top: 18.75rem;
 }
 
 .pb-50{
-	padding-bottom: 50px;
+	padding-bottom: 3.125rem;
 }
 
 .pb-200{
-	padding-bottom: 200px;
+	padding-bottom: 12.5rem;
 }
 
 .mt-200{
-	margin-top: 200px;
+	margin-top: 12.5rem;
 }
 
 .mt-50 {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .mt-150 {
-    margin-top: 150px;
+    margin-top: 13.125rem;
 }
 
 .call-to-act a{
     position: relative;
     color: #fff;
     text-decoration: none;
-    border-color: var(--primary-color);
-    background-color: var(--primary-color);
-    background: var(--primary-color);
+    border-color: $primary;
+    background-color: $primary;
+    background: $primary;
     /* background: linear-gradient(90deg, #c973ff 0%, #aebaf8 95%); */
     padding: 1rem 3rem;
 }
@@ -188,25 +197,25 @@ a, select , input , textarea , button{
 .call-to-act a::before, .call-to-act a::after {
     content: '';
     position: absolute;
-    bottom: -2px;
-    right: -2px;
+    bottom: -0.125rem;
+    right: -0.125rem;
     display: inline-block;
-    border: 4px solid transparent;
-    width: 10px;
-    height: 10px;
+    border: 0.25rem solid transparent;
+    width: 0.625rem;
+    height: 0.625rem;
     z-index: 1;
-    border-right-color: var(--complement-color);
-    border-bottom-color: var(--complement-color);
+    border-right-color: $accent;
+    border-bottom-color: $accent;
     transition: 0.2s 0.4s width, 0.2s 0.2s height, 0.2s 0.2s border-left, 0.2s border-top-color;
 }
 
 .call-to-act a:hover::before, .call-to-act a:hover::after {
-    border-right-color: var(--complement-color);
-    border-bottom-color: var(--complement-color);
-    border-left-color: var(--complement-color);
-    border-top-color: var(--complement-color);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
+    border-right-color: $accent;
+    border-bottom-color: $accent;
+    border-left-color: $accent;
+    border-top-color: $accent;
+    width: calc(100% + 0.25rem);
+    height: calc(100% + 0.25rem);
     transition: 0.2s width, 0.2s 0.2s height, 0.2s 0.2s border-left, 0.2s 0.4s border-top-color;
 }
 
@@ -215,15 +224,15 @@ a, select , input , textarea , button{
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.pt-300 {
-		padding-top: 200px;
+		padding-top: 12.5rem;
 	}
 
     .mt-150 {
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 
 	.bold-140{
-		font-size: 40px;
+		font-size: 2.5rem;
 	}
     
     .lit-32{
@@ -231,15 +240,15 @@ a, select , input , textarea , button{
     }
 
 	.lit-20 {
-		font-size: 16px;
+		font-size: 1rem;
 	}
 
     .semi-40 {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .medi-30 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .semi-28 {
@@ -250,7 +259,7 @@ a, select , input , textarea , button{
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.pt-300 {
-		padding-top: 200px;
+		padding-top: 12.5rem;
 	}
 
 	.bold-140 {
@@ -266,14 +275,14 @@ a, select , input , textarea , button{
     }
 
     .medi-30 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 	.pt-300 {
-		padding-top: 150px;
+		padding-top: 13.125rem;
 	}
 
 	.bold-140 {
@@ -319,12 +328,12 @@ a, select , input , textarea , button{
     }
     
     .lit-32{
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 }
   
 /* Extra large devices (large desktops, 1442px and up) */
-@media (min-width: 1532px) and (max-width: 2499.99px) {
+@media (min-width: 152rem) and (max-width: 2499.99px) {
   
 }
 
@@ -342,18 +351,18 @@ a, select , input , textarea , button{
 *
 *
 *
-/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
-@media (max-width: 320px) {
+/****** Extra extra small devices (s6 mobiles, 31.25rem and below) *******/
+@media (max-width: 31.25rem) {
     .lit-20 {
         font-size: 11px;
     }
 
     .medi-30 {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .semi-28 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 }
 
@@ -364,7 +373,7 @@ a, select , input , textarea , button{
     }
 
     .medi-30 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 

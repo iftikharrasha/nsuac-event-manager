@@ -9,7 +9,6 @@ import ScrollTop from './ScrollTop.js';
 // import {Helmet} from "react-helmet";
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
-import './App.css';
 import Achievments from './Components/Achievments/Achievments';
 import Intro from './Components/Inro/Intro';
 import Registration from './Components/Registration/Registration';

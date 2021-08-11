@@ -20,7 +20,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.medi-40 {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
 }
 
@@ -55,8 +55,8 @@
 *
 *
 *
-/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
-@media (max-width: 320px) {
+/****** Extra extra small devices (s6 mobiles, 31.25rem and below) *******/
+@media (max-width: 31.25rem) {
     .medi-40 {
         font-size: 26px;
     }

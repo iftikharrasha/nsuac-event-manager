@@ -1,10 +1,10 @@
 .footer {
-    padding: 50px 0;
+    padding: 3.125rem 0;
     position: relative;
 }
 
 .call-to-act a i{
-    font-size: 40px;
+    font-size: 2.5rem;
     color: var(--primary-color);
     transition: 200ms ease-in-out;
 }
@@ -88,7 +88,7 @@
 
     .footer-rights {
         display: inline-block;
-        padding-top: 30px;
+        padding-top: 1.875rem;
         text-align: center;
     }
 
@@ -114,7 +114,7 @@
 
     .footer-rights {
         display: inline-block;
-        padding-top: 30px;
+        padding-top: 1.875rem;
         text-align: center;
     }
 }
@@ -136,7 +136,7 @@
 
     .footer-rights {
         display: inline-block;
-        padding-top: 30px;
+        padding-top: 1.875rem;
         text-align: center;
     }
 }
@@ -152,7 +152,7 @@
 }
   
 /* Extra large devices (large desktops, 1442px and up) */
-@media (min-width: 1532px) and (max-width: 2499.99px) {
+@media (min-width: 152rem) and (max-width: 2499.99px) {
   
 }
 
@@ -170,8 +170,8 @@
 *
 *
 *
-/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
-@media (max-width: 320px) {
+/****** Extra extra small devices (s6 mobiles, 31.25rem and below) *******/
+@media (max-width: 31.25rem) {
 	
 }
 

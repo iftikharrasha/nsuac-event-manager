@@ -1,5 +1,5 @@
 .breadcrumb-item img{
-    width: 20px;
+    width: 1.25rem;
 }
 
 .breadcrumb-item img, 
@@ -37,7 +37,7 @@
 }
   
 /* Extra large devices (large desktops, 1442px and up) */
-@media (min-width: 1532px) and (max-width: 2499.99px) {
+@media (min-width: 152rem) and (max-width: 2499.99px) {
   
 }
 
@@ -55,8 +55,8 @@
 *
 *
 *
-/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
-@media (max-width: 320px) {
+/****** Extra extra small devices (s6 mobiles, 31.25rem and below) *******/
+@media (max-width: 31.25rem) {
   .breadcrumb {
     padding: 0.75rem .5rem !important;
   }

@@ -17,11 +17,11 @@
     }
 
     .achieve-text::before, .achieve-text::after {
-        right: 20px;
+        right: 1.25rem;
     }
 
     .mt-200 {
-        margin-top: 150px;
+        margin-top: 13.125rem;
     }
 }
 
@@ -36,11 +36,11 @@
     }
 
     .achieve-text::before, .achieve-text::after {
-        right: 20px;
+        right: 1.25rem;
     }
 
     .mt-200 {
-        margin-top: 150px;
+        margin-top: 13.125rem;
     }
 }
 
@@ -55,11 +55,11 @@
     }
 
     .achieve-text::before, .achieve-text::after {
-        right: 20px;
+        right: 1.25rem;
     }
 
     .mt-200 {
-        margin-top: 150px;
+        margin-top: 13.125rem;
     }
 }
 
@@ -74,7 +74,7 @@
     }
 
     .mt-200 {
-        margin-top: 150px;
+        margin-top: 13.125rem;
     }
 }
 
@@ -103,8 +103,8 @@
 *
 *
 *
-/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
-@media (max-width: 320px) {
+/****** Extra extra small devices (s6 mobiles, 31.25rem and below) *******/
+@media (max-width: 31.25rem) {
 	
 }
 

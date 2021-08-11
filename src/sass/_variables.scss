@@ -1,0 +1,29 @@
+// @font-face {
+//     font-family: Raleway;
+//     src: url(../Fonts/Raleway.ttf);
+// }
+
+// @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended+Text&display=swap');
+  
+:root {
+    --main-color: #2E303C;
+    --type-color: #fff;
+    --hero-strip: wheat;
+    --primary-color: linear-gradient(50deg, #502DF9 25%, #F7C514 100%);
+    --complement-color: #F7C514;
+    --secondary-color: #502DF9;
+}
+
+$main: var(--main-color);
+$type: var(--type-color);
+$strip: var(--hero-strip);
+$primary: var(--primary-color);
+$accent: var(--complement-color);
+$secondary: var(--secondary-color);
+// $ff1: 'Raleway', 'san-serif';
+
+// @mixin fontMaker($family, $case) {
+//     font-family: $family;
+//     text-transform: $case;
+// }
+  
