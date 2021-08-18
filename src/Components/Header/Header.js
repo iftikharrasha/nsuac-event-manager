@@ -8,7 +8,6 @@ import youtube from '../../img/youtube.svg';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Brand from '../Brand/Brand';
 import CampusStarBtn from '../CampusStarBtn/CampusStarBtn';
-import './Header.css';
 
 const Header = (props) => {
     const display = props;

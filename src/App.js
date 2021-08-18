@@ -32,7 +32,7 @@ function App() {
                     <Route path="/home">
                         <Header></Header>
                         <Hero></Hero>
-                        <Achievments></Achievments>
+                        {/* <Achievments></Achievments>
                         <Intro></Intro>
                         <SchedulesTable></SchedulesTable>
                         <Registration></Registration>
@@ -40,7 +40,7 @@ function App() {
                         <SegmentsSlider></SegmentsSlider>
                         <MediaPartners></MediaPartners>
                         <Map></Map>
-                        <Footer></Footer>
+                        <Footer></Footer> */}
                         <ScrollToTop smooth/>
                     </Route>
                     <Route path="/campus-star/en">
@@ -60,7 +60,7 @@ function App() {
                     <Route exact path="/">
                         <Header></Header>
                         <Hero></Hero>
-                        <Achievments></Achievments>
+                        {/* <Achievments></Achievments>
                         <Intro></Intro>
                         <SchedulesTable></SchedulesTable>
                         <Registration></Registration>
@@ -68,7 +68,7 @@ function App() {
                         <SegmentsSlider></SegmentsSlider>
                         <MediaPartners></MediaPartners>
                         <Map></Map>
-                        <Footer></Footer>
+                        <Footer></Footer> */}
                         <ScrollToTop smooth/>
                     </Route>
                     <Route path="*">

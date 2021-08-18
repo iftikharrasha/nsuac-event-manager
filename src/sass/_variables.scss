@@ -3,7 +3,8 @@
 //     src: url(../Fonts/Raleway.ttf);
 // }
 
-// @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
   
 :root {
     --main-color: #2E303C;
@@ -20,7 +21,8 @@ $strip: var(--hero-strip);
 $primary: var(--primary-color);
 $accent: var(--complement-color);
 $secondary: var(--secondary-color);
-// $ff1: 'Raleway', 'san-serif';
+$ff1: 'Poppins', sans-serif;
+$ff2: 'Righteous', sans-serif;
 
 // @mixin fontMaker($family, $case) {
 //     font-family: $family;

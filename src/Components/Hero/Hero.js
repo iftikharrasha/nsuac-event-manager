@@ -3,7 +3,6 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import nsuac from '../../img/nsuac.jpg';
-import './Hero.css';
 
 const Hero = () => {
     const [timerDays, setTimerDays] = useState('00');

@@ -1,0 +1,83 @@
+.hero{
+	height: 1250px;
+	background-image: url(../img/bg.svg)!important;
+	background-position: center!important;
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+    @media (max-width: 575.98px) {
+        height: 65.625rem;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        height: 1100px;
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        height: 1130px;
+    }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        height: 1120px;
+    }
+    @media (max-width: 320px) {
+        height: 920px;
+    }
+    @media (min-width: 321px) and (max-width: 376px) {
+        height: 940px;
+    }
+    h1 {
+        line-height: .9;
+        text-transform: uppercase;
+        @media (max-width: 575.98px) {
+            line-height: 1.2;
+        }
+        span {
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: var(--hero-strip);
+            @media (max-width: 575.98px) {
+                -webkit-text-stroke-width: 1px;
+            }
+        }
+    }
+    .loc-date{
+        span {
+            margin-right: 30px;
+            @media (max-width: 575.98px) {
+                display: block;
+            }
+        }
+    }
+    #timer {
+        width: 100%;
+        margin: 0 auto;
+        .time {
+            width: 25%;
+            font-weight: 500;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background-color: var(--main-color);
+            margin: 0 4px;
+            border-radius: 4px;
+            padding-bottom: 10px;
+            -webkit-transform: matrix(1, 0.3, 0, 1, 0, 0);
+            -ms-transform: matrix(1, 0.3, 0, 1, 0, 0);
+            transform: matrix(1, 0.3, 0, 1, 0, 0);
+            text-align: center;
+            span {
+                display: block;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .host{
+        img{
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            overflow: hidden;
+            @media (max-width: 575.98px) {
+                max-width: 100%;
+            }
+        }
+    }
+}
