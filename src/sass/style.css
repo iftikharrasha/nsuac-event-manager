@@ -10,7 +10,7 @@
 }
 
 .hero {
-  height: 1250px;
+  height: 78.125rem;
   background-image: url(../img/bg.svg) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -25,13 +25,13 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .hero {
-    height: 1100px;
+    height: 68.75rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .hero {
-    height: 1130px;
+    height: 70.625rem;
   }
 }
 
@@ -43,13 +43,13 @@
 
 @media (max-width: 320px) {
   .hero {
-    height: 920px;
+    height: 70rem;
   }
 }
 
 @media (min-width: 321px) and (max-width: 376px) {
   .hero {
-    height: 940px;
+    height: 58.75rem;
   }
 }
 
@@ -78,7 +78,7 @@
 }
 
 .hero .loc-date span {
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 
 @media (max-width: 575.98px) {
@@ -97,9 +97,9 @@
   font-weight: 500;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-color: var(--main-color);
-  margin: 0 4px;
-  border-radius: 4px;
-  padding-bottom: 10px;
+  margin: 0 0.25rem;
+  border-radius: 0.25rem;
+  padding-bottom: 0.625rem;
   -webkit-transform: matrix(1, 0.3, 0, 1, 0, 0);
   transform: matrix(1, 0.3, 0, 1, 0, 0);
   text-align: center;
@@ -111,7 +111,7 @@
 }
 
 .hero .host img {
-  max-width: 400px;
+  max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -131,8 +131,32 @@
 .header-bg .logo {
   position: absolute;
   left: 41%;
-  top: 10px;
+  top: 0.6rem;
   z-index: 99;
+}
+
+@media (max-width: 575.98px) {
+  .header-bg .logo {
+    left: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header-bg .logo {
+    left: -15%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-bg .logo {
+    left: 0%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header-bg .logo {
+    left: 39%;
+  }
 }
 
 .header-bg .logo a img {
@@ -140,9 +164,27 @@
   transition: 0.3s ease-out;
 }
 
+@media (max-width: 575.98px) {
+  .header-bg .logo a img {
+    width: 65%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-bg .logo a img {
+    width: 90%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header-bg .logo a img {
+    width: 90%;
+  }
+}
+
 .header-bg .logo a img:hover {
-  -webkit-transform: translateY(10px);
-          transform: translateY(10px);
+  -webkit-transform: translateY(0.6rem);
+          transform: translateY(0.6rem);
 }
 
 .header-bg #navigation {
@@ -158,12 +200,26 @@
 .header-bg #navigation ul li {
   width: 75%;
   margin: 0 auto;
-  font-size: 25px;
-  margin-top: 25px;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
   text-align: left;
   -webkit-transition: all .15s ease;
   transition: all .15s ease;
   border-bottom: 1px solid #aebaf8;
+}
+
+@media (max-width: 575.98px) {
+  .header-bg #navigation ul li {
+    font-size: 1rem;
+    width: 80%;
+    margin-top: 0.6rem;
+  }
+}
+
+@media (max-width: 1441.98px) {
+  .header-bg #navigation ul li {
+    margin-top: 0.6rem;
+  }
 }
 
 .header-bg #navigation ul li a {
@@ -179,7 +235,7 @@
 .header-bg #navigation ul li:after {
   content: "";
   position: relative;
-  top: 25px;
+  top: 1.5rem;
   display: block;
   width: 0%;
   height: 1px;
@@ -192,89 +248,44 @@
   width: 100%;
 }
 
+@media (max-width: 320rem) {
+  .header-bg #navigation ul li:first-child {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 376px) {
+  .header-bg #navigation ul li:first-child {
+    font-size: 0.8rem;
+  }
+}
+
 .header-bg #navigation ul li:last-child {
-  padding-top: 10px;
+  padding-top: 0.6rem;
   font-size: 1rem;
   border-bottom: none;
+}
+
+@media (max-width: 320rem) {
+  .header-bg #navigation ul li:last-child {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 376px) {
+  .header-bg #navigation ul li:last-child {
+    font-size: 0.8rem;
+  }
 }
 
 .header-bg #navigation ul li:last-child:hover:after {
   width: 0%;
 }
 
-.header-bg #navigation ul #hamburger {
-  margin-left: 2%;
-  border: none;
-  position: absolute;
-  z-index: 9999;
-  background-color: transparent;
-  position: fixed;
-}
-
-.header-bg #navigation ul #hamburger:hover {
-  cursor: pointer;
-}
-
-.header-bg #navigation ul #hamburger p {
-  clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
-.header-bg #navigation ul #hamburger rect {
-  fill: var(--complement-color);
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
-  transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-}
-
-@-webkit-keyframes fill {
-  0% {
-    width: 0%;
-    height: .5px;
+@media (max-width: 320rem) {
+  .header-bg #navigation ul .backgrounColorToggle {
+    margin-left: 18% !important;
   }
-  50% {
-    width: 100%;
-    height: 1.5px;
-  }
-  100% {
-    width: 100%;
-    height: 1.5px;
-    background: #333;
-  }
-}
-
-.header-bg #navigation ul #hamburger .top {
-  -webkit-transform: translateX(17px) rotate(45deg) translateY(-6px);
-          transform: translateX(17px) rotate(45deg) translateY(-6px);
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
-  transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-}
-
-.header-bg #navigation ul #hamburger .middle {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
-  transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-}
-
-.header-bg #navigation ul #hamburger .bottom {
-  -webkit-transform: rotate(-45deg) translateX(-2.5rem) translateY(-6px);
-          transform: rotate(-45deg) translateX(-2.5rem) translateY(-6px);
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
-  transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .header-bg #navigation ul .backgrounColorToggle svg rect {
@@ -286,7 +297,7 @@
 }
 
 .header-bg #navigation #menu {
-  width: 100px;
+  width: 6.25rem;
   height: calc(100% - 70px);
   border: dotted 2px;
   display: block;
@@ -298,12 +309,36 @@
 }
 
 .header-bg #navigation .menu {
-  height: 1080px;
-  width: 500px;
+  height: 67.5rem;
+  width: 31.2rem;
   background-color: var(--hero-strip);
   position: absolute;
   top: 0px;
-  left: -1010px;
+  left: -62.5rem;
+}
+
+@media (max-width: 575.98px) {
+  .header-bg #navigation .menu {
+    width: 75vw;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header-bg #navigation .menu {
+    width: 25rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-bg #navigation .menu {
+    width: 25rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header-bg #navigation .menu {
+    width: 33.125rem;
+  }
 }
 
 .header-bg #navigation .show {
@@ -318,15 +353,108 @@
   background: #00000099;
   -webkit-box-shadow: 0px 3px 6px #0000001a;
           box-shadow: 0px 3px 6px #0000001a;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(0.3rem);
+          backdrop-filter: blur(0.3rem);
   /* max-height: calc(100vh - 2px);
             overflow-y: auto; */
 }
 
-.header-bg #navigation .menuToggle {
+@media (max-width: 1199.98px) {
+  .header-bg #navigation .show {
+    padding-top: 6.25rem;
+  }
+}
+
+.header-bg #hamburger {
+  margin-left: 2%;
+  border: none;
+  position: absolute;
+  z-index: 9999;
+  background-color: transparent;
+  position: fixed;
+}
+
+@media (max-width: 575.98px) {
+  .header-bg #hamburger {
+    right: 5%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header-bg #hamburger {
+    margin-left: 1%;
+  }
+}
+
+.header-bg #hamburger:hover {
+  cursor: pointer;
+}
+
+.header-bg #hamburger p {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.header-bg #hamburger rect {
+  fill: var(--complement-color);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+@-webkit-keyframes fill {
+  0% {
+    width: 0%;
+    height: 0 0.3rem;
+  }
+  50% {
+    width: 100%;
+    height: 1.5px;
+  }
+  100% {
+    width: 100%;
+    height: 1.5px;
+    background: #333;
+  }
+}
+
+.header-bg #hamburger .top {
+  -webkit-transform: translateX(1rem) rotate(45deg) translateY(-0.375rem);
+          transform: translateX(1rem) rotate(45deg) translateY(-0.375rem);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.header-bg #hamburger .middle {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.header-bg #hamburger .bottom {
+  -webkit-transform: rotate(-45deg) translateX(-2.5rem) translateY(-0.375rem);
+          transform: rotate(-45deg) translateX(-2.5rem) translateY(-0.375rem);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.header-bg .menuToggle {
   display: block;
-  width: 180px;
+  width: 11.25rem;
   opacity: 1;
   position: absolute;
   top: 0;
@@ -337,8 +465,8 @@
 #ribbon {
   position: absolute;
   top: 0px;
-  width: 90px;
-  height: 135px;
+  width: 5.625rem;
+  height: 8.4rem;
   text-indent: -666em;
   overflow: hidden;
   z-index: 9999;
@@ -364,10 +492,10 @@
   top: 0;
   left: 0;
   display: block;
-  width: 90px;
-  height: 90px;
+  width: 5.625rem;
+  height: 5.625rem;
   background-repeat: no-repeat;
-  background-size: 90px 90px;
+  background-size: 5.625rem 5.625rem;
   z-index: 9999;
 }
 

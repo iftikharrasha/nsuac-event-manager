@@ -1,5 +1,5 @@
 .hero{
-	height: 1250px;
+	height: 78.125rem;
 	background-image: url(../img/bg.svg)!important;
 	background-position: center!important;
 	background-repeat: no-repeat!important;
@@ -8,19 +8,19 @@
         height: 65.625rem;
     }
     @media (min-width: 576px) and (max-width: 767.98px) {
-        height: 1100px;
+        height: 68.75rem;
     }
     @media (min-width: 768px) and (max-width: 991.98px) {
-        height: 1130px;
+        height: 70.625rem;
     }
     @media (min-width: 992px) and (max-width: 1199.98px) {
         height: 1120px;
     }
     @media (max-width: 320px) {
-        height: 920px;
+        height: 70rem;
     }
     @media (min-width: 321px) and (max-width: 376px) {
-        height: 940px;
+        height: 58.75rem;
     }
     h1 {
         line-height: .9;
@@ -40,7 +40,7 @@
     }
     .loc-date{
         span {
-            margin-right: 30px;
+            margin-right: 1.875rem;
             @media (max-width: 575.98px) {
                 display: block;
             }
@@ -54,9 +54,9 @@
             font-weight: 500;
             border: 1px solid rgba(255, 255, 255, 0.1);
             background-color: var(--main-color);
-            margin: 0 4px;
-            border-radius: 4px;
-            padding-bottom: 10px;
+            margin: 0 0.25rem;
+            border-radius: 0.25rem;
+            padding-bottom: 0.625rem;
             -webkit-transform: matrix(1, 0.3, 0, 1, 0, 0);
             -ms-transform: matrix(1, 0.3, 0, 1, 0, 0);
             transform: matrix(1, 0.3, 0, 1, 0, 0);
@@ -70,7 +70,7 @@
 
     .host{
         img{
-            max-width: 400px;
+            max-width: 25rem;
             margin-left: auto;
             margin-right: auto;
             position: relative;
