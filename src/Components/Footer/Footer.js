@@ -5,7 +5,6 @@ import {
     Link
   } from "react-router-dom";
 import logo from '../../img/bos.svg';
-import './Footer.css';
 
 const Footer = () => {
     return (
@@ -24,7 +23,7 @@ const Footer = () => {
                             </div>
                         </Col>
                         <Col lg={7} className="d-flex align-items-center justify-content-center">
-                                <div className="call-to-act call-icon">
+                                <div className="call-to-act">
                                     <a href="https://www.facebook.com/nsuathleticsclub/" target="_blank" className="pt-3">
                                         <i className="fab fa-facebook-square" aria-hidden="true"></i>
                                     </a>
@@ -96,7 +95,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                     </nav>
-                    <div className="footer-rights">
+                    <div className="footer-rights mt-5">
                         <div className="footer-copyright">
                             <span className="c-tag-4 medi-14">© All Rights Reserved | NSU Athletics Club</span>
                         </div>

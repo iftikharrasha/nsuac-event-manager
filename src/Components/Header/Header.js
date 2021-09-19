@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Container } from 'react-bootstrap';
@@ -8,6 +8,7 @@ import youtube from '../../img/youtube.svg';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Brand from '../Brand/Brand';
 import CampusStarBtn from '../CampusStarBtn/CampusStarBtn';
+import RegModal from '../RegModal/RegModal';
 
 const Header = (props) => {
     const display = props;
@@ -19,6 +20,27 @@ const Header = (props) => {
         document.getElementById('top').classList.toggle('top');
         document.getElementById('middle').classList.toggle('middle');
         document.getElementById('bottom').classList.toggle('bottom');
+    }
+
+    //login modal
+    const [modalIsOpen, setIsOpen] = useState(false);
+
+    function openModal() {
+        setIsOpen(true);
+    }
+
+    function closeModal() {
+        setIsOpen(false);
+    }
+
+    function openModalMobile(isOpen) {
+        document.getElementById('navigation').classList.toggle('menuToggle');
+        document.getElementById('hamburger').classList.toggle('backgrounColorToggle');
+        document.getElementById('listItems').classList.toggle('show');
+        document.getElementById('top').classList.toggle('top');
+        document.getElementById('middle').classList.toggle('middle');
+        document.getElementById('bottom').classList.toggle('bottom');
+        setIsOpen(true);
     }
 
     return (
@@ -55,7 +77,7 @@ const Header = (props) => {
                                 </li>
                                 <li className="nav-item d-sm-block d-none">
                                     <div className="call-to-act pl-3 mt-2">
-                                        <a href="#" className="px-5 py-3">
+                                        <a href="#" className="px-5 py-3" onClick={openModal}>
                                             <span> Registration</span>
                                         </a>
                                     </div>
@@ -76,13 +98,6 @@ const Header = (props) => {
 
                     <nav id="navigation" style={display}>
                         <ul className="menu hide" id="listItems">
-                            <li className="pb-sm-4 pb-4 d-sm-none d-block">
-                                    <div className="call-to-act mt-2 text-sm-center">
-                                        <a href="#">
-                                            <span> Registration</span>
-                                        </a>
-                                    </div>
-                            </li>
                             <li className="pb-sm-4 pb-3">
                                 <Link to="home" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
                             </li>
@@ -104,15 +119,23 @@ const Header = (props) => {
                             <li className="pb-sm-4 pb-3">
                                 <Link to="mediaPartners" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Media Partners</Link>
                             </li>
-                            <li className="pb-sm-4 pb-3">
+                            {/* <li className="pb-sm-4 pb-3">
                                     <div className="call-to-act mt-2 text-sm-center">
                                         <CampusStarBtn></CampusStarBtn>
                                     </div>
+                            </li> */}
+                            <li className="pt-sm-4 pt-4 d-lg-none d-block">
+                                <div className="call-to-act mb-4 text-sm-center">
+                                    <a href="#" onClick={openModalMobile}>
+                                        <span> Registration</span>
+                                    </a>
+                                </div>
                             </li>
                         </ul>
                     </nav>
                 </Container>
             </header>
+            <RegModal modalIsOpen={modalIsOpen} closeModal={closeModal}></RegModal>
         </>
     );
 };

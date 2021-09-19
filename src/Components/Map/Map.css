@@ -1,7 +1,0 @@
-.big-img {
-    background: url('../../img/map.svg') no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    min-height: 720px;
-}

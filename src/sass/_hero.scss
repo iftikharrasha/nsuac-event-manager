@@ -5,7 +5,7 @@
 	background-repeat: no-repeat!important;
 	background-size: cover!important;
     @media (max-width: 575.98px) {
-        height: 65.625rem;
+        height: 80rem;
     }
     @media (min-width: 576px) and (max-width: 767.98px) {
         height: 68.75rem;
@@ -14,13 +14,13 @@
         height: 70.625rem;
     }
     @media (min-width: 992px) and (max-width: 1199.98px) {
-        height: 1120px;
-    }
-    @media (max-width: 320px) {
         height: 70rem;
     }
+    @media (max-width: 320px) {
+        height: 80rem;
+    }
     @media (min-width: 321px) and (max-width: 376px) {
-        height: 58.75rem;
+        height: 84rem;
     }
     h1 {
         line-height: .9;

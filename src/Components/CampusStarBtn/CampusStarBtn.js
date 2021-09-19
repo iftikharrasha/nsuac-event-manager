@@ -4,7 +4,7 @@ import {
     Link
   } from "react-router-dom";
 
-const CampusStarBtn = () => {
+const CampusStarBtn = ({closeModal}) => {
     function activeToggle() {
         document.getElementById('navigation').classList.toggle('menuToggle');
         document.getElementById('hamburger').classList.toggle('backgrounColorToggle');
@@ -16,7 +16,7 @@ const CampusStarBtn = () => {
 
     return (
         <>
-            <Link to="/campus-star/en" onClick={activeToggle}>
+            <Link to="/campus-star/en" onClick={closeModal}>
                 <span>Campus Star</span>
             </Link>
         </>

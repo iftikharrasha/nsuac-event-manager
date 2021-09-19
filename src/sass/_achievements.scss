@@ -1,0 +1,21 @@
+.trophy{
+    .achieve-text{
+        .mark{
+            color: var(--type-color);
+            background-color: var(--main-color) !important;
+        }
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            right: -2px;
+            display: inline-block;
+            border: 2px solid transparent;
+            width: 10.625rem;
+            height: 5rem;
+            z-index: 1;
+            border-right-color: var(--complement-color);
+            border-bottom-color: var(--complement-color);
+        }
+    }
+}

@@ -32,15 +32,17 @@ function App() {
                     <Route path="/home">
                         <Header></Header>
                         <Hero></Hero>
-                        {/* <Achievments></Achievments>
+                        <Achievments></Achievments>
+                        <Map></Map>
+                        <Footer></Footer>
+                        {/*
                         <Intro></Intro>
                         <SchedulesTable></SchedulesTable>
                         <Registration></Registration>
                         <TopContestants></TopContestants>
                         <SegmentsSlider></SegmentsSlider>
                         <MediaPartners></MediaPartners>
-                        <Map></Map>
-                        <Footer></Footer> */}
+                         */}
                         <ScrollToTop smooth/>
                     </Route>
                     <Route path="/campus-star/en">
@@ -60,15 +62,16 @@ function App() {
                     <Route exact path="/">
                         <Header></Header>
                         <Hero></Hero>
-                        {/* <Achievments></Achievments>
-                        <Intro></Intro>
+                        <Achievments></Achievments>
+                        <Map></Map>
+                        <Footer></Footer>
+                        {/* <Intro></Intro>
                         <SchedulesTable></SchedulesTable>
                         <Registration></Registration>
                         <TopContestants></TopContestants>
                         <SegmentsSlider></SegmentsSlider>
                         <MediaPartners></MediaPartners>
-                        <Map></Map>
-                        <Footer></Footer> */}
+                         */}
                         <ScrollToTop smooth/>
                     </Route>
                     <Route path="*">
