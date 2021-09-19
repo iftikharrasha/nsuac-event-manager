@@ -7,12 +7,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
   
 :root {
+    // --main-color: #2E303C;
+    // --type-color: #fff;
+    // --hero-strip: wheat;
+    // --primary-color: linear-gradient(50deg, #502DF9 25%, #F7C514 100%);
+    // --complement-color: #F7C514;
+    // --secondary-color: #502DF9;
     --main-color: #2E303C;
     --type-color: #fff;
-    --hero-strip: wheat;
-    --primary-color: linear-gradient(50deg, #502DF9 25%, #F7C514 100%);
+    --hero-strip: #F7C514;
+    --primary-color: linear-gradient(50deg, #EE1E26 25%, #F7C514 100%);
     --complement-color: #F7C514;
-    --secondary-color: #502DF9;
+    --secondary-color: #EE1E26;
 }
 
 $main: var(--main-color);

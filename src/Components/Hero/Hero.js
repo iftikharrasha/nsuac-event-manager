@@ -13,7 +13,7 @@ const Hero = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('August 30, 2021 00:00:00').getTime();
+        const countdownDate = new Date('October 16, 2021 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -53,10 +53,6 @@ const Hero = () => {
                 <Container>
                     <div className="pt-150 text-center">
                         <Row>
-                            <Col sm={12} className="mb-3">
-                                <h1 className="mb-4 bold-140">Bangabandhu<span className="d-block">Battle of </span><span>Skills</span> 2021</h1>
-                                <h2 className="lit-32">Registration ongoing!</h2>
-                            </Col>
                             <Col sm={12} className="my-5">
                                 <div id="timer" className="d-flex mb-3">
                                     <div className="time grain-bg medi-50" id="days">{timerDays}<span className="lit-20 c-tag-3">Days</span></div>
@@ -66,6 +62,10 @@ const Hero = () => {
                                 </div>
                             </Col>
                             <Col sm={12} className="mt-5">
+                                {/* <h1 className="mb-4 bold-140">Bangabandhu<span className="d-block">Battle of </span><span>Skills</span> 2021</h1> */}
+                                <h2 className="lit-32">Registration ongoing for Campus Star!</h2>
+                            </Col>
+                            <Col sm={12} className="mt-2">
                                 <p className="loc-date lit-18">
                                     <span>
                                         <i className="fa fa-map-marker pr-2"></i>
@@ -73,7 +73,7 @@ const Hero = () => {
                                     </span>
                                     <span>
                                         <i className="fa fa-calendar pr-2"></i>
-                                        September 1 to 12, 2021
+                                        October 5 to 16, 2021
                                     </span>
                                 </p>
                             </Col>

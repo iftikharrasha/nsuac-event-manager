@@ -102,29 +102,32 @@ const Header = (props) => {
                                 <Link to="home" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="nsuac" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>nsuac</Link>
+                                <Link to="nsuac" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>MSUAC</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
+                                <Link to="star" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Campus Star</Link>
+                            </li>
+                            {/* <li className="pb-sm-4 pb-3">
                                 <Link to="ebPanel" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Eb Panel</Link>
-                            </li>
-                            <li className="pb-sm-4 pb-3">
+                            </li> */}
+                            {/* <li className="pb-sm-4 pb-3">
                                 <Link to="schedules" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Battle of Skills</Link>
-                            </li>
-                            <li className="pb-sm-4 pb-3">
+                            </li> */}
+                            {/* <li className="pb-sm-4 pb-3">
                                 <Link to="topVideos" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Top videos</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
                                 <Link to="segments" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Segments</Link>
-                            </li>
-                            <li className="pb-sm-4 pb-3">
+                            </li> */}
+                            {/* <li className="pb-sm-4 pb-3">
                                 <Link to="mediaPartners" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Media Partners</Link>
-                            </li>
+                            </li> */}
                             {/* <li className="pb-sm-4 pb-3">
                                     <div className="call-to-act mt-2 text-sm-center">
                                         <CampusStarBtn></CampusStarBtn>
                                     </div>
                             </li> */}
-                            <li className="pt-sm-4 pt-4 d-lg-none d-block">
+                            <li className="pt-sm-4 pt-4 d-sm-none d-block">
                                 <div className="call-to-act mb-4 text-sm-center">
                                     <a href="#" onClick={openModalMobile}>
                                         <span> Registration</span>

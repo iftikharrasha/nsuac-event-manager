@@ -11,7 +11,7 @@ import intrafootball from '../../img/intrafootball.png';
 const Achievments = () => {
     return (
         <>
-            <section className="trophy pt-300 pb-200" id="nsuac">
+            <section className="trophy pt-150 pb-50" id="nsuac">
                 <Container className="c_custom">
                     <Row className="p-4">
                         <Col lg={5} className="pt-5 d-flex align-items-center">

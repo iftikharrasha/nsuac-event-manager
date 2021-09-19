@@ -1,7 +1,31 @@
 .big-img {
-    background: url('../img/map.svg') no-repeat center;
+    background: url('../img/slider.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    min-height: 720px;
+    min-height: 45rem;
+    filter: brightness(70%);
+    h2 {
+        font-size: 22rem;
+        line-height: .9;
+        text-transform: uppercase;
+        @media (max-width: 575.98px) {
+            font-size: 8rem;
+        }
+        @media (min-width: 576px) and (max-width: 991.98px) {
+            font-size: 16rem;
+        }
+        @media (max-width: 575.98px) {
+            line-height: 1.2;
+        }
+        span {
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: var(--hero-strip);
+            @media (max-width: 575.98px) {
+                -webkit-text-stroke-width: 1px;
+            }
+        }
+    }
 }

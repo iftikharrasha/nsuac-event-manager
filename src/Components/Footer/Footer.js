@@ -9,7 +9,7 @@ import logo from '../../img/bos.svg';
 const Footer = () => {
     return (
         <>
-            <section className="grain-bg footer bg-tag-2">
+            <footer className="grain-bg footer bg-tag-2">
                 <Container>
                     <Row>
                         <Col lg={5} className="d-flex align-items-center justify-content-center">
@@ -114,7 +114,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </Container>
-            </section>
+            </footer>
         </>
     );
 };

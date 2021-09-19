@@ -33,12 +33,12 @@ function App() {
                         <Header></Header>
                         <Hero></Hero>
                         <Achievments></Achievments>
+                        <Registration></Registration>
                         <Map></Map>
                         <Footer></Footer>
                         {/*
                         <Intro></Intro>
                         <SchedulesTable></SchedulesTable>
-                        <Registration></Registration>
                         <TopContestants></TopContestants>
                         <SegmentsSlider></SegmentsSlider>
                         <MediaPartners></MediaPartners>
@@ -63,11 +63,11 @@ function App() {
                         <Header></Header>
                         <Hero></Hero>
                         <Achievments></Achievments>
+                        <Registration></Registration>
                         <Map></Map>
                         <Footer></Footer>
                         {/* <Intro></Intro>
                         <SchedulesTable></SchedulesTable>
-                        <Registration></Registration>
                         <TopContestants></TopContestants>
                         <SegmentsSlider></SegmentsSlider>
                         <MediaPartners></MediaPartners>
