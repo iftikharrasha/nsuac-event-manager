@@ -20,6 +20,7 @@ import Map from "./Components/Map/Map";
 import TopContestants from "./Components/TopContestants/TopContestants";
 import CampusStarEnglish from "./Components/CampusStarEnglish/CampusStarEnglish";
 import CampusStarBangla from "./Components/CampusStarBangla/CampusStarBangla";
+import Greetings from "./Components/Greetings/Greetings.js";
 
 function App() {
   const display = "none";
@@ -34,7 +35,7 @@ function App() {
                         <Hero></Hero>
                         <Achievments></Achievments>
                         <Registration></Registration>
-                        <Intro></Intro>
+                        <Greetings></Greetings>
                         <Map></Map>
                         <Footer></Footer>
                         {/*
@@ -65,7 +66,7 @@ function App() {
                         <Hero></Hero>
                         <Achievments></Achievments>
                         <Registration></Registration>
-                        <Intro></Intro>
+                        <Greetings></Greetings>
                         <Map></Map>
                         <Footer></Footer>
                         {/* <Intro></Intro>

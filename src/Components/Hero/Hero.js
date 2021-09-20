@@ -25,7 +25,7 @@ const Hero = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('October 16, 2021 00:00:00').getTime();
+        const countdownDate = new Date('October 3, 2021 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -65,9 +65,7 @@ const Hero = () => {
             const x = (window.innerWidth - e.pageX*speed)/100;
             const y = (window.innerHeight - e.pageY*speed)/100;
 
-            layer.style.transform = `translateX(${x}px) translateY(${y}px)`
-
-            
+            layer.style.transform = `translateX(${x}px) translateY(${y}px)`;
         });
     }
 
@@ -89,7 +87,7 @@ const Hero = () => {
                         <div className="pt-150">
                             <Row>
                                 <Col sm={12} className="mt-5">
-                                    <span className="ml-4">Bashundhara Kings Presents</span>
+                                    <span className="presents">Bashundhara Kings Presents</span>
                                     <h1 className="mb-4 bold-140 text-center">Bangabandhu <span>Battle of </span><span>Skills</span> 2021</h1>
                                 </Col>
                                 <Col className="pt-5">
@@ -109,7 +107,7 @@ const Hero = () => {
                                         </span>
                                         <span>
                                             <i className="fa fa-calendar pr-2"></i>
-                                            October 5 to 16, 2021
+                                            October 3 to 18, 2021
                                         </span>
                                     </p>
                                 </Col>

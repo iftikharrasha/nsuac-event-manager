@@ -82,6 +82,46 @@
   position: relative;
 }
 
+.hero .hero-contents .presents {
+  margin-left: 1.8rem;
+}
+
+@media (max-width: 575.98px) {
+  .hero .hero-contents .presents {
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero .hero-contents .presents {
+    margin-left: 6rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1299.98px) {
+  .hero .hero-contents .presents {
+    margin-left: 6rem;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1531.98px) {
+  .hero .hero-contents .presents {
+    margin-left: 13.4rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero .hero-contents .presents {
+    margin-left: 1.5rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 376px) {
+  .hero .hero-contents .presents {
+    margin-left: 2rem;
+  }
+}
+
 .hero .hero-contents h1 {
   font-size: 3.5rem;
   line-height: .9;
@@ -151,6 +191,70 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .hero .hero-contents .host img {
     max-width: 20rem;
+  }
+}
+
+.latest .ticker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  height: 3rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 575.98px) {
+  .latest .ticker {
+    width: 100%;
+    height: 3.5rem;
+  }
+}
+
+.latest .news {
+  width: 80%;
+  background: var(--main-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 575.98px) {
+  .latest .news {
+    width: 70%;
+  }
+}
+
+.latest .news marquee p span {
+  margin-right: 10rem;
+}
+
+.latest .title {
+  width: 20%;
+  text-align: center;
+  background: var(--secondary-color);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 575.98px) {
+  .latest .title {
+    width: 30%;
   }
 }
 
@@ -483,6 +587,12 @@
   background-color: rgba(0, 0, 0, 0.75) !important;
 }
 
+@media (max-width: 320px) {
+  .ReactModal__Overlay--after-open .ReactModal__Content--after-open {
+    padding: 20px 0 !important;
+  }
+}
+
 .trophy .achieve-text .mark {
   color: var(--type-color);
   background-color: var(--main-color) !important;
@@ -549,6 +659,99 @@
   }
 }
 
+.video {
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, white), color-stop(18%, #1F212D));
+  background: linear-gradient(90deg, white 18%, #1F212D 18%);
+}
+
+.intro-video iframe {
+  border-radius: 10px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .video {
+    background: #1F212D;
+  }
+  .offset-into {
+    margin-left: 0 !important;
+  }
+  .achieve-text::before, .achieve-text::after {
+    right: 1.25rem;
+  }
+  .mt-200 {
+    margin-top: 13.125rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .video {
+    background: #1F212D;
+  }
+  .offset-into {
+    margin-left: 0 !important;
+  }
+  .achieve-text::before, .achieve-text::after {
+    right: 1.25rem;
+  }
+  .mt-200 {
+    margin-top: 13.125rem;
+  }
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .video {
+    background: #1F212D;
+  }
+  .offset-into {
+    margin-left: 0 !important;
+  }
+  .achieve-text::before, .achieve-text::after {
+    right: 1.25rem;
+  }
+  .mt-200 {
+    margin-top: 13.125rem;
+  }
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .video {
+    background: -webkit-gradient(linear, left top, right top, color-stop(5%, white), color-stop(5%, #1F212D));
+    background: linear-gradient(90deg, white 5%, #1F212D 5%);
+  }
+  .offset-into {
+    margin-left: 8.333333% !important;
+  }
+  .mt-200 {
+    margin-top: 13.125rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1800px) {
+  .video {
+    background: -webkit-gradient(linear, left top, right top, color-stop(5%, white), color-stop(5%, #1F212D));
+    background: linear-gradient(90deg, white 5%, #1F212D 5%);
+  }
+  .offset-into {
+    margin-left: 8.333333% !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 31.25rem and below) *******/
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
 .footer {
   padding: 3.125rem 0;
   position: relative;

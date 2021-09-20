@@ -52,7 +52,7 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">President</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="#">Hridoy Alom</a>
+                                            <a href="https://www.linkedin.com/in/hridoyalam/?fbclid=IwAR1xdmWzM1H-Hn-cABp8r5nkmaGNVRXnYyr58P3M4N4LuPWvS2aDBZhjHrI">Hridoy Alom</a>
                                         </li>
                                 </ul>
                             </div>
@@ -63,7 +63,7 @@ const Footer = () => {
                                             <a href="#">Sajjad Hossain</a>
                                         </li>
                                         <li>
-                                            <a href="#">Ramisa Anjuman</a>
+                                            <a href="https://www.linkedin.com/in/ramisa-anjuman-233083219/?fbclid=IwAR1wiiNWgDnT4ulX4GtfbtysmNlat1ZdM5k60m2tB80oxl28vW2ie8vJ7BE">Ramisa Anjuman</a>
                                         </li>
                                 </ul>
                             </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">General Secretary</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="#">Rahul Halder</a>
+                                            <a href="https://www.linkedin.com/in/rahul-halder-b19a5a209/?fbclid=IwAR0QqVRWEr9Uaq7M22SqdHYeWSu4fFZ1uDUuw9JciLw2KFD-fyuiLCDwV4M">Rahul Halder</a>
                                         </li>
                                 </ul>
                             </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">Treasurer</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="#">Shafiq Topu</a>
+                                            <a href="https://www.linkedin.com/in/shafiq-topu-38a12420a/?fbclid=IwAR0jotTXA24U4pP2lCFkkyqyIGIOzyyPRWQ_50900IFaYgRp0g-9Vb0lXQI">Shafiq Topu</a>
                                         </li>
                                 </ul>
                             </div>
@@ -87,7 +87,7 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">Join Secretary</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="#">Jahid Hasan Alvi</a>
+                                            <a href="https://www.linkedin.com/in/jahidhasanalvi">Jahid Hasan Alvi</a>
                                         </li>
                                 </ul>
                             </div>
