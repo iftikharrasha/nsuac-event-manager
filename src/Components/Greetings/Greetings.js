@@ -5,7 +5,7 @@ import greetings from '../../img/greetings.jpg';
 const Greetings = () => {
     return (
         <>
-             <section className="video mt-200" id="greetings">
+             <section className="video mt-100" id="greetings">
                 <Container className="c_custom">
                     <Row className="py-5 px-lg-0 px-sm-5 px-3">
                         <Col lg={6} className="offset-md-2 offset-into">

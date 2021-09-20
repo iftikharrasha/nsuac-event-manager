@@ -124,13 +124,13 @@ const Header = (props) => {
                                 <Link to="home" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="nsuac" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>NSUAC</Link>
+                                <Link to="greetings" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Greetings</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
                                 <Link to="star" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Campus Star</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="greetings" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Greetings</Link>
+                                <Link to="nsuac" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>NSUAC</Link>
                             </li>
                             {/* <li className="pb-sm-4 pb-3">
                                 <Link to="schedules" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Battle of Skills</Link>

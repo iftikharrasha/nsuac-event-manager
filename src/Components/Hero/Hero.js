@@ -8,13 +8,10 @@ import one from '../../img/1.svg';
 import two from '../../img/2.svg';
 import three from '../../img/3.svg';
 import four from '../../img/4.svg';
-import five from '../../img/5.png';
-import six from '../../img/6.png';
 import eight from '../../img/8.svg';
 import nine from '../../img/9.svg';
 import ten from '../../img/10.svg';
 import eleven from '../../img/11.svg';
-import twelve from '../../img/12.png';
 
 const Hero = () => {
     const [timerDays, setTimerDays] = useState('00');

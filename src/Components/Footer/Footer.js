@@ -24,16 +24,16 @@ const Footer = () => {
                         </Col>
                         <Col lg={7} className="d-flex align-items-center justify-content-center">
                                 <div className="call-to-act">
-                                    <a href="https://www.facebook.com/nsuathleticsclub/" target="_blank" className="pt-3">
+                                    <a href="https://www.facebook.com/nsuathleticsclub/" target="_blank" rel="noreferrer" className="pt-3">
                                         <i className="fab fa-facebook-square" aria-hidden="true"></i>
                                     </a>
-                                    <a href="https://www.youtube.com/c/NSUAthleticsClub" target="_blank" className="pt-3">
+                                    <a href="https://www.youtube.com/c/NSUAthleticsClub" target="_blank" rel="noreferrer" className="pt-3">
                                         <i className="fa fa-youtube-play" aria-hidden="true"></i>
                                     </a>
-                                    <a href="https://www.instagram.com/nsuac_official/" target="_blank" className="pt-3">
+                                    <a href="https://www.instagram.com/nsuac_official/" target="_blank" rel="noreferrer" className="pt-3">
                                         <i className="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/company/north-south-university-athletics-club/" target="_blank" className="pt-3">
+                                    <a href="https://www.linkedin.com/company/north-south-university-athletics-club/" target="_blank" rel="noreferrer" className="pt-3">
                                         <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                                     </a>
                                 </div>
@@ -44,7 +44,7 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">Faculty Advisor</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="#">Mehedi Hasan</a>
+                                            <a href="http://www.northsouth.edu/faculty-members/shss/eml/mehedi.hasan.html?fbclid=IwAR19jt7qtXHDTYz-AsROmgYoRh2WGq6skWJDNs4EUzLPzT9d7DDgSv2QX9g" target="_blank" rel="noreferrer">Mehedi Hasan</a>
                                         </li>
                                 </ul>
                             </div>
@@ -52,7 +52,7 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">President</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="https://www.linkedin.com/in/hridoyalam/?fbclid=IwAR1xdmWzM1H-Hn-cABp8r5nkmaGNVRXnYyr58P3M4N4LuPWvS2aDBZhjHrI">Hridoy Alom</a>
+                                            <a href="https://www.linkedin.com/in/hridoyalam/?fbclid=IwAR1xdmWzM1H-Hn-cABp8r5nkmaGNVRXnYyr58P3M4N4LuPWvS2aDBZhjHrI" target="_blank" rel="noreferrer">Hridoy Alom</a>
                                         </li>
                                 </ul>
                             </div>
@@ -63,7 +63,7 @@ const Footer = () => {
                                             <a href="#">Sajjad Hossain</a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/ramisa-anjuman-233083219/?fbclid=IwAR1wiiNWgDnT4ulX4GtfbtysmNlat1ZdM5k60m2tB80oxl28vW2ie8vJ7BE">Ramisa Anjuman</a>
+                                            <a href="https://www.linkedin.com/in/ramisa-anjuman-233083219/?fbclid=IwAR1wiiNWgDnT4ulX4GtfbtysmNlat1ZdM5k60m2tB80oxl28vW2ie8vJ7BE" target="_blank" rel="noreferrer">Ramisa Anjuman</a>
                                         </li>
                                 </ul>
                             </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">General Secretary</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="https://www.linkedin.com/in/rahul-halder-b19a5a209/?fbclid=IwAR0QqVRWEr9Uaq7M22SqdHYeWSu4fFZ1uDUuw9JciLw2KFD-fyuiLCDwV4M">Rahul Halder</a>
+                                            <a href="https://www.linkedin.com/in/rahul-halder-b19a5a209/?fbclid=IwAR0QqVRWEr9Uaq7M22SqdHYeWSu4fFZ1uDUuw9JciLw2KFD-fyuiLCDwV4M" target="_blank" rel="noreferrer">Rahul Halder</a>
                                         </li>
                                 </ul>
                             </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">Treasurer</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="https://www.linkedin.com/in/shafiq-topu-38a12420a/?fbclid=IwAR0jotTXA24U4pP2lCFkkyqyIGIOzyyPRWQ_50900IFaYgRp0g-9Vb0lXQI">Shafiq Topu</a>
+                                            <a href="https://www.linkedin.com/in/shafiq-topu-38a12420a/?fbclid=IwAR0jotTXA24U4pP2lCFkkyqyIGIOzyyPRWQ_50900IFaYgRp0g-9Vb0lXQI" target="_blank" rel="noreferrer">Shafiq Topu</a>
                                         </li>
                                 </ul>
                             </div>
@@ -87,7 +87,7 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">Join Secretary</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="https://www.linkedin.com/in/jahidhasanalvi">Jahid Hasan Alvi</a>
+                                            <a href="https://www.linkedin.com/in/jahidhasanalvi" target="_blank" rel="noreferrer">Jahid Hasan Alvi</a>
                                         </li>
                                 </ul>
                             </div>
@@ -99,7 +99,7 @@ const Footer = () => {
                         <div className="footer-rights-link">
                             <ul>
                                 <li>
-                                    <a href="#" className="c-tag-4 medi-14">North South University</a>
+                                    <a href="http://www.northsouth.edu/" className="c-tag-4 medi-14" target="_blank" rel="noreferrer">North South University</a>
                                 </li>
                                 <li>
                                     <a href="#" className="c-tag-4 medi-14">BOS Registration</a>

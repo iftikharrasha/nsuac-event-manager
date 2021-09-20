@@ -33,9 +33,9 @@ function App() {
                     <Route path="/home">
                         <Header></Header>
                         <Hero></Hero>
-                        <Achievments></Achievments>
-                        <Registration></Registration>
                         <Greetings></Greetings>
+                        <Registration></Registration>
+                        <Achievments></Achievments>
                         <Map></Map>
                         <Footer></Footer>
                         {/*
@@ -64,9 +64,9 @@ function App() {
                     <Route exact path="/">
                         <Header></Header>
                         <Hero></Hero>
-                        <Achievments></Achievments>
-                        <Registration></Registration>
                         <Greetings></Greetings>
+                        <Registration></Registration>
+                        <Achievments></Achievments>
                         <Map></Map>
                         <Footer></Footer>
                         {/* <Intro></Intro>

@@ -1,11 +1,15 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import {
+    BrowserRouter as Router,
+    Link
+  } from "react-router-dom";
 import './Registration.css';
 
 const Registration = () => {
     return (
         <>
-            <section className="joinNow d-flex align-items-center" id="star">
+            <section className="joinNow d-flex align-items-center mt-50" id="star">
                     <Container>
                         <Row>
                             <Col lg={9} className="d-flex align-items-center">
@@ -17,9 +21,9 @@ const Registration = () => {
                             </Col>
                             <Col lg={3} className="d-flex align-items-center mt-lg-0 mt-5">
                                 <div className="call-to-act">
-                                    <a href="#" className="px-5 py-3" target="_blank">
+                                    <Link to="/campus-star/en" className="px-5 py-3">
                                         <span> Join Now </span>
-                                    </a>
+                                    </Link>
                                 </div>
                             </Col>
                         </Row>

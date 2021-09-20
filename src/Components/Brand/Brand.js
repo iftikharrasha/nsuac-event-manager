@@ -12,7 +12,7 @@ const Brand = () => {
         <>
             <Link to="/" className="navbar-brand">
                 {/* <LazyLoadImage effect="blur" src={logo} className="img-fluid" alt="bos"/> */}
-                <span className="medi-30 pt-2 c-tag-2">BATTLE OF SKILLS</span>
+                <span className="medi-30 pt-2 c-tag-2">BBS'21</span>
             </Link>
         </>
     );

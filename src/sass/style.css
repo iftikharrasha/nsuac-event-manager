@@ -765,8 +765,7 @@
   left: 0;
   width: 100%;
   height: .1rem;
-  background: -webkit-gradient(linear, left top, right top, from(#c973ff), color-stop(95%, #aebaf8));
-  background: linear-gradient(90deg, #c973ff 0%, #aebaf8 95%);
+  background: linear-gradient(50deg, #EE1E26 25%, #F7C514 100%);
 }
 
 .footer .call-to-act a {
@@ -1209,6 +1208,10 @@ a, select, input, textarea, button {
   .mt-150 {
     margin-top: 3.125rem;
   }
+}
+
+.mt-100 {
+  margin-top: 6.25rem;
 }
 
 .call-to-act a {
