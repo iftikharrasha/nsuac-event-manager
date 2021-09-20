@@ -11,7 +11,8 @@ const Brand = () => {
     return (
         <>
             <Link to="/" className="navbar-brand">
-                <LazyLoadImage effect="blur" src={logo} className="img-fluid" alt="bos"/>
+                {/* <LazyLoadImage effect="blur" src={logo} className="img-fluid" alt="bos"/> */}
+                <span className="medi-30 pt-2 c-tag-2">BATTLE OF SKILLS</span>
             </Link>
         </>
     );

@@ -34,6 +34,7 @@ function App() {
                         <Hero></Hero>
                         <Achievments></Achievments>
                         <Registration></Registration>
+                        <Intro></Intro>
                         <Map></Map>
                         <Footer></Footer>
                         {/*
@@ -64,6 +65,7 @@ function App() {
                         <Hero></Hero>
                         <Achievments></Achievments>
                         <Registration></Registration>
+                        <Intro></Intro>
                         <Map></Map>
                         <Footer></Footer>
                         {/* <Intro></Intro>

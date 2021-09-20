@@ -6,93 +6,123 @@
   --hero-strip: #F7C514;
   --primary-color: linear-gradient(50deg, #EE1E26 25%, #F7C514 100%);
   --complement-color: #F7C514;
-  --secondary-color: #EE1E26;
+  --secondary-color: #F5564E;
 }
 
 .hero {
+  position: relative;
   height: 78.125rem;
   background-image: url(../img/bg.svg) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  cursor: pointer;
 }
 
 @media (max-width: 575.98px) {
   .hero {
-    height: 80rem;
+    height: 110rem;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .hero {
-    height: 68.75rem;
+    height: 70rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .hero {
-    height: 70.625rem;
+    height: 80rem;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .hero {
-    height: 70rem;
+    height: 75rem;
   }
 }
 
 @media (max-width: 320px) {
   .hero {
-    height: 80rem;
+    height: 110rem;
   }
 }
 
 @media (min-width: 321px) and (max-width: 376px) {
   .hero {
-    height: 84rem;
+    height: 110rem;
   }
 }
 
-.hero h1 {
+.hero .hero-parallax {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+@media (max-width: 991.98px) {
+  .hero .hero-parallax {
+    display: none;
+  }
+}
+
+.hero .hero-parallax .layers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.hero .hero-contents {
+  position: relative;
+}
+
+.hero .hero-contents h1 {
+  font-size: 3.5rem;
   line-height: .9;
   text-transform: uppercase;
 }
 
 @media (max-width: 575.98px) {
-  .hero h1 {
+  .hero .hero-contents h1 {
     line-height: 1.2;
   }
 }
 
-.hero h1 span {
+.hero .hero-contents h1 span {
   color: transparent;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--hero-strip);
 }
 
 @media (max-width: 575.98px) {
-  .hero h1 span {
+  .hero .hero-contents h1 span {
     -webkit-text-stroke-width: 1px;
   }
 }
 
-.hero .loc-date span {
+.hero .hero-contents .loc-date span {
   margin-right: 1.875rem;
 }
 
 @media (max-width: 575.98px) {
-  .hero .loc-date span {
+  .hero .hero-contents .loc-date span {
     display: block;
   }
 }
 
-.hero #timer {
+.hero .hero-contents #timer {
   width: 100%;
   margin: 0 auto;
 }
 
-.hero #timer .time {
+.hero .hero-contents #timer .time {
   width: 25%;
   font-weight: 500;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -105,12 +135,12 @@
   text-align: center;
 }
 
-.hero #timer .time span {
+.hero .hero-contents #timer .time span {
   display: block;
   text-transform: uppercase;
 }
 
-.hero .host img {
+.hero .hero-contents .host img {
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
@@ -118,9 +148,9 @@
   overflow: hidden;
 }
 
-@media (max-width: 575.98px) {
-  .hero .host img {
-    max-width: 100%;
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero .hero-contents .host img {
+    max-width: 20rem;
   }
 }
 
@@ -128,35 +158,17 @@
   background-color: var(--main-color);
 }
 
+@media (max-width: 575.98px) {
+  .header-bg {
+    height: 5rem;
+  }
+}
+
 .header-bg .logo {
   position: absolute;
-  left: 41%;
+  left: 0;
   top: 0.6rem;
   z-index: 99;
-}
-
-@media (max-width: 575.98px) {
-  .header-bg .logo {
-    left: 0;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .header-bg .logo {
-    left: -15%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .header-bg .logo {
-    left: 0%;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .header-bg .logo {
-    left: 39%;
-  }
 }
 
 .header-bg .logo a img {
@@ -185,6 +197,28 @@
 .header-bg .logo a img:hover {
   -webkit-transform: translateY(0.6rem);
           transform: translateY(0.6rem);
+}
+
+.header-bg .logo .navbar-brand span {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--type-color);
+}
+
+@media (max-width: 575.98px) {
+  .header-bg .logo .navbar-brand span {
+    position: relative;
+    top: 0.7rem;
+    -webkit-text-stroke-width: 1px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1531.98px) {
+  .header-bg .logo .navbar-brand span {
+    position: relative;
+    top: 0.5rem;
+  }
 }
 
 .header-bg #navigation {
@@ -673,6 +707,12 @@ html {
   }
 }
 
+@media (min-width: 2500px) {
+  html {
+    font-size: 18px;
+  }
+}
+
 body {
   font-family: "Poppins", sans-serif;
   color: var(--type-color) !important;
@@ -913,7 +953,7 @@ a, select, input, textarea, button {
 }
 
 .pt-150 {
-  padding-top: 9.375rem;
+  padding-top: 5rem;
 }
 
 .pt-200 {

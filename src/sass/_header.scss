@@ -1,22 +1,25 @@
 .header-bg{
     background-color: var(--main-color);
+    @media (max-width: 575.98px) {
+        height: 5rem;
+    }
     .logo {
         position: absolute;
-        left: 41%;
+        left: 0;
         top: 0.6rem;
         z-index: 99;
-        @media (max-width: 575.98px) {
-            left: 0;
-        }
-        @media (min-width: 576px) and (max-width: 767.98px) {
-            left: -15%;
-        }
-        @media (min-width: 768px) and (max-width: 991.98px) {
-            left: 0%;
-        }
-        @media (min-width: 992px) and (max-width: 1199.98px) {
-            left: 39%;
-        }
+        // @media (max-width: 575.98px) {
+        //     left: 0;
+        // }
+        // @media (min-width: 576px) and (max-width: 767.98px) {
+        //     left: -15%;
+        // }
+        // @media (min-width: 768px) and (max-width: 991.98px) {
+        //     left: 0%;
+        // }
+        // @media (min-width: 992px) and (max-width: 1199.98px) {
+        //     left: 39%;
+        // }
         a{
             img {
                 transition: 0.3s ease-out;
@@ -31,6 +34,23 @@
                 }
                 &:hover {
                     transform: translateY(0.6rem);
+                }
+            }
+        }
+        .navbar-brand{
+            span {
+                color: transparent;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: $type;
+                @media (max-width: 575.98px) { 
+                    position: relative;
+                    top: 0.7rem;
+                    -webkit-text-stroke-width: 1px;
+                }
+                @media (min-width: 576px) and (max-width: 1531.98px) {
+                    position: relative;
+                    top: 0.5rem;
                 }
             }
         }

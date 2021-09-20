@@ -45,9 +45,9 @@ const Header = (props) => {
 
     return (
         <>
-            <div id="ribbon" className="nominee black right d-lg-block d-none">
+            {/* <div id="ribbon" className="nominee black right d-lg-block d-none">
                 <a href="http://www.northsouth.edu/osa/clubs/nsuac.html" target="_blank" rel="noreferrer"></a>
-            </div>
+            </div> */}
             <header className="header-bg">
                 <Container>
                     <nav className="navbar navbar-expand-sm navbar-light nav-items py-3">
@@ -102,14 +102,14 @@ const Header = (props) => {
                                 <Link to="home" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="nsuac" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>MSUAC</Link>
+                                <Link to="nsuac" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>NSUAC</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
                                 <Link to="star" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Campus Star</Link>
                             </li>
-                            {/* <li className="pb-sm-4 pb-3">
+                            <li className="pb-sm-4 pb-3">
                                 <Link to="ebPanel" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Eb Panel</Link>
-                            </li> */}
+                            </li>
                             {/* <li className="pb-sm-4 pb-3">
                                 <Link to="schedules" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Battle of Skills</Link>
                             </li> */}

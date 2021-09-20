@@ -5,6 +5,7 @@ import {
     Link
   } from "react-router-dom";
 import './CampusStarEnglish.css';
+import poster from '../../img/Campus-Star.jpg';
 
 const CampusStarEnglish = () => {
     return (
@@ -40,6 +41,11 @@ const CampusStarEnglish = () => {
                                 <h2 className="pt-30 c-tag-1 semi-28">Campus Star Recruitment for BBS Going on!
                                 </h2>
                                 <p className="pt-3 c-tag-1 lit-18">Join the biggest online sports skills competition in Bangladesh as The Campus Star!! Be the facilitator of the event and show your love for sports!!!</p>
+
+                                <div className="text-center my-5">
+                                    <img src={poster} alt="poster" className="img-fluid w-50"/>
+                                </div>
+                                
                                 <p className="pt-3 c-tag-1 lit-18">Bangabandhu Battle of Skills 2021 organized by North South University Athletics Club and under the direct supervision of NSU authority, will be the first of its kind. It will create a platform to groom potential players and create a huge hype and excitement all over the country. The event aims to offer a festive mood to enjoy and participate in various sport skills events. This event will be open for all students within the age of 12 to 30 years all around the country. NSUAC aims to begin a new era of enjoying sports in a different flavour.</p>
 
                                 <h3 className="py-5 c-tag-1 medi-30 text-center">" Not a player!!! No worries. Be the playmaker. "</h3>

@@ -23,6 +23,9 @@ html {
     @media (min-width: 576px) and (max-width: 1531.98px) {
         font-size: 12px;
     }
+    @media (min-width: 2500px) {
+        font-size: 18px;
+    }
 }
 
 
@@ -216,7 +219,7 @@ a, select , input , textarea , button{
 }
 
 .pt-150{
-	padding-top: 9.375rem;
+    padding-top: 5rem;
 }
 
 .pt-200{

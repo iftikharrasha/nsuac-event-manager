@@ -60,10 +60,10 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">Vice President</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="#">Ramisa Anjuman</a>
+                                            <a href="#">Sajjad Hossain</a>
                                         </li>
                                         <li>
-                                            <a href="#">Sahhad Hossain</a>
+                                            <a href="#">Ramisa Anjuman</a>
                                         </li>
                                 </ul>
                             </div>
@@ -88,9 +88,6 @@ const Footer = () => {
                                 <ul className="lit-16">
                                         <li>
                                             <a href="#">Jahid Hasan Alvi</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Hussainur Rahman</a>
                                         </li>
                                 </ul>
                             </div>

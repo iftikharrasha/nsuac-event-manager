@@ -7,7 +7,7 @@ const Intro = () => {
         <>
             <section className="video mt-200" id="ebPanel">
                 <Container className="c_custom">
-                    <Row className="py-5">
+                    <Row className="py-5 px-lg-0 px-sm-5 px-3">
                         <Col lg={6} className="offset-md-2 offset-into">
                             <div className="intro-video">
                                 <iframe id="youtube" width="100%" height="409" src="https://www.youtube.com/embed/wLVswSN4JmU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
