@@ -30,9 +30,9 @@ import img22 from '../../img/fardin.jpg';
 import img23 from '../../img/maruf.jpg';
 import img24 from '../../img/fahim.jpg';
 import img25 from '../../img/shaklyen.jpg';
-import './TopContestants.css';
+import './StarsGallery.css';
 
-const TopContestants = () => {
+const StarsGallery = () => {
 
 	const gallery = [
         {
@@ -135,38 +135,6 @@ const TopContestants = () => {
             id: 25,
             imgSrc: img25,
         },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
     ]
 
     const state= {
@@ -178,7 +146,7 @@ const TopContestants = () => {
                 items: 1,
             },
             600: {
-                items: 1,
+                items: 2,
             },
             1000: {
                 items: 3,
@@ -188,7 +156,7 @@ const TopContestants = () => {
 
     return (
         <>
-            <section className="top-videos mt-100" id="topVideos">
+            <section className="top-videos mt-100" id="star">
 			<Container className="c_custom">
 				<Row>
 
@@ -204,7 +172,7 @@ const TopContestants = () => {
 										<div className="item" key={item.id}>
 											<Row>
 												<Col>
-													<div className="video_item">
+													<div className="video_item p-5">
 														<LazyLoadImage effect="blur" src={item.imgSrc} alt="Image1"/>
 													</div>
 												</Col>
@@ -223,4 +191,4 @@ const TopContestants = () => {
     );
 };
 
-export default TopContestants;
+export default StarsGallery;

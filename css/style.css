@@ -752,18 +752,6 @@
 *
 /****** Extra extra small devices (s6 mobiles, 31.25rem and below) *******/
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
-.teaser .teaser-video iframe {
-  border-radius: .5rem;
-  width: 100%;
-  height: 34rem;
-}
-
-@media (max-width: 575.98px) {
-  .teaser .teaser-video iframe {
-    height: 20rem;
-  }
-}
-
 .footer {
   padding: 3.125rem 0;
   position: relative;

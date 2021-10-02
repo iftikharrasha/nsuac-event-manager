@@ -9,7 +9,7 @@ import './Registration.css';
 const Registration = () => {
     return (
         <>
-            <section className="joinNow d-flex align-items-center mt-50" id="star">
+            <section className="joinNow d-flex align-items-center mt-50" id="reg">
                     <Container>
                         <Row>
                             <Col lg={9} className="d-flex align-items-center">

@@ -38,7 +38,7 @@ const RegModal = ({modalIsOpen, closeModal}) => {
                             <div className="">
                                 <div className="call-to-act mt-2 text-sm-center">
                                     <span className="mr-2">
-                                        <a href="#" className="disabled pl-3 px-5 py-3">
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmICFGntzh3y68Prx9ioH62UipHEO5yLewxdXJEnqLxnTpMQ/viewform" target="_blank" rel="noreferrer" className="pl-3 px-5 py-3" onClick={closeModal}>
                                             <span> Battle of Skills</span>
                                         </a>
                                     </span>

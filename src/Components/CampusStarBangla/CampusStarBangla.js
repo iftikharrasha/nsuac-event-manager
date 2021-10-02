@@ -57,6 +57,9 @@ const CampusStarBangla = () => {
                             </div>
                         </Col>
                     </Row>
+                    <Row className="mb-5">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/BQf5EWap5xw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Row>
                     <Row className="row">
                         <Col className="pb-5">
                             <div className="pt-4 pb-3">

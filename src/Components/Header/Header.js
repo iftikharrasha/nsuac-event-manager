@@ -49,22 +49,23 @@ const Header = (props) => {
                 <a href="http://www.northsouth.edu/osa/clubs/nsuac.html" target="_blank" rel="noreferrer"></a>
             </div> */}
             <div className="latest">
-                <div class="ticker">
-                    <div class="title"><h5>Latest News</h5></div>
-                    <div class="news">
+                <div className="ticker">
+                    <div className="title"><h5>Latest News</h5></div>
+                    <div className="news">
                         <marquee>
                             <p className="mb-0">
                                 <span>Campus Star registration is going on!</span>
                                 <span>|</span>
-                                <span>Battle of Skills: Stay Tuned!</span>
+                                <span>BBS registration starts from 3rd October!</span>
+                                <span>|</span>
+                                <span>BBS Registration will continue till 10th October!</span>
                                 <span>|</span>
                                 <span>Campus Star registration is going on!</span>
                                 <span>|</span>
-                                <span>Battle of Skills: Stay Tuned!</span>
+                                <span>BBS registration starts from 3rd October!</span>
                                 <span>|</span>
-                                <span>Campus Star registration is going on!</span>
+                                <span>BBS Registration will continue till 10th October!</span>
                                 <span>|</span>
-                                <span>Battle of Skills: Stay Tuned!</span>
                             </p>
                         </marquee>
                     </div>
@@ -127,7 +128,10 @@ const Header = (props) => {
                                 <Link to="greetings" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Greetings</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="star" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Campus Star</Link>
+                                <Link to="teaser" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BOS Teaser</Link>
+                            </li>
+                            <li className="pb-sm-4 pb-3">
+                                <Link to="star" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Campus Stars</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
                                 <Link to="nsuac" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>NSUAC</Link>

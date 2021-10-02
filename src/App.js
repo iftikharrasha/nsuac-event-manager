@@ -21,6 +21,8 @@ import TopContestants from "./Components/TopContestants/TopContestants";
 import CampusStarEnglish from "./Components/CampusStarEnglish/CampusStarEnglish";
 import CampusStarBangla from "./Components/CampusStarBangla/CampusStarBangla";
 import Greetings from "./Components/Greetings/Greetings.js";
+import Teaser from "./Components/Teaser/Teaser.js";
+import StarsGallery from "./Components/StarsGallery/StarsGallery.js";
 
 function App() {
   const display = "none";
@@ -34,6 +36,8 @@ function App() {
                         <Header></Header>
                         <Hero></Hero>
                         <Greetings></Greetings>
+                        <Teaser></Teaser>
+                        <StarsGallery></StarsGallery>
                         <Registration></Registration>
                         <Achievments></Achievments>
                         <Map></Map>
@@ -65,6 +69,8 @@ function App() {
                         <Header></Header>
                         <Hero></Hero>
                         <Greetings></Greetings>
+                        <Teaser></Teaser>
+                        <StarsGallery></StarsGallery>
                         <Registration></Registration>
                         <Achievments></Achievments>
                         <Map></Map>

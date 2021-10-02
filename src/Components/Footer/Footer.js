@@ -18,7 +18,7 @@ const Footer = () => {
                                     <img src={logo} className="img-fluid w-25" alt="bos-footer"/>
                                     Battle of Skills 2021</h3>
                                 <p className="lit-18">
-                                    North South University Athletics Club (NSUAC) is going to organize a three-day long Skill showing event for from 1st June, 2021 to 3rd June, 2021.
+                                    North South University Athletics Club (NSUAC) is going to organize a Seven-day long Skill showing event starting from 3rd October, 2021 to 10th October, 2021.
                                 </p>
                             </div>
                         </Col>
@@ -52,7 +52,7 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">President</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="https://www.linkedin.com/in/hridoyalam/?fbclid=IwAR1xdmWzM1H-Hn-cABp8r5nkmaGNVRXnYyr58P3M4N4LuPWvS2aDBZhjHrI" target="_blank" rel="noreferrer">Hridoy Alom</a>
+                                            <a href="https://www.linkedin.com/in/hridoyalam/?fbclid=IwAR1xdmWzM1H-Hn-cABp8r5nkmaGNVRXnYyr58P3M4N4LuPWvS2aDBZhjHrI" target="_blank" rel="noreferrer">Hridoy Alam</a>
                                         </li>
                                 </ul>
                             </div>
@@ -60,7 +60,7 @@ const Footer = () => {
                                 <h4 className="c-tag-3 lit-18">Vice President</h4>
                                 <ul className="lit-16">
                                         <li>
-                                            <a href="#">Sajjad Hossain</a>
+                                            <a href="https://www.facebook.com/sajjad.hossen.3958" target="_blank" rel="noreferrer">Sajjad Hossain</a>
                                         </li>
                                         <li>
                                             <a href="https://www.linkedin.com/in/ramisa-anjuman-233083219/?fbclid=IwAR1wiiNWgDnT4ulX4GtfbtysmNlat1ZdM5k60m2tB80oxl28vW2ie8vJ7BE" target="_blank" rel="noreferrer">Ramisa Anjuman</a>
@@ -102,7 +102,7 @@ const Footer = () => {
                                     <a href="http://www.northsouth.edu/" className="c-tag-4 medi-14" target="_blank" rel="noreferrer">North South University</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="c-tag-4 medi-14">BOS Registration</a>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmICFGntzh3y68Prx9ioH62UipHEO5yLewxdXJEnqLxnTpMQ/viewform" className="c-tag-4 medi-14" target="_blank" rel="noreferrer">BBS Registration</a>
                                 </li>
                                 <li>
                                     <Link to="/campus-star/en" className="c-tag-4 medi-14">Campus Star</Link>

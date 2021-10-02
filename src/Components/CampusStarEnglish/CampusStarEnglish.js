@@ -12,7 +12,7 @@ const CampusStarEnglish = () => {
         <>
             <section className="campusStar pt-150">
                 <Container>
-                    <Row className="row">
+                    <Row>
                         <Col sm={10} className="pb-sm-5 pb-0">
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
@@ -35,7 +35,7 @@ const CampusStarEnglish = () => {
                             </nav>
                         </Col>
                     </Row>
-                    <Row className="row">
+                    <Row>
                         <Col className="pb-5">
                             <div className="pt-4 pb-3">
                                 <h2 className="pt-30 c-tag-1 semi-28">Campus Star Recruitment for BBS Going on!
@@ -56,7 +56,10 @@ const CampusStarEnglish = () => {
                             </div>
                         </Col>
                     </Row>
-                    <Row className="row">
+                    <Row className="mb-5">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/BQf5EWap5xw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Row>
+                    <Row>
                         <Col className="pb-5">
                             <div className="pt-4 pb-3">
                                 <h2 className="pt-30 c-tag-1 semi-28">A Campus Star must have:
@@ -73,7 +76,7 @@ const CampusStarEnglish = () => {
                             </div>
                         </Col>
                     </Row>
-                    <Row className="row">
+                    <Row>
                         <Col className="pb-5">
                             <div className="pt-4 pb-3">
                                 <h2 className="pt-30 c-tag-1 semi-28">Benefits of being Bangabandhu Battle of Skills Campus Star:
@@ -86,7 +89,7 @@ const CampusStarEnglish = () => {
                             </div>
                         </Col>
                     </Row>
-                    <Row className="row">
+                    <Row>
                         <Col className="pb-5">
                             <div className="pt-4 pb-3">
                                 <h2 className="pt-30 c-tag-1 semi-28">Responsibilities as a Campus Star:

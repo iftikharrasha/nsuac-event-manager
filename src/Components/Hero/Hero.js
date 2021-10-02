@@ -22,7 +22,7 @@ const Hero = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('October 3, 2021 00:00:00').getTime();
+        const countdownDate = new Date('October 10, 2021 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -94,7 +94,7 @@ const Hero = () => {
                                     </div>                      
                                 </Col>
                                 <Col sm={12} className="mt-5 text-center">
-                                    <h2 className="lit-32 text-center">Registration ongoing for Campus Star!</h2>
+                                    <h2 className="lit-32 text-center">Registration ongoing for Campus Star and BBS!</h2>
                                 </Col>
                                 <Col sm={12} className="mt-2 text-center">
                                     <p className="loc-date lit-18">
@@ -104,7 +104,7 @@ const Hero = () => {
                                         </span>
                                         <span>
                                             <i className="fa fa-calendar pr-2"></i>
-                                            October 3 to 18, 2021
+                                            October 3 - 10, 2021
                                         </span>
                                     </p>
                                 </Col>
