@@ -54,15 +54,15 @@ const Header = (props) => {
                     <div className="news">
                         <marquee>
                             <p className="mb-0">
-                                <span>Campus Star registration is going on!</span>
+                                <span>Campus Star registration is closed now!</span>
                                 <span>|</span>
-                                <span>BBS registration starts from 3rd October!</span>
+                                <span>BBS registration has been started!</span>
                                 <span>|</span>
                                 <span>BBS Registration will continue till 10th October!</span>
                                 <span>|</span>
-                                <span>Campus Star registration is going on!</span>
+                                <span>Campus Star registration is closed now!</span>
                                 <span>|</span>
-                                <span>BBS registration starts from 3rd October!</span>
+                                <span>BBS registration has been started!</span>
                                 <span>|</span>
                                 <span>BBS Registration will continue till 10th October!</span>
                                 <span>|</span>
@@ -125,13 +125,13 @@ const Header = (props) => {
                                 <Link to="home" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="greetings" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Greetings</Link>
+                                <Link to="rules" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BBS Rules</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="teaser" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BOS Teaser</Link>
+                                <Link to="teaser" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BBS Teaser</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="star" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Campus Stars</Link>
+                                <Link to="mediaPartners" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Partners</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
                                 <Link to="nsuac" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>NSUAC</Link>

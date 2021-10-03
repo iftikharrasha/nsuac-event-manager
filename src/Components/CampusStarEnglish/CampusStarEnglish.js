@@ -6,6 +6,7 @@ import {
   } from "react-router-dom";
 import './CampusStarEnglish.css';
 import poster from '../../img/Campus-Star.jpg';
+import StarsGallery from '../StarsGallery/StarsGallery';
 
 const CampusStarEnglish = () => {
     return (
@@ -101,7 +102,7 @@ const CampusStarEnglish = () => {
                                 <p className="pt-3 c-tag-1 lit-18">If you think you’re capable enough to uphold the honour and dignity by representing your institution throughout the nation as a campus star, you are just a step away, mail us at <span className="semi-18">athletics.club@northsouth.edu</span> with all the necessary details as mentioned. We will contact you as soon as possible for a short interview followed by an appointment!!!! So, grab your opportunity and apply right away.</p>
 
                                 <div className="pt-5 call-to-act mt-2 text-sm-center">
-                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfj_spkrEedPtWZNAXlWCkisBG5siP1JE7ZS1hPvV3mFZWpog/viewform" target="_blank" rel="noreferrer">
+                                        <a className="disabled">
                                             <span> Become a Campus Star!</span>
                                         </a>
                                 </div>
@@ -109,6 +110,7 @@ const CampusStarEnglish = () => {
                         </Col>
                     </Row>
                 </Container>
+                <StarsGallery></StarsGallery>
             </section>
         </>
     );

@@ -15,14 +15,14 @@ const Registration = () => {
                             <Col lg={9} className="d-flex align-items-center">
                                 <h2 className="medi-40">
                                     <span className="c-tag-2">
-                                        Join as a campus Star!
+                                        Unleash your sports skill!
                                     </span>
                                 </h2>
                             </Col>
                             <Col lg={3} className="d-flex align-items-center mt-lg-0 mt-5">
                                 <div className="call-to-act">
                                     <Link to="/campus-star/en" className="px-5 py-3">
-                                        <span> Join Now </span>
+                                        <span> Register Now! </span>
                                     </Link>
                                 </div>
                             </Col>

@@ -55,16 +55,16 @@ const Hero = () => {
         }
     });
 
-    document.addEventListener('mousemove', parallax);
-    function parallax(e){
-        this.querySelectorAll('.layers').forEach(layer => {
-            const speed = layer.getAttribute('data-speed');
-            const x = (window.innerWidth - e.pageX*speed)/100;
-            const y = (window.innerHeight - e.pageY*speed)/100;
+    // document.addEventListener('mousemove', parallax);
+    // function parallax(e){
+    //     this.querySelectorAll('.layers').forEach(layer => {
+    //         const speed = layer.getAttribute('data-speed');
+    //         const x = (window.innerWidth - e.pageX*speed)/100;
+    //         const y = (window.innerHeight - e.pageY*speed)/100;
 
-            layer.style.transform = `translateX(${x}px) translateY(${y}px)`;
-        });
-    }
+    //         layer.style.transform = `translateX(${x}px) translateY(${y}px)`;
+    //     });
+    // }
 
     return (
         <>
@@ -94,7 +94,7 @@ const Hero = () => {
                                     </div>                      
                                 </Col>
                                 <Col sm={12} className="mt-5 text-center">
-                                    <h2 className="lit-32 text-center">Registration ongoing for Campus Star and BBS!</h2>
+                                    <h2 className="lit-32 text-center">Registration ongoing for Battle of Skills!</h2>
                                 </Col>
                                 <Col sm={12} className="mt-2 text-center">
                                     <p className="loc-date lit-18">

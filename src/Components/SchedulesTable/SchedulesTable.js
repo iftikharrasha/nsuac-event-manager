@@ -25,6 +25,12 @@ const SchedulesTable = () => {
                                         <Row className="pt-150 pb-200 pt-prog pb-prog">
                                             <Col md={4}>
                                                 <div className="trophy-item text-center">
+                                                    <LazyLoadImage effect="blur" src={trophy} alt="trophy-three" className="img-fluid"/>
+                                                    <h4 className="c-tag-1 pt-5 lit-20">1 Trophy</h4>
+                                                </div>
+                                            </Col>
+                                            <Col md={4}>
+                                                <div className="trophy-item text-center">
                                                     <LazyLoadImage effect="blur" src={whistle} alt="trophy-one" className="img-fluid"/>
                                                     <h4 className="c-tag-1 pt-5 lit-20">10,000 participants</h4>
                                                 </div>
@@ -33,12 +39,6 @@ const SchedulesTable = () => {
                                                 <div className="trophy-item text-center">
                                                     <LazyLoadImage effect="blur" src={play} alt="trophy-two" className="img-fluid"/>
                                                     <h4 className="c-tag-1 pt-5 lit-20">7 Videos</h4>
-                                                </div>
-                                            </Col>
-                                            <Col md={4}>
-                                                <div className="trophy-item text-center">
-                                                    <LazyLoadImage effect="blur" src={trophy} alt="trophy-three" className="img-fluid"/>
-                                                    <h4 className="c-tag-1 pt-5 lit-20">1 Trophy</h4>
                                                 </div>
                                             </Col>
                                         </Row>

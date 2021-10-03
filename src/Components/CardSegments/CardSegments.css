@@ -1,0 +1,146 @@
+
+
+.slider{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.responsive{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.segment-item {
+    padding: 1.25rem;
+    width: 25%;
+}
+
+.segment {
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    transition: 0.3s ease-out;
+    box-shadow: 0rem 0.2em 1rem #e8e8e8;
+    cursor: pointer;
+}
+
+.segment:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1.25rem 1.25rem 0 rgb(0 0 0 / 10%);
+}
+
+.segment-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.segment-img img{
+    border-top-right-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.segment-img .seg-name {
+    margin-bottom: 0px;
+    padding-left: 0;
+}
+
+.segment-item .seg-name li {
+    display: inline-block;
+    text-align: center;
+    background: var(--primary-color);
+}
+
+.segment-item .seg-name li p{
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.seg-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 34px 1.875rem 35px;
+}
+
+.seg-details h3 {
+    margin-top: 7px;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 100px;
+    color: #000;
+}
+
+.slick-prev::before {
+    content: "‹";
+}
+
+.slick-next::before {
+    content: "›";
+}
+
+.slick-dots li button {
+    background: #4682b400;
+}
+
+
+.slick-dots li button:before {
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: var(--primary-color);
+}
+
+@media (max-width: 575.98px) {
+    .segment-item {
+        width: 100%;
+    } 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .segment-item {
+        width: 50%;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .segment-item {
+        width: 50%;
+    } 
+}
+
+@media (min-width: 992px) and (max-width: 1299.98px) {
+    .segment-item {
+        width: 50%;
+    } 
+}
+
+@media (min-width: 1300px) and (max-width: 1531.98px){
+    
+}
+  
+@media (min-width: 1532px) and (max-width: 2499.99px) {
+    
+}
+
+@media (min-width: 2500px) {
+    
+}
+
+@media (max-width: 320px) {
+    
+}
+
+@media (min-width: 321px) and (max-width: 376px) {
+    
+}

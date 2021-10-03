@@ -6,6 +6,7 @@ import {
   } from "react-router-dom";
   import './CampusStarBangla.css';
   import poster from '../../img/Campus-Star.jpg';
+import StarsGallery from '../StarsGallery/StarsGallery';
 
 const CampusStarBangla = () => {
     return (
@@ -102,7 +103,7 @@ const CampusStarBangla = () => {
                                 <p className="pt-3 c-tag-1 lit-18">আপনি যদি মনে করেন যে আপনি একটি ক্যাম্পাস তারকা হিসাবে আপনার প্রতিষ্ঠানের প্রতিনিধিত্ব করে সম্মান ও মর্যাদাকে ধরে রাখতে যথেষ্ট সক্ষম হন তবে আপনি কেবল এক ধাপ দূরে রয়েছেন, athletics.club@northsouth.edu -তে বর্ণিত সমস্ত প্রয়োজনীয় বিবরণ সহ আমাদের মেইল ​​করুন । একটি অ্যাপয়েন্টমেন্টের পরে একটি সংক্ষিপ্ত সাক্ষাত্কারের জন্য আমরা যত তাড়াতাড়ি সম্ভব আপনার সাথে যোগাযোগ করব !!!! সুতরাং, আপনার সুযোগটি দখল করুন এবং এখনই আবেদন করুন।</p>
 
                                 <div className="pt-5 call-to-act mt-2 text-sm-center">
-                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfj_spkrEedPtWZNAXlWCkisBG5siP1JE7ZS1hPvV3mFZWpog/viewform" target="_blank" rel="noreferrer">
+                                        <a className="disabled">
                                             <span> Become a Campus Star!</span>
                                         </a>
                                 </div>
@@ -110,6 +111,7 @@ const CampusStarBangla = () => {
                         </Col>
                     </Row>
                 </Container>
+                <StarsGallery></StarsGallery>
             </section>
         </>
     );

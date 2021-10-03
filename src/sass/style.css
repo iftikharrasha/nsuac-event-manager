@@ -651,12 +651,21 @@
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--hero-strip);
+  cursor: pointer;
 }
 
 @media (max-width: 575.98px) {
   .big-img h2 span {
     -webkit-text-stroke-width: 1px;
   }
+}
+
+.big-img h2 span:hover {
+  color: var(--hero-strip);
+  -webkit-text-fill-color: var(--hero-strip);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: transparent;
+  cursor: pointer;
 }
 
 .video {
@@ -1275,5 +1284,9 @@ a, select, input, textarea, button {
 
 .call-to-act .disabled::before, .call-to-act .disabled::after {
   opacity: 0;
+}
+
+.mark {
+  background-color: var(--hero-strip);
 }
 /*# sourceMappingURL=style.css.map */

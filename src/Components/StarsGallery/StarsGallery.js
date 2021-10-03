@@ -173,7 +173,7 @@ const StarsGallery = () => {
 											<Row>
 												<Col>
 													<div className="video_item p-5">
-														<LazyLoadImage effect="blur" src={item.imgSrc} alt="Image1"/>
+														<LazyLoadImage effect="blur" src={item.imgSrc} alt={item.imgSrc}/>
 													</div>
 												</Col>
 											</Row>

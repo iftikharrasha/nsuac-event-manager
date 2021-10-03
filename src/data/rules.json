@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "key":"YEE1RT907H",
+      "event": "The competition is open for all the school, college, and university students aged between 12-30. ",
+      "till1":"ends June 17",
+      "date": "#1",
+      "time": ""
+    },
+    {
+      "id": 2,
+      "key":"5V75R5T9YH",
+      "event": "Each participant must focus on ONE of the following sports skills: ",
+      "till1":"Football",
+      "till2": "Cricket",
+      "till3": "Cycle Stunt",
+      "till4": "Basketball",
+      "till5": "Table Tennis",
+      "till6": "Rubik's Cube",
+      "till7": "Carrom Trick Shot / Pool/ Billiard Trick Shot",
+      "till8": "Free Hand Gymnastics/ Martial Arts ",
+      "date": "#2",
+      "time": ""
+    },
+    {
+      "id": 3,
+      "key":"MNSK777SFF",
+      "event": "Video Promotion",
+      "till":"ends June 23",
+      "date": "June 21",
+      "time": ""
+    },
+    {
+      "id": 4,
+      "key":"TTSK756OUP",
+      "event": "Prize Giving",
+      "till":"ends of the event",
+      "date": "June 24",
+      "time": "closing"
+    }
+  ]

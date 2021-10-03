@@ -10,7 +10,6 @@ import ScrollTop from './ScrollTop.js';
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import Achievments from './Components/Achievments/Achievments';
-import Intro from './Components/Inro/Intro';
 import Registration from './Components/Registration/Registration';
 import SegmentsSlider from './Components/SegmentsSlider/SegmentsSlider';
 import MediaPartners from './Components/MediaPartners/MediaPartners';
@@ -22,7 +21,8 @@ import CampusStarEnglish from "./Components/CampusStarEnglish/CampusStarEnglish"
 import CampusStarBangla from "./Components/CampusStarBangla/CampusStarBangla";
 import Greetings from "./Components/Greetings/Greetings.js";
 import Teaser from "./Components/Teaser/Teaser.js";
-import StarsGallery from "./Components/StarsGallery/StarsGallery.js";
+import PrizeMoney from "./Components/PrizeMoney/PrizeMoney.js";
+import CardSegments from "./Components/CardSegments/CardSegments.js";
 
 function App() {
   const display = "none";
@@ -35,10 +35,12 @@ function App() {
                     <Route path="/home">
                         <Header></Header>
                         <Hero></Hero>
+                        <PrizeMoney></PrizeMoney>
+                        <CardSegments></CardSegments>
                         <Greetings></Greetings>
                         <Teaser></Teaser>
-                        <StarsGallery></StarsGallery>
                         <Registration></Registration>
+                        <MediaPartners></MediaPartners>
                         <Achievments></Achievments>
                         <Map></Map>
                         <Footer></Footer>
@@ -68,10 +70,12 @@ function App() {
                     <Route exact path="/">
                         <Header></Header>
                         <Hero></Hero>
+                        <PrizeMoney></PrizeMoney>
+                        <CardSegments></CardSegments>
                         <Greetings></Greetings>
                         <Teaser></Teaser>
-                        <StarsGallery></StarsGallery>
                         <Registration></Registration>
+                        <MediaPartners></MediaPartners>
                         <Achievments></Achievments>
                         <Map></Map>
                         <Footer></Footer>

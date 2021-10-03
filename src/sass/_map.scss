@@ -22,9 +22,17 @@
             color: transparent;
             -webkit-text-fill-color: transparent;
             -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: var(--hero-strip);
+            -webkit-text-stroke-color: $strip;
+            cursor: pointer;
             @media (max-width: 575.98px) {
                 -webkit-text-stroke-width: 1px;
+            }
+            &:hover{
+                color: $strip;
+                -webkit-text-fill-color: $strip;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: transparent;
+                cursor: pointer;
             }
         }
     }
