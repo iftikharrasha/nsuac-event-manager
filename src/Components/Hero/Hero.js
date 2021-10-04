@@ -22,7 +22,7 @@ const Hero = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('October 10, 2021 00:00:00').getTime();
+        const countdownDate = new Date('October 15, 2021 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -104,7 +104,7 @@ const Hero = () => {
                                         </span>
                                         <span>
                                             <i className="fa fa-calendar pr-2"></i>
-                                            October 3 - 10, 2021
+                                            October 3 - 15, 2021
                                         </span>
                                     </p>
                                 </Col>

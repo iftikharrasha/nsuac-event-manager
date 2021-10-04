@@ -58,13 +58,13 @@ const Header = (props) => {
                                 <span>|</span>
                                 <span>BBS registration has been started!</span>
                                 <span>|</span>
-                                <span>BBS Registration will continue till 10th October!</span>
+                                <span>BBS Registration will continue till 15th October, 2021 - 11:59PM</span>
                                 <span>|</span>
                                 <span>Campus Star registration is closed now!</span>
                                 <span>|</span>
                                 <span>BBS registration has been started!</span>
                                 <span>|</span>
-                                <span>BBS Registration will continue till 10th October!</span>
+                                <span>BBS Registration deadline: 15th October, 2021 - 11:59PM</span>
                                 <span>|</span>
                             </p>
                         </marquee>
