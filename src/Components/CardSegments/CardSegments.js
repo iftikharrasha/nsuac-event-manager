@@ -10,7 +10,7 @@ import sports from '../../data/sports.json';
 const CardSegments = () => {
     return (
         <>
-            <section className="segments pt-200 pb-200" id="segments">
+            <section className="segments pt-200" id="segments">
                 <Container>
                     <Row>
                         <Col sm={12}>
@@ -28,7 +28,7 @@ const CardSegments = () => {
                         {
                             sports.map(sport => 
                                 
-                                <div className="segment-item" key={sport.key}>
+                                <div className="segment-item" key={sport.key} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
                                     <article className="segment">
                                         <div className="segment-img"> 
                                             <LazyLoadImage effect="blur" className="img-fluid" src={sport.img} alt="segment"/>

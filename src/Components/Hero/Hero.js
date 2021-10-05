@@ -95,6 +95,12 @@ const Hero = () => {
                                 </Col>
                                 <Col sm={12} className="mt-5 text-center">
                                     <h2 className="lit-32 text-center">Registration ongoing for Battle of Skills!</h2>
+                                    
+                                    <div className="call-to-act my-5 text-sm-center d-sm-none d-block">
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmICFGntzh3y68Prx9ioH62UipHEO5yLewxdXJEnqLxnTpMQ/viewform" target="_blank" rel="noreferrer" className="pl-3 px-5 py-3">
+                                            <span>Registration</span>
+                                        </a>
+                                    </div>
                                 </Col>
                                 <Col sm={12} className="mt-2 text-center">
                                     <p className="loc-date lit-18">

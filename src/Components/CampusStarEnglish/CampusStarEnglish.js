@@ -39,7 +39,7 @@ const CampusStarEnglish = () => {
                     <Row>
                         <Col className="pb-5">
                             <div className="pt-4 pb-3">
-                                <h2 className="pt-30 c-tag-1 semi-28">Campus Star Recruitment for BBS Going on!
+                                <h2 className="pt-30 c-tag-1 semi-28">Campus Star Recruitment for BBS'21 Going on!
                                 </h2>
                                 <p className="pt-3 c-tag-1 lit-18">Join the biggest online sports skills competition in Bangladesh as The Campus Star!! Be the facilitator of the event and show your love for sports!!!</p>
 
@@ -71,7 +71,7 @@ const CampusStarEnglish = () => {
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>4. </span>Professionalism</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>5. </span>Experience</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>6. </span>Better communication skill</p>
-                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>7. </span>Good social media presence (Must have More than 2000 friends on Facebook, it is better if he/she has his/ her own campus related Facebook group or page.)</p>
+                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>7. </span>Good social media presence (It is better if he/she has his/ her own campus related Facebook group or page.)</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>8. </span>Has to play an important role in Own campus social media groups</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>9. </span>Has to be creative with modern social media technology</p>
                             </div>
@@ -84,9 +84,8 @@ const CampusStarEnglish = () => {
                                     </h2>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>1. </span>Certificate of Recognitions</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>2. </span>Social Media Recognition</p>
-                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>3. </span>Event t-shirt</p>
-                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>4. </span>Souvenirs signed by Sports Stars of Bangladesh</p>
-                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>5. </span>Opportunity to work with team NSUAC / some well-renowned companies in BD in future</p>
+                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>3. </span>Souvenirs signed by Sports Stars of Bangladesh</p>
+                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>4. </span>Opportunity to work with team NSUAC / some well-renowned companies in BD in future</p>
                             </div>
                         </Col>
                     </Row>

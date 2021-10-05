@@ -98,7 +98,7 @@ const MediaPartners = () => {
                                 <Col sm={12} className="mb-0 c-tag-1">
                                     <h4 className="medi-20">Electronic Media Partner</h4>
                                 </Col>
-                                <Col sm={12} className="c-tag-1">
+                                <Col sm={12} className="c-tag-1" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                                     <a href="https://www.jamuna.tv/" className="" target="_blank" rel="noreferrer">
                                         <LazyLoadImage effect="blur" className="img-fluid" src={jamuna} alt="jamuna"/>        
                                     </a>
@@ -111,7 +111,7 @@ const MediaPartners = () => {
                                 <Col sm={12} className="mb-0 c-tag-1">
                                     <h4 className="medi-20">Radio Partner</h4>
                                 </Col>
-                                <Col sm={12} className="c-tag-1">
+                                <Col sm={12} className="c-tag-1" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1500">
                                     <a href="https://www.radiotodaybd.fm/" className="" target="_blank" rel="noreferrer">
                                         <LazyLoadImage effect="blur" className="img-fluid" src={radio896} alt="radio 89.6"/>        
                                     </a>
@@ -124,7 +124,7 @@ const MediaPartners = () => {
                                 <Col sm={12} className="mb-0 c-tag-1">
                                     <h4 className="medi-20">Bangla Print Media Partner</h4>
                                 </Col>
-                                <Col sm={12} className="c-tag-1">
+                                <Col sm={12} className="c-tag-1" data-aos="fade-up" data-aos-delay="900" data-aos-duration="2000">
                                     <a href="https://samakal.com/" className="" target="_blank" rel="noreferrer">
                                         <LazyLoadImage effect="blur" className="img-fluid" src={shomokal} alt="shomokal"/>        
                                     </a>
@@ -137,7 +137,7 @@ const MediaPartners = () => {
                                 <Col sm={12} className="mb-0 c-tag-1">
                                     <h4 className="medi-20">Online English Media Partner</h4>
                                 </Col>
-                                <Col sm={12} className="c-tag-1">
+                                <Col sm={12} className="c-tag-1" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="2500">
                                     <a href="https://www.tbsnews.net/" className="" target="_blank" rel="noreferrer">
                                         <LazyLoadImage effect="blur" className="img-fluid" src={business} alt="business"/>        
                                     </a>

@@ -4,6 +4,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import ScrollToTop from "react-scroll-to-top";
 import ScrollTop from './ScrollTop.js';
 // import {Helmet} from "react-helmet";
@@ -25,6 +27,8 @@ import PrizeMoney from "./Components/PrizeMoney/PrizeMoney.js";
 import CardSegments from "./Components/CardSegments/CardSegments.js";
 
 function App() {
+  AOS.init();
+
   const display = "none";
 
   return (
@@ -36,12 +40,10 @@ function App() {
                         <Header></Header>
                         <Hero></Hero>
                         <PrizeMoney></PrizeMoney>
-                        <CardSegments></CardSegments>
-                        <Greetings></Greetings>
                         <Teaser></Teaser>
-                        <Registration></Registration>
-                        <MediaPartners></MediaPartners>
+                        <Greetings></Greetings>
                         <Achievments></Achievments>
+                        <MediaPartners></MediaPartners>
                         <Map></Map>
                         <Footer></Footer>
                         {/*
@@ -71,12 +73,10 @@ function App() {
                         <Header></Header>
                         <Hero></Hero>
                         <PrizeMoney></PrizeMoney>
-                        <CardSegments></CardSegments>
-                        <Greetings></Greetings>
                         <Teaser></Teaser>
-                        <Registration></Registration>
-                        <MediaPartners></MediaPartners>
+                        <Greetings></Greetings>
                         <Achievments></Achievments>
+                        <MediaPartners></MediaPartners>
                         <Map></Map>
                         <Footer></Footer>
                         {/* <Intro></Intro>

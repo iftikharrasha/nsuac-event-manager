@@ -72,7 +72,7 @@ const CampusStarBangla = () => {
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>4. </span>পেশাদারিত্ব</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>5. </span>অভিজ্ঞতা</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>6. </span>যোগাযোগের দক্ষতা আরও ভাল</p>
-                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>7. </span>ভাল সামাজিক মিডিয়া উপস্থিতি (ফেসবুকে 2000 এরও বেশি বন্ধু থাকতে হবে, তার নিজস্ব ক্যাম্পাস সম্পর্কিত ফেসবুক গ্রুপ বা পৃষ্ঠা থাকলেই ভাল হয়))</p>
+                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>7. </span>ভাল সামাজিক মিডিয়া উপস্থিতি (তার নিজস্ব ক্যাম্পাস সম্পর্কিত ফেসবুক গ্রুপ বা পৃষ্ঠা থাকলেই ভাল হয়))</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>8. </span>নিজস্ব ক্যাম্পাস সোশ্যাল মিডিয়া গ্রুপগুলিতে গুরুত্বপূর্ণ ভূমিকা নিতে হবে</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>9. </span>আধুনিক সামাজিক মিডিয়া প্রযুক্তি দিয়ে সৃজনশীল হতে হবে</p>
                             </div>
@@ -85,9 +85,8 @@ const CampusStarBangla = () => {
                                     </h2>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>1. </span>স্বীকৃতি শংসাপত্র</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>2. </span>সোশ্যাল মিডিয়া স্বীকৃতি</p>
-                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>3. </span>ইভেন্ট টি-শার্ট</p>
-                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>4. </span>বাংলাদেশের স্পোর্টস স্টারস স্বাক্ষরিত স্মরণিকা</p>
-                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>5. </span>ভবিষ্যতে বিডিতে টিম এনএসইউসি / কিছু নামী প্রতিষ্ঠানের সাথে কাজ করার সুযোগ</p>
+                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>3. </span>বাংলাদেশের স্পোর্টস স্টারস স্বাক্ষরিত স্মরণিকা</p>
+                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>4. </span>ভবিষ্যতে বিডিতে টিম এনএসইউসি / কিছু নামী প্রতিষ্ঠানের সাথে কাজ করার সুযোগ</p>
                             </div>
                         </Col>
                     </Row>

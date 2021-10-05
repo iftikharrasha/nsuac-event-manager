@@ -8,6 +8,8 @@ import trophy2 from '../../img/trophy2.svg';
 import trophy3 from '../../img/trophy3.svg';
 import trophy4 from '../../img/trophy4.svg';
 import trophy5 from '../../img/trophy5.svg';
+import CardSegments from '../CardSegments/CardSegments';
+import Registration from '../Registration/Registration';
 
 const PrizeMoney = () => {
     return (
@@ -24,7 +26,7 @@ const PrizeMoney = () => {
                                     <Col lg={12}>
                                         <h2 className="medi-40">
                                             <span className="c-tag-1">
-                                                BBS <mark className="mark ">Rules</mark>
+                                                BBS'21 <mark className="mark ">Rules</mark>
                                             </span>
                                         </h2>
                                     </Col>
@@ -32,7 +34,7 @@ const PrizeMoney = () => {
 
                                 <Row className="align-items-stretch program">
                                     
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#1</span>
@@ -42,7 +44,7 @@ const PrizeMoney = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#2</span>
@@ -53,7 +55,7 @@ const PrizeMoney = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#3</span>
@@ -63,7 +65,7 @@ const PrizeMoney = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#4</span>
@@ -73,7 +75,7 @@ const PrizeMoney = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#5</span>
@@ -83,7 +85,7 @@ const PrizeMoney = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#6</span>
@@ -93,7 +95,7 @@ const PrizeMoney = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#7</span>
@@ -103,7 +105,7 @@ const PrizeMoney = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#8</span>
@@ -113,7 +115,7 @@ const PrizeMoney = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="550" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#9</span>
@@ -123,7 +125,7 @@ const PrizeMoney = () => {
                                             </Col>
                                         </Row>
                                     </Col> 
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#10</span>
@@ -133,7 +135,7 @@ const PrizeMoney = () => {
                                             </Col>
                                         </Row>
                                     </Col> 
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="650" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#11</span>
@@ -143,15 +145,15 @@ const PrizeMoney = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col sm={12} className="border-top border-bottom py-3">
+                                    <Col sm={12} className="border-top border-bottom py-3" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
                                         <Row className="align-items-stretch">
                                             <Col md={1} className="mb-3 mb-md-0 c-tag-1">
                                                 <span>#12</span>
                                             </Col>
                                             <Col md={11} className="c-tag-1">
                                                 <h2 className="lit-16 pt-0">The video will be evaluated by the sports skills of the participants, not video quality. Their contents will be judged on: · Skills expressed and · Technical ability. <br /><br /></h2>
-                                                <span>For more updates and guidelines, join this <a href="https://www.facebook.com/groups/390447699353823">https://www.facebook.com/groups/390447699353823</a> and visit: <a href="bbs.nsuac.org">bbs.nsuac.org</a></span> <br />
-                                                <span>* The deadline for submissions is 11:59 pm (GMT +6) on Friday, October 10, 2021.</span>
+                                                <span>For more updates and guidelines, join this <a href="https://www.facebook.com/groups/390447699353823">https://www.facebook.com/groups/390447699353823</a> and visit: <a href="BBS'21.nsuac.org">BBS'21.nsuac.org</a></span> <br />
+                                                <span>* The deadline for submissions is 11:59 pm (GMT +6) on Friday, October 15, 2021.</span>
                                             </Col>
                                         </Row>
                                     </Col>
@@ -161,36 +163,39 @@ const PrizeMoney = () => {
                     </div>
 
                     {/* <div className="icon-img"></div> */}
+                    <CardSegments/>
+
+                    <Registration/>
                     
                     <Container>
                         <Row>
-                            <Col xl={12} lg={12}>
-                                <Row className="pt-150 pb-200 pt-prog pb-prog">
-                                    <Col md={4}>
+                            <Col lg={12}>
+                                <Row className="pt-150 pt-prog pb-prog">
+                                    <Col xs={4} data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                                         <div className="trophy-item text-center">
                                             <LazyLoadImage effect="blur" src={trophy} alt="trophy-three" className="img-fluid"/>
                                             <h4 className="c-tag-1 pt-5 semi-28">1st Prize</h4>
                                         </div>
                                     </Col>
-                                    <Col md={4}>
+                                    <Col xs={4} data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                                         <div className="trophy-item text-center">
                                             <LazyLoadImage effect="blur" src={trophy2} alt="trophy-one" className="img-fluid"/>
                                             <h4 className="c-tag-1 pt-5 semi-28">2nd Prize</h4>
                                         </div>
                                     </Col>
-                                    <Col md={4}>
+                                    <Col xs={4} data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
                                         <div className="trophy-item text-center">
                                             <LazyLoadImage effect="blur" src={trophy3} alt="trophy-two" className="img-fluid"/>
                                             <h4 className="c-tag-1 pt-5 semi-28">3rd Prize</h4>
                                         </div>
                                     </Col>
-                                    <Col md={6}>
+                                    <Col xs={6} data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000">
                                         <div className="trophy-item text-center">
                                             <LazyLoadImage effect="blur" src={trophy4} alt="trophy-two" className="img-fluid"/>
                                             <h4 className="c-tag-1 pt-5 semi-28">4th Prize</h4>
                                         </div>
                                     </Col>
-                                    <Col md={6}>
+                                    <Col xs={6} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
                                         <div className="trophy-item text-center">
                                             <LazyLoadImage effect="blur" src={trophy5} alt="trophy-two" className="img-fluid"/>
                                             <h4 className="c-tag-1 pt-5 semi-28">5th Prize</h4>

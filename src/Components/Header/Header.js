@@ -56,15 +56,15 @@ const Header = (props) => {
                             <p className="mb-0">
                                 <span>Campus Star registration is closed now!</span>
                                 <span>|</span>
-                                <span>BBS registration has been started!</span>
+                                <span>BBS'21 registration has been started!</span>
                                 <span>|</span>
-                                <span>BBS Registration will continue till 15th October, 2021 - 11:59PM</span>
+                                <span>BBS'21 Registration will continue till 15th October, 2021 - 11:59PM</span>
                                 <span>|</span>
                                 <span>Campus Star registration is closed now!</span>
                                 <span>|</span>
-                                <span>BBS registration has been started!</span>
+                                <span>BBS'21 registration has been started!</span>
                                 <span>|</span>
-                                <span>BBS Registration deadline: 15th October, 2021 - 11:59PM</span>
+                                <span>BBS'21 Registration deadline: 15th October, 2021 - 11:59PM</span>
                                 <span>|</span>
                             </p>
                         </marquee>
@@ -125,13 +125,13 @@ const Header = (props) => {
                                 <Link to="home" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="rules" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BBS Rules</Link>
+                                <Link to="rules" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BBS'21 Rules</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="teaser" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BBS Teaser</Link>
+                                <Link to="teaser" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BBS'21 Teaser</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="mediaPartners" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Partners</Link>
+                                <Link to="mediaPartners" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Media Partners</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
                                 <Link to="nsuac" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>NSUAC</Link>
@@ -148,18 +148,18 @@ const Header = (props) => {
                             {/* <li className="pb-sm-4 pb-3">
                                 <Link to="mediaPartners" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Media Partners</Link>
                             </li> */}
-                            {/* <li className="pb-sm-4 pb-3">
-                                    <div className="call-to-act mt-2 text-sm-center">
+                            <li className="pt-sm-4 pt-4 d-sm-none d-block">
+                                    <div className="call-to-act mb-4 text-sm-center">
                                         <CampusStarBtn></CampusStarBtn>
                                     </div>
-                            </li> */}
-                            <li className="pt-sm-4 pt-4 d-sm-none d-block">
+                            </li>
+                            {/* <li className="pt-sm-4 pt-4 d-sm-none d-block">
                                 <div className="call-to-act mb-4 text-sm-center">
                                     <a href="#" onClick={openModalMobile}>
                                         <span> Registration</span>
                                     </a>
                                 </div>
-                            </li>
+                            </li> */}
                         </ul>
                     </nav>
                 </Container>

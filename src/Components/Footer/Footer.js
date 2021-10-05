@@ -18,7 +18,7 @@ const Footer = () => {
                                     <img src={logo} className="img-fluid w-25" alt="bos-footer"/>
                                     Battle of Skills 2021</h3>
                                 <p className="lit-18">
-                                    North South University Athletics Club (NSUAC) is going to organize a 19-days long Skill showing event starting from 3rd October, 2021 to 21th October, 2021.
+                                    North South University Athletics Club (NSUAC) is going to organize a 19-days long Skill showing event starting from 3rd October, 2021 to 21st October, 2021.
                                 </p>
                             </div>
                         </Col>
@@ -27,7 +27,7 @@ const Footer = () => {
                                     <a href="https://www.facebook.com/nsuathleticsclub/" target="_blank" rel="noreferrer" className="pt-3">
                                         <i className="fab fa-facebook-square" aria-hidden="true"></i>
                                     </a>
-                                    <a href="https://www.youtube.com/c/NSUAthleticsClub" target="_blank" rel="noreferrer" className="pt-3">
+                                    <a href="https://www.youtube.com/c/NSUAthleticsClub/" target="_blank" rel="noreferrer" className="pt-3">
                                         <i className="fa fa-youtube-play" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://www.instagram.com/nsuac_official/" target="_blank" rel="noreferrer" className="pt-3">
@@ -35,6 +35,9 @@ const Footer = () => {
                                     </a>
                                     <a href="https://www.linkedin.com/company/north-south-university-athletics-club/" target="_blank" rel="noreferrer" className="pt-3">
                                         <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://twitter.com/nsuac_official/" target="_blank" rel="noreferrer" className="pt-3">
+                                        <i className="fa fa-twitter" aria-hidden="true"></i>
                                     </a>
                                 </div>
                         </Col>
@@ -102,7 +105,7 @@ const Footer = () => {
                                     <a href="http://www.northsouth.edu/" className="c-tag-4 medi-14" target="_blank" rel="noreferrer">North South University</a>
                                 </li>
                                 <li>
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmICFGntzh3y68Prx9ioH62UipHEO5yLewxdXJEnqLxnTpMQ/viewform" className="c-tag-4 medi-14" target="_blank" rel="noreferrer">BBS Registration</a>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmICFGntzh3y68Prx9ioH62UipHEO5yLewxdXJEnqLxnTpMQ/viewform" className="c-tag-4 medi-14" target="_blank" rel="noreferrer">BBS'21 Registration</a>
                                 </li>
                                 <li>
                                     <Link to="/campus-star/en" className="c-tag-4 medi-14">Campus Star</Link>
