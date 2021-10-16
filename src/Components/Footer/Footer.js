@@ -18,7 +18,7 @@ const Footer = () => {
                                     <img src={logo} className="img-fluid w-25" alt="bos-footer"/>
                                     Battle of Skills 2021</h3>
                                 <p className="lit-18">
-                                    North South University Athletics Club (NSUAC) is going to organize a 19-days long Skill showing event starting from 3rd October, 2021 to 21st October, 2021.
+                                    North South University Athletics Club (NSUAC) is going to organize a 21-days long Skill showing event starting from 3rd October, 2021 to 23rd October, 2021.
                                 </p>
                             </div>
                         </Col>

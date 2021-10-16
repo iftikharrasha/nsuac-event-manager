@@ -16,7 +16,7 @@ const CardSegments = () => {
                         <Col sm={12}>
                             <h2 className="medi-40">
                                 <span className="c-tag-1">
-                                    Event <mark className="mark c-tag-2">Segments</mark>
+                                    BBS'21 <mark className="mark c-tag-2">Segments</mark>
                                 </span>
                             </h2>
                         </Col>

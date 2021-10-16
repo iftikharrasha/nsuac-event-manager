@@ -85,7 +85,7 @@ const CampusStarEnglish = () => {
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>1. </span>Certificate of Recognitions</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>2. </span>Social Media Recognition</p>
                                 <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>3. </span>Souvenirs signed by Sports Stars of Bangladesh</p>
-                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>4. </span>Opportunity to work with team NSUAC / some well-renowned companies in BD in future</p>
+                                <p className="pl-3 pl-sm-5 m-0 pt-3 c-tag-1 lit-18"><span>4. </span>Opportunity to work with team NSUAC</p>
                             </div>
                         </Col>
                     </Row>

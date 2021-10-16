@@ -58,13 +58,13 @@ const Header = (props) => {
                                 <span>|</span>
                                 <span>BBS'21 registration has been started!</span>
                                 <span>|</span>
-                                <span>BBS'21 Registration will continue till 15th October, 2021 - 11:59PM</span>
+                                <span>BBS'21 Registration will continue till 19th October, 2021 - 11:59PM</span>
                                 <span>|</span>
                                 <span>Campus Star registration is closed now!</span>
                                 <span>|</span>
                                 <span>BBS'21 registration has been started!</span>
                                 <span>|</span>
-                                <span>BBS'21 Registration deadline: 15th October, 2021 - 11:59PM</span>
+                                <span>BBS'21 Registration deadline: 19th October, 2021 - 11:59PM</span>
                                 <span>|</span>
                             </p>
                         </marquee>
@@ -128,7 +128,7 @@ const Header = (props) => {
                                 <Link to="rules" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BBS'21 Rules</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="teaser" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BBS'21 Teaser</Link>
+                                <Link to="teaser" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BBS'21 Latest</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
                                 <Link to="mediaPartners" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Media Partners</Link>

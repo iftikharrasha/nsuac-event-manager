@@ -18,13 +18,15 @@ import MediaPartners from './Components/MediaPartners/MediaPartners';
 import Footer from "./Components/Footer/Footer";
 import SchedulesTable from "./Components/SchedulesTable/SchedulesTable";
 import Map from "./Components/Map/Map";
-import TopContestants from "./Components/TopContestants/TopContestants";
+// import TopContestants from "./Components/TopContestants/TopContestants";
 import CampusStarEnglish from "./Components/CampusStarEnglish/CampusStarEnglish";
 import CampusStarBangla from "./Components/CampusStarBangla/CampusStarBangla";
 import Greetings from "./Components/Greetings/Greetings.js";
 import Teaser from "./Components/Teaser/Teaser.js";
 import PrizeMoney from "./Components/PrizeMoney/PrizeMoney.js";
 import CardSegments from "./Components/CardSegments/CardSegments.js";
+import MediaCoverage from "./Components/MediaCoverage/MediaCoverage.js";
+import Judges from "./Components/Judges/Judges.js";
 
 function App() {
   AOS.init();
@@ -40,6 +42,7 @@ function App() {
                         <Header></Header>
                         <Hero></Hero>
                         <PrizeMoney></PrizeMoney>
+                        <Judges></Judges>
                         <Teaser></Teaser>
                         <Greetings></Greetings>
                         <Achievments></Achievments>
@@ -63,9 +66,15 @@ function App() {
                         <ScrollToTop smooth/>
                     </Route>
                     <Route path="/campus-star/bn">
-                      <Header display={display}></Header>
+                        <Header display={display}></Header>
                         <CampusStarBangla></CampusStarBangla>
                         <Map></Map>
+                        <Footer></Footer>
+                        <ScrollToTop smooth/>
+                    </Route>
+                    <Route path="/media-coverage">
+                        <Header display={display}></Header>
+                        <MediaCoverage></MediaCoverage>
                         <Footer></Footer>
                         <ScrollToTop smooth/>
                     </Route>
@@ -73,6 +82,7 @@ function App() {
                         <Header></Header>
                         <Hero></Hero>
                         <PrizeMoney></PrizeMoney>
+                        <Judges></Judges>
                         <Teaser></Teaser>
                         <Greetings></Greetings>
                         <Achievments></Achievments>

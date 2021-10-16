@@ -65,7 +65,7 @@ const SchedulesTable = () => {
                             <Col lg={12}>
                                 <h2 className="medi-40">
                                     <span className="c-tag-1">
-                                        Time <mark className="mark ">Schedules</mark>
+                                        Time <mark className="mark c-tag-1">Schedules</mark>
                                     </span>
                                 </h2>
                             </Col>
@@ -74,7 +74,7 @@ const SchedulesTable = () => {
                         <Row className="align-items-stretch program">
                             
                                 {
-                                schedules.map(schedule => <Schedule schedule={schedule} key={schedule.key}></Schedule>)
+                                    schedules.map(schedule => <Schedule schedule={schedule} key={schedule.key}></Schedule>)
                                 }
                                     
                         </Row>

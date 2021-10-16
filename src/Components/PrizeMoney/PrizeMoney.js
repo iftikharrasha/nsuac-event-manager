@@ -152,8 +152,8 @@ const PrizeMoney = () => {
                                             </Col>
                                             <Col md={11} className="c-tag-1">
                                                 <h2 className="lit-16 pt-0">The video will be evaluated by the sports skills of the participants, not video quality. Their contents will be judged on: · Skills expressed and · Technical ability. <br /><br /></h2>
-                                                <span>For more updates and guidelines, join this <a href="https://www.facebook.com/groups/390447699353823">https://www.facebook.com/groups/390447699353823</a> and visit: <a href="BBS'21.nsuac.org">BBS'21.nsuac.org</a></span> <br />
-                                                <span>* The deadline for submissions is 11:59 pm (GMT +6) on Friday, October 15, 2021.</span>
+                                                <span>For more updates and guidelines, join this <a href="https://www.facebook.com/groups/390447699353823">https://www.facebook.com/groups/390447699353823</a> and visit: <a href="bbs.nsuac.org">bbs.nsuac.org</a></span> <br />
+                                                <span>* The deadline for submissions is 11:59 pm (GMT +6) on Tuesday, October 19, 2021.</span>
                                             </Col>
                                         </Row>
                                     </Col>

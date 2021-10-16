@@ -5,31 +5,31 @@ import { Container, Row, Col } from 'react-bootstrap';
 import OwlCarousel from 'react-owl-carousel';  
 import '../../../node_modules/owl.carousel/dist/assets/owl.carousel.css';  
 import '../../../node_modules/owl.carousel/dist/assets/owl.theme.default.css';  
-import img1 from '../../img/sara.jpg';
-import img2 from '../../img/hanjala.jpg';
-import img3 from '../../img/ishmam.jpg';
-import img4 from '../../img/hasin.jpg';
-import img5 from '../../img/taslimul.jpg';
-import img6 from '../../img/tanzimul.jpg';
-import img7 from '../../img/mahin.jpg';
-import img8 from '../../img/rakibul.jpg';
-import img9 from '../../img/nazifa.jpg';
-import img10 from '../../img/sajid.jpg';
-import img11 from '../../img/woaraka.jpg';
-import img12 from '../../img/munazir.jpg';
-import img13 from '../../img/efaz.jpg';
-import img14 from '../../img/tasmia.jpg';
-import img15 from '../../img/jawad.jpg';
-import img16 from '../../img/minika.jpg';
-import img17 from '../../img/tuhin.jpg';
-import img18 from '../../img/solyman.jpg';
-import img19 from '../../img/nusrat.jpg';
-import img20 from '../../img/reya.jpg';
-import img21 from '../../img/mehjabin.jpg';
-import img22 from '../../img/fardin.jpg';
-import img23 from '../../img/maruf.jpg';
-import img24 from '../../img/fahim.jpg';
-import img25 from '../../img/shaklyen.jpg';
+import img1 from '../../img/Sara Tasnim.jpg';
+import img2 from '../../img/Hanjala Sakib.jpg';
+import img3 from '../../img/Safwan Ishmam.jpg';
+import img4 from '../../img/Hasin Safwan.jpg';
+import img5 from '../../img/Taslimul Islam.jpg';
+import img6 from '../../img/Tanzimul Alam.jpg';
+import img7 from '../../img/Mahin Abrar.jpg';
+import img8 from '../../img/Rakibul Hassan.jpg';
+import img9 from '../../img/Nazifa Maliha.jpg';
+import img10 from '../../img/Sajid Atahar.jpg';
+import img11 from '../../img/Woaraka Rafi.jpg';
+import img12 from '../../img/Munazir Karim.jpg';
+import img13 from '../../img/Efaz Ahmed.jpg';
+import img14 from '../../img/Tasmia Sanju.jpg';
+import img15 from '../../img/Jawad Rashid.jpg';
+import img16 from '../../img/Monika Chowdhury.jpg';
+import img17 from '../../img/Tuhin Mamun.jpg';
+import img18 from '../../img/Md Solyman.jpg';
+import img19 from '../../img/Nusrat Jevin.jpg';
+import img20 from '../../img/Nusrat Reya.jpg';
+import img21 from '../../img/Mehjabin Khan.jpg';
+import img22 from '../../img/Fardin Faisal.jpg';
+import img23 from '../../img/Abdullah Maruf.jpg';
+import img24 from '../../img/Fahim Al Abdullah.jpg';
+import img25 from '../../img/Shaklyen Promit.jpg';
 import './TopContestants.css';
 
 const TopContestants = () => {
@@ -135,38 +135,6 @@ const TopContestants = () => {
             id: 25,
             imgSrc: img25,
         },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
-        {
-            id: 5,
-            imgSrc: img5,
-        },
     ]
 
     const state= {
@@ -181,7 +149,7 @@ const TopContestants = () => {
                 items: 1,
             },
             1000: {
-                items: 3,
+                items: 1,
             },
         },
     }
@@ -203,11 +171,30 @@ const TopContestants = () => {
 
 										<div className="item" key={item.id}>
 											<Row>
-												<Col>
+												<Col xl={7} className="offset-xl-1">
 													<div className="video_item">
 														<LazyLoadImage effect="blur" src={item.imgSrc} alt="Image1"/>
 													</div>
 												</Col>
+
+                                                <Col xl={3} className="d-flex justify-content-center align-items-center">
+                                                    <div className="video_con">
+                                                        <h3 className="semi-40 c-tag-5">Contastant #1</h3>
+                                                        <p className="lit-18">John Doe, Dhaka University</p>
+
+                                                        <ul>
+                                                            <li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+                                                            <li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+                                                            <li> <p className="lit-18">Lorem ipsum dolor sit amet.</p></li>
+                                                        </ul>
+
+                                                        <div className="call-to-act py-5">
+                                                            <a href="http://www.nsusportscarnival.com" className="px-5 py-3" target="_blank" rel="noreferrer">
+                                                                <span> Vote Now </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+										        </Col>
 											</Row>
 										</div>
                                     ))
