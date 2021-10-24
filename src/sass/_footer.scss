@@ -1,5 +1,6 @@
 .footer {
     padding: 3.125rem 0;
+    padding-bottom: 0;
     position: relative;
     &:after{
         position: absolute;
@@ -89,6 +90,11 @@
                     }
                 }
             }
+        }
+    }
+    .credit{
+        img{
+            width: 10rem;
         }
     }
 }

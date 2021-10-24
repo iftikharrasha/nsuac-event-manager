@@ -14,7 +14,7 @@ const Judges = () => {
 	const gallery = [
         {
             id: 1,
-            imgSrc: img1,
+            imgSrc: img3,
             name: "Syed Abid Hussain Sami",
             designation: "Program Presenter at Jamuna TV and Cricket Analyst and Commentator at Radio Bhumi 92.8 FM",
             video: "https://www.youtube.com/watch?v=htm4DaOYTVQ",
@@ -28,7 +28,7 @@ const Judges = () => {
         },
         {
             id: 3,
-            imgSrc: img3,
+            imgSrc: img1,
             name: "Fahim Rahman",
             designation: "Special Correspondent at Ekattor and Radio Jockey at Radio Aamar 88.4 FM",
             video: "https://www.youtube.com/watch?v=-W5FFp_oXwk",
@@ -58,7 +58,7 @@ const Judges = () => {
                 <Container className="c_custom">
                     <Row>
 
-                        <h2 className="pb-5 medi-40"><span className="c-tag-2">JUDGES' <mark className="mark c-tag-3">Panel</mark></span></h2>
+                        <h2 className="pb-5 medi-40"><span className="c-tag-2">BBS'21 <mark className="mark c-tag-3">Judges Panel</mark></span></h2>
 
                         <Col lg={12}>
                             <div className="outer">

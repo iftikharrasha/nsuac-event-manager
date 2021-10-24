@@ -12,6 +12,7 @@ import eight from '../../img/8.svg';
 import nine from '../../img/9.svg';
 import ten from '../../img/10.svg';
 import eleven from '../../img/11.svg';
+import nsuac from '../../img/bos.svg';
 
 const Hero = () => {
     const [timerDays, setTimerDays] = useState('00');
@@ -22,7 +23,7 @@ const Hero = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('October 19, 2021 00:00:00').getTime();
+        const countdownDate = new Date('October 21, 2021 17:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -54,17 +55,6 @@ const Hero = () => {
             clearInterval(interval.current);
         }
     });
-
-    // document.addEventListener('mousemove', parallax);
-    // function parallax(e){
-    //     this.querySelectorAll('.layers').forEach(layer => {
-    //         const speed = layer.getAttribute('data-speed');
-    //         const x = (window.innerWidth - e.pageX*speed)/100;
-    //         const y = (window.innerHeight - e.pageY*speed)/100;
-
-    //         layer.style.transform = `translateX(${x}px) translateY(${y}px)`;
-    //     });
-    // }
 
     return (
         <>
@@ -110,7 +100,7 @@ const Hero = () => {
                                         </span>
                                         <span>
                                             <i className="fa fa-calendar pr-2"></i>
-                                            October 3 - 19, 2021
+                                            October 3 - 21, 2021
                                         </span>
                                     </p>
                                 </Col>
@@ -125,15 +115,15 @@ const Hero = () => {
                             </Row>
                         </div>
                     </Container>
-                    {/* <Container>
-                        <Row className="pt-5">
+                    <Container className="d-md-block d-none">
+                        <Row className="pt-xl-5">
                             <Col className="pt-5">
                                 <div className="host text-center"> 
                                     <LazyLoadImage effect="blur" src={nsuac} className="s-img-switch" alt=""/>
                                 </div>                      
                             </Col>
                         </Row>
-                    </Container> */}
+                    </Container>
                 </div>
             </section>
         </>

@@ -90,6 +90,11 @@ a, select , input , textarea , button{
 }
 
 /* fonts */
+.lit-14{
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
 .lit-16{
     font-size: 1rem;
     font-weight: 300;
@@ -103,15 +108,6 @@ a, select , input , textarea , button{
 .lit-20{
     font-size: 1.25rem;
     font-weight: 300;
-    // @media (max-width: 575.98px) {
-    //     font-size: 1rem;
-    // }
-    // @media (max-width: 320px) {
-    //     font-size: 0.6875rem;
-    // }
-    // @media (min-width: 321px) and (max-width: 376px) {
-    //     font-size: 0.75rem;
-    // }
 }
 
 .lit-32{
@@ -133,6 +129,11 @@ a, select , input , textarea , button{
 .medi-20{
     font-size: 1.25rem;
     font-weight: 500;
+}
+
+.medi-14 {
+    font-size: 0.875rem;
+    font-weight: 600;
 }
 
 .semi-28{

@@ -9,6 +9,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Brand from '../Brand/Brand';
 import CampusStarBtn from '../CampusStarBtn/CampusStarBtn';
 import RegModal from '../RegModal/RegModal';
+import MediaCovBtn from '../MediaCovBtn/MediaCovBtn';
 
 const Header = (props) => {
     const display = props;
@@ -45,26 +46,25 @@ const Header = (props) => {
 
     return (
         <>
-            {/* <div id="ribbon" className="nominee black right d-lg-block d-none">
-                <a href="http://www.northsouth.edu/osa/clubs/nsuac.html" target="_blank" rel="noreferrer"></a>
-            </div> */}
             <div className="latest">
                 <div className="ticker">
-                    <div className="title"><h5>Latest News</h5></div>
+                    <div className="title">
+                        <h5>Latest News</h5>
+                    </div>
                     <div className="news">
                         <marquee>
                             <p className="mb-0">
                                 <span>Campus Star registration is closed now!</span>
                                 <span>|</span>
-                                <span>BBS'21 registration has been started!</span>
+                                <span>BBS'21 registration time has ended!</span>
                                 <span>|</span>
-                                <span>BBS'21 Registration will continue till 19th October, 2021 - 11:59PM</span>
+                                <span>The closing ceremony was held on 23rd October, 2021!</span>
                                 <span>|</span>
-                                <span>Campus Star registration is closed now!</span>
+                                <span>Total prize money was BDT 30,000!</span>
                                 <span>|</span>
-                                <span>BBS'21 registration has been started!</span>
+                                <span>Thank you all the Participants and the Campus Stars.</span>
                                 <span>|</span>
-                                <span>BBS'21 Registration deadline: 19th October, 2021 - 11:59PM</span>
+                                <span>BBS'21 has been successfully ended</span>
                                 <span>|</span>
                             </p>
                         </marquee>
@@ -77,9 +77,6 @@ const Header = (props) => {
                         <div className="logo">
                             <Brand></Brand>
                         </div>
-                        {/* <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button> */}
 
                         <div className="navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto text-uppercase">
@@ -109,9 +106,9 @@ const Header = (props) => {
                                 <li className="nav-item mr-5">
                                     <button className="toggle-btn" id="hamburger" onClick={activeToggle} style={display}>
                                         <svg viewBox="0 0 100 80" width="40" height="40">
-                                        <rect width="100" height="10" rx="7" id="top"></rect>
-                                        <rect width="100" height="10" rx="7" y="30" id="middle"></rect>
-                                        <rect width="100" height="10" rx="7" y="60" id="bottom"></rect>
+                                            <rect width="100" height="10" rx="7" id="top"></rect>
+                                            <rect width="100" height="10" rx="7" y="30" id="middle"></rect>
+                                            <rect width="100" height="10" rx="7" y="60" id="bottom"></rect>
                                         </svg>
                                     </button>
                                 </li>
@@ -131,27 +128,18 @@ const Header = (props) => {
                                 <Link to="teaser" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BBS'21 Latest</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
+                                <Link to="judges" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>BBS'21 Judges</Link>
+                            </li>
+                            <li className="pb-sm-4 pb-3">
                                 <Link to="mediaPartners" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Media Partners</Link>
                             </li>
                             <li className="pb-sm-4 pb-3">
-                                <Link to="nsuac" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>NSUAC</Link>
+                                <MediaCovBtn></MediaCovBtn>
                             </li>
-                            {/* <li className="pb-sm-4 pb-3">
-                                <Link to="schedules" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Battle of Skills</Link>
-                            </li> */}
-                            {/* <li className="pb-sm-4 pb-3">
-                                <Link to="topVideos" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Top videos</Link>
-                            </li>
-                            <li className="pb-sm-4 pb-3">
-                                <Link to="segments" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Segments</Link>
-                            </li> */}
-                            {/* <li className="pb-sm-4 pb-3">
-                                <Link to="mediaPartners" className="navLink reg-24 text-uppercase" spy={true} smooth={true} offset={-70} duration={500}>Media Partners</Link>
-                            </li> */}
                             <li className="pt-sm-4 pt-4 d-sm-none d-block">
-                                    <div className="call-to-act mb-4 text-sm-center">
-                                        <CampusStarBtn></CampusStarBtn>
-                                    </div>
+                                <div className="call-to-act mb-4 text-sm-center">
+                                    <CampusStarBtn></CampusStarBtn>
+                                </div>
                             </li>
                             {/* <li className="pt-sm-4 pt-4 d-sm-none d-block">
                                 <div className="call-to-act mb-4 text-sm-center">

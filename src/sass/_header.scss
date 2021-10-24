@@ -50,18 +50,6 @@
         left: 0;
         top: 0.6rem;
         z-index: 99;
-        // @media (max-width: 575.98px) {
-        //     left: 0;
-        // }
-        // @media (min-width: 576px) and (max-width: 767.98px) {
-        //     left: -15%;
-        // }
-        // @media (min-width: 768px) and (max-width: 991.98px) {
-        //     left: 0%;
-        // }
-        // @media (min-width: 992px) and (max-width: 1199.98px) {
-        //     left: 39%;
-        // }
         a{
             img {
                 transition: 0.3s ease-out;
@@ -87,12 +75,12 @@
                 -webkit-text-stroke-color: $type;
                 @media (max-width: 575.98px) { 
                     position: relative;
-                    top: 0.7rem;
+                    font-size: 2rem;
                     -webkit-text-stroke-width: 1px;
                 }
                 @media (min-width: 576px) and (max-width: 1531.98px) {
                     position: relative;
-                    top: 0.5rem;
+                    font-size: 2rem;
                 }
             }
         }
@@ -140,28 +128,6 @@
                 &:hover:after {
                     width: 100%;
                 }
-                // &:first-child {
-                //     @media (max-width: 320rem) {
-                //         font-size: 0.75rem;
-                //     }
-                //     @media (min-width: 321px) and (max-width: 376px) {
-                //         font-size: 0.8rem;
-                //     }
-                // }
-                // &:last-child {
-                //     padding-top: 0.6rem;
-                //     font-size: 1rem;
-                //     border-bottom: none;
-                //     @media (max-width: 320rem) {
-                //         font-size: 0.75rem;
-                //     }
-                //     @media (min-width: 321px) and (max-width: 376px) {
-                //         font-size: 0.8rem;
-                //     }
-                // }
-                // &:last-child:hover:after {
-                //     width: 0%;
-                // }
             }
             .backgrounColorToggle{
                 @media (max-width: 320rem) {

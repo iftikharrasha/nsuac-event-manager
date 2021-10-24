@@ -16,7 +16,7 @@ import Registration from './Components/Registration/Registration';
 import SegmentsSlider from './Components/SegmentsSlider/SegmentsSlider';
 import MediaPartners from './Components/MediaPartners/MediaPartners';
 import Footer from "./Components/Footer/Footer";
-import SchedulesTable from "./Components/SchedulesTable/SchedulesTable";
+// import SchedulesTable from "./Components/SchedulesTable/SchedulesTable";
 import Map from "./Components/Map/Map";
 // import TopContestants from "./Components/TopContestants/TopContestants";
 import CampusStarEnglish from "./Components/CampusStarEnglish/CampusStarEnglish";

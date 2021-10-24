@@ -91,7 +91,7 @@ const PrizeMoney = () => {
                                                 <span>#6</span>
                                             </Col>
                                             <Col md={11} className="c-tag-1">
-                                                <h2 className="lit-16 pt-0">Contents (video) MUST be submitted through the website (google form) starting October 3, 2021. Winners will be announced on October 16, 2021.</h2>
+                                                <h2 className="lit-16 pt-0">Contents (video) MUST be submitted through the website (google form) starting October 3rd, 2021. Winners will be announced on October 23rd, 2021.</h2>
                                             </Col>
                                         </Row>
                                     </Col>
@@ -152,8 +152,8 @@ const PrizeMoney = () => {
                                             </Col>
                                             <Col md={11} className="c-tag-1">
                                                 <h2 className="lit-16 pt-0">The video will be evaluated by the sports skills of the participants, not video quality. Their contents will be judged on: · Skills expressed and · Technical ability. <br /><br /></h2>
-                                                <span>For more updates and guidelines, join this <a href="https://www.facebook.com/groups/390447699353823">https://www.facebook.com/groups/390447699353823</a> and visit: <a href="bbs.nsuac.org">bbs.nsuac.org</a></span> <br />
-                                                <span>* The deadline for submissions is 11:59 pm (GMT +6) on Tuesday, October 19, 2021.</span>
+                                                <span>For more updates and guidelines, join this <a href="https://www.facebook.com/groups/390447699353823">Facebook Group</a> and visit: <a href="bbs.nsuac.org">bbs.nsuac.org</a></span> <br />
+                                                <span>* The deadline for submissions is 5:00 pm (GMT +6) on Thursday, October 21st, 2021 - 5:00PM.</span>
                                             </Col>
                                         </Row>
                                     </Col>

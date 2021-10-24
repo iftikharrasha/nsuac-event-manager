@@ -5,6 +5,7 @@ import {
     Link
   } from "react-router-dom";
 import logo from '../../img/bos.svg';
+import rasha21 from '../../img/rasha21.svg';
 
 const Footer = () => {
     return (
@@ -43,57 +44,57 @@ const Footer = () => {
                         </Col>
                     </Row>
                     <nav className="roles">
-                            <div className="roles-details">
-                                <h4 className="c-tag-3 lit-18">Faculty Advisor</h4>
-                                <ul className="lit-16">
-                                        <li>
-                                            <a href="http://www.northsouth.edu/faculty-members/shss/eml/mehedi.hasan.html?fbclid=IwAR19jt7qtXHDTYz-AsROmgYoRh2WGq6skWJDNs4EUzLPzT9d7DDgSv2QX9g" target="_blank" rel="noreferrer">Mehedi Hasan</a>
-                                        </li>
-                                </ul>
-                            </div>
-                            <div className="roles-details">
-                                <h4 className="c-tag-3 lit-18">President</h4>
-                                <ul className="lit-16">
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/hridoyalam/?fbclid=IwAR1xdmWzM1H-Hn-cABp8r5nkmaGNVRXnYyr58P3M4N4LuPWvS2aDBZhjHrI" target="_blank" rel="noreferrer">Hridoy Alam</a>
-                                        </li>
-                                </ul>
-                            </div>
-                            <div className="roles-details">
-                                <h4 className="c-tag-3 lit-18">Vice President</h4>
-                                <ul className="lit-16">
-                                        <li>
-                                            <a href="https://www.facebook.com/sajjad.hossen.3958" target="_blank" rel="noreferrer">Sajjad Hossain</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/ramisa-anjuman-233083219/?fbclid=IwAR1wiiNWgDnT4ulX4GtfbtysmNlat1ZdM5k60m2tB80oxl28vW2ie8vJ7BE" target="_blank" rel="noreferrer">Ramisa Anjuman</a>
-                                        </li>
-                                </ul>
-                            </div>
-                            <div className="roles-details">
-                                <h4 className="c-tag-3 lit-18">General Secretary</h4>
-                                <ul className="lit-16">
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/rahul-halder-b19a5a209/?fbclid=IwAR0QqVRWEr9Uaq7M22SqdHYeWSu4fFZ1uDUuw9JciLw2KFD-fyuiLCDwV4M" target="_blank" rel="noreferrer">Rahul Halder</a>
-                                        </li>
-                                </ul>
-                            </div>
-                            <div className="roles-details">
-                                <h4 className="c-tag-3 lit-18">Treasurer</h4>
-                                <ul className="lit-16">
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/shafiq-topu-38a12420a/?fbclid=IwAR0jotTXA24U4pP2lCFkkyqyIGIOzyyPRWQ_50900IFaYgRp0g-9Vb0lXQI" target="_blank" rel="noreferrer">Shafiq Topu</a>
-                                        </li>
-                                </ul>
-                            </div>
-                            <div className="roles-details">
-                                <h4 className="c-tag-3 lit-18">Join Secretary</h4>
-                                <ul className="lit-16">
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/jahidhasanalvi" target="_blank" rel="noreferrer">Jahid Hasan Alvi</a>
-                                        </li>
-                                </ul>
-                            </div>
+                        <div className="roles-details">
+                            <h4 className="c-tag-3 lit-18">Faculty Advisor</h4>
+                            <ul className="lit-16">
+                                    <li>
+                                        <a href="http://www.northsouth.edu/faculty-members/shss/eml/mehedi.hasan.html?fbclid=IwAR19jt7qtXHDTYz-AsROmgYoRh2WGq6skWJDNs4EUzLPzT9d7DDgSv2QX9g" target="_blank" rel="noreferrer">Mehedi Hasan</a>
+                                    </li>
+                            </ul>
+                        </div>
+                        <div className="roles-details">
+                            <h4 className="c-tag-3 lit-18">President</h4>
+                            <ul className="lit-16">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/hridoyalam/?fbclid=IwAR1xdmWzM1H-Hn-cABp8r5nkmaGNVRXnYyr58P3M4N4LuPWvS2aDBZhjHrI" target="_blank" rel="noreferrer">Hridoy Alam</a>
+                                    </li>
+                            </ul>
+                        </div>
+                        <div className="roles-details">
+                            <h4 className="c-tag-3 lit-18">Vice President</h4>
+                            <ul className="lit-16">
+                                    <li>
+                                        <a href="https://www.facebook.com/sajjad.hossen.3958" target="_blank" rel="noreferrer">Sajjad Hossain</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/ramisa-anjuman-233083219/?fbclid=IwAR1wiiNWgDnT4ulX4GtfbtysmNlat1ZdM5k60m2tB80oxl28vW2ie8vJ7BE" target="_blank" rel="noreferrer">Ramisa Anjuman</a>
+                                    </li>
+                            </ul>
+                        </div>
+                        <div className="roles-details">
+                            <h4 className="c-tag-3 lit-18">General Secretary</h4>
+                            <ul className="lit-16">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/rahul-halder-b19a5a209/?fbclid=IwAR0QqVRWEr9Uaq7M22SqdHYeWSu4fFZ1uDUuw9JciLw2KFD-fyuiLCDwV4M" target="_blank" rel="noreferrer">Rahul Halder</a>
+                                    </li>
+                            </ul>
+                        </div>
+                        <div className="roles-details">
+                            <h4 className="c-tag-3 lit-18">Treasurer</h4>
+                            <ul className="lit-16">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/shafiq-topu-38a12420a/?fbclid=IwAR0jotTXA24U4pP2lCFkkyqyIGIOzyyPRWQ_50900IFaYgRp0g-9Vb0lXQI" target="_blank" rel="noreferrer">Shafiq Topu</a>
+                                    </li>
+                            </ul>
+                        </div>
+                        <div className="roles-details">
+                            <h4 className="c-tag-3 lit-18">Join Secretary</h4>
+                            <ul className="lit-16">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/jahidhasanalvi" target="_blank" rel="noreferrer">Jahid Hasan Alvi</a>
+                                    </li>
+                            </ul>
+                        </div>
                     </nav>
                     <div className="footer-rights mt-5">
                         <div className="footer-copyright">
@@ -111,6 +112,17 @@ const Footer = () => {
                                     <Link to="/campus-star/en" className="c-tag-4 medi-14">Campus Star</Link>
                                 </li>
                             </ul>
+                        </div>
+                    </div>
+                </Container>
+                <Container>
+                    <div className="row pt-5">
+                        <div className="col-12 text-center">
+                            <p className="credit lit-14 c-tag-3">Designed and Developed by <br />
+                                <a className="c-tag-3" href="https://iftikharrasha.com/" target="_blank" rel="noreferrer">
+                                    <img className="py-2" src={rasha21} alt="iftikharrasha" />
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </Container>
